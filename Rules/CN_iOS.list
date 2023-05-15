@@ -1,0 +1,8 @@
+# 本人针对 iOS 自带 Apple 服务规则的简化整理
+
+DOMAIN-SUFFIX,apple.com,🌐 Direct
+DOMAIN-SUFFIX,apple.com.cn,🌐 Direct
+DOMAIN-SUFFIX,icloud.com,🌐 Direct
+DOMAIN-SUFFIX,icloud.com.cn,🌐 Direct
+DOMAIN-SUFFIX,itunes.com,🌐 Direct
+DOMAIN-SUFFIX,cdn-apple.com,🌐 Direct
