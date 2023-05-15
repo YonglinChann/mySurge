@@ -1,23 +1,22 @@
 # 个人大陆影视流媒体软件的分流规则
 
 # 影视软件（口算小达人 app）
-DOMAIN-SUFFIX,pki.goog,🌐 Direct
-DOMAIN-SUFFIX,lencr.org,🌐 Direct
-DOMAIN-SUFFIX,jssp.tv,🌐 Direct
-DOMAIN-SUFFIX,updatede.com,🌐 Direct
-DOMAIN-KEYWORD,ffzy,🌐 Direct
-DOMAIN-SUFFIX,haiwaiziyuan.com,🌐 Direct
-DOMAIN-SUFFIX,haiwaikan.com,🌐 Direct
-DOMAIN-SUFFIX,wujinpp.com,🌐 Direct
-DOMAIN-SUFFIX,mazc.org,🌐 Direct
-DOMAIN-SUFFIX,yparse.com,🌐 Direct
-DOMAIN-SUFFIX,yslhyht.com,🌐 Direct
-DOMAIN-SUFFIX,iapijy.com,🌐 Direct
+DOMAIN-SUFFIX,pki.goog
+DOMAIN-SUFFIX,lencr.org
+DOMAIN-SUFFIX,jssp.tv
+DOMAIN-SUFFIX,updatede.com
+DOMAIN-KEYWORD,ffzy
+DOMAIN-SUFFIX,haiwaiziyuan.com
+DOMAIN-SUFFIX,haiwaikan.com
+DOMAIN-SUFFIX,wujinpp.com
+DOMAIN-SUFFIX,mazc.org
+DOMAIN-SUFFIX,yparse.com
+DOMAIN-SUFFIX,yslhyht.com
+DOMAIN-SUFFIX,iapijy.com
 
 # 影视软件（大师兄 app）
-DOMAIN-SUFFIX,cdn.jsdelivr.net,🌐 Direct
-DOMAIN-SUFFIX,amazontrust.com,🌐 Direct
-DOMAIN-SUFFIX,mintegral.net,🌐 Direct
-DOMAIN-SUFFIX,ailbaba.me,🌐 Direct
-DOMAIN-KEYWORD,lz-cdn,🌐 Direct
-
+DOMAIN-SUFFIX,cdn.jsdelivr.net
+DOMAIN-SUFFIX,amazontrust.com
+DOMAIN-SUFFIX,mintegral.net
+DOMAIN-SUFFIX,ailbaba.me
+DOMAIN-KEYWORD,lz-cdn
