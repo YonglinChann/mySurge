@@ -4,7 +4,6 @@ DOMAIN-SUFFIX,apple.com
 DOMAIN-SUFFIX,apple.com.cn
 DOMAIN-SUFFIX,icloud.com
 DOMAIN-SUFFIX,icloud.com.cn
-DOMAIN-SUFFIX,icloud-content.com
-DOMAIN-SUFFIX,icloud-content.com.cn
+DOMAIN-KEYWORD,icloud-content
 DOMAIN-SUFFIX,itunes.com
 DOMAIN-SUFFIX,cdn-apple.com
