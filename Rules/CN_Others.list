@@ -1,4 +1,4 @@
-# 个人大陆影视流媒体软件的分流规则
+# 个人定制其他的分流规则（大陆影视流媒体软件与其他等）
 
 # 影视软件（口算小达人 app）
 DOMAIN-SUFFIX,pki.goog
@@ -20,3 +20,7 @@ DOMAIN-SUFFIX,amazontrust.com
 DOMAIN-SUFFIX,mintegral.net
 DOMAIN-SUFFIX,ailbaba.me
 DOMAIN-KEYWORD,lz-cdn
+
+# 速方云下载（suufun.com）
+DOMAIN-SUFFIX,extransfer.xyz
+DOMAIN-SUFFIX,suufun.info
