@@ -1,5 +1,8 @@
 # 个人定制其他的分流规则（大陆影视流媒体软件与其他等）
 
+# 白云天气 API
+DOMAIN-SUFFIX,revenuecat.com
+
 # 影视软件（口算小达人 app）
 DOMAIN-SUFFIX,pki.goog
 DOMAIN-SUFFIX,lencr.org
