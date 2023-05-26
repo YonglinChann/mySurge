@@ -1,5 +1,16 @@
 # 个人定制其他的分流规则（大陆影视流媒体软件与其他等）
 
+# 从 神机规则 的 China.list 选择性补充
+DOMAIN-SUFFIX,flyert.com
+DOMAIN-SUFFIX,gandi.net
+DOMAIN-SUFFIX,snapdrop.net
+DOMAIN,download.jetbrains.com
+DOMAIN,origin-a.akamaihd.net
+DOMAIN-SUFFIX,paypal.com
+DOMAIN-SUFFIX,paypal.me
+DOMAIN-SUFFIX,paypal-mktg.com
+DOMAIN-SUFFIX,paypalobjects.com
+
 # 白云天气 API
 DOMAIN-SUFFIX,revenuecat.com
 
