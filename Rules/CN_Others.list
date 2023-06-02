@@ -38,3 +38,6 @@ DOMAIN-KEYWORD,lz-cdn
 # 速方云下载（suufun.com）
 DOMAIN-SUFFIX,extransfer.xyz
 DOMAIN-SUFFIX,suufun.info
+
+# 授时校准（time.is）
+DOMAIN-SUFFIX,time.is
