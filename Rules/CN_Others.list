@@ -1,11 +1,11 @@
 # 个人定制其他的分流规则（大陆影视流媒体软件与其他等）
 
 # 从 神机规则 的 China.list 选择性补充
+DOMAIN,download.jetbrains.com
+DOMAIN,origin-a.akamaihd.net
 DOMAIN-SUFFIX,flyert.com
 DOMAIN-SUFFIX,gandi.net
 DOMAIN-SUFFIX,snapdrop.net
-DOMAIN,download.jetbrains.com
-DOMAIN,origin-a.akamaihd.net
 DOMAIN-SUFFIX,paypal.com
 DOMAIN-SUFFIX,paypal.me
 DOMAIN-SUFFIX,paypal-mktg.com
@@ -15,11 +15,11 @@ DOMAIN-SUFFIX,paypalobjects.com
 DOMAIN-SUFFIX,revenuecat.com
 
 # 影视软件（口算小达人 app）
+DOMAIN-KEYWORD,ffzy
 DOMAIN-SUFFIX,pki.goog
 DOMAIN-SUFFIX,lencr.org
 DOMAIN-SUFFIX,jssp.tv
 DOMAIN-SUFFIX,updatede.com
-DOMAIN-KEYWORD,ffzy
 DOMAIN-SUFFIX,haiwaiziyuan.com
 DOMAIN-SUFFIX,haiwaikan.com
 DOMAIN-SUFFIX,wujinpp.com
@@ -29,11 +29,16 @@ DOMAIN-SUFFIX,yslhyht.com
 DOMAIN-SUFFIX,iapijy.com
 
 # 影视软件（大师兄 app）
+DOMAIN-KEYWORD,lz-cdn
 DOMAIN-SUFFIX,cdn.jsdelivr.net
 DOMAIN-SUFFIX,amazontrust.com
 DOMAIN-SUFFIX,mintegral.net
 DOMAIN-SUFFIX,ailbaba.me
-DOMAIN-KEYWORD,lz-cdn
+DOMAIN-SUFFIX,ailbaba.com
+DOMAIN-SUFFIX,liangzipic.com
+DOMAIN-SUFFIX,pstatp.com
+DOMAIN-SUFFIX,mintegral.net
+DOMAIN-SUFFIX,bcebos.com
 
 # 速方云下载（suufun.com）
 DOMAIN-SUFFIX,extransfer.xyz
