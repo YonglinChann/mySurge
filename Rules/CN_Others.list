@@ -62,3 +62,7 @@ DOMAIN-SUFFIX,xxmac.com
 
 # 百度网盘下载
 DOMAIN-SUFFIX,baidupcs.com
+
+# 美团 app 补充
+DOMAIN-SUFFIX,meituan.net
+DOMAIN-SUFFIX,51ping.com
