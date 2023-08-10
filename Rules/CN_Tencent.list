@@ -2,12 +2,12 @@
 
 # 微信服务
 DOMAIN-SUFFIX,qq.com
-DOMAIN-SUFFIX,tencent.com
-DOMAIN-SUFFIX,weixin.com
-DOMAIN-SUFFIX,wechat.com
 DOMAIN-SUFFIX,qq.cn
+DOMAIN-SUFFIX,tencent.com
 DOMAIN-SUFFIX,tencent.cn
+DOMAIN-SUFFIX,weixin.com
 DOMAIN-SUFFIX,weixin.cn
+DOMAIN-SUFFIX,wechat.com
 DOMAIN-SUFFIX,wechat.cn
 USER-AGENT,*TencentMidasConnect*
 USER-AGENT,*WeChat*
