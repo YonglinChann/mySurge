@@ -14,6 +14,9 @@ DOMAIN-SUFFIX,paypalobjects.com
 # 白云天气 API
 DOMAIN-SUFFIX,revenuecat.com
 
+# 彩云天气 API
+DOMAIN-SUFFIX,caiyunapp.com
+
 # 影视软件（口算小达人 app）
 DOMAIN-KEYWORD,ffzy
 DOMAIN-SUFFIX,pki.goog
