@@ -67,8 +67,9 @@ DOMAIN-SUFFIX,time.is
 # 软件下载（xxmac.com）
 DOMAIN-SUFFIX,xxmac.com
 
-# 百度网盘下载
+# 百度网盘 上传 & 下载
 DOMAIN-SUFFIX,baidupcs.com
+DOMAIN-SUFFIX,albatross.10086.cn
 
 # 美团 app 补充
 DOMAIN-SUFFIX,meituan.net
