@@ -72,10 +72,10 @@ DOMAIN-SUFFIX,baidupcs.com
 DOMAIN-SUFFIX,albatross.10086.cn
 
 # 大众点评 & 美团 app 补充（IP及域名）
-IP-CIDR,103.202.146.44
-IP-CIDR,103.202.146.20
-IP-CIDR,203.76.217.37
-IP-CIDR,203.76.217.244
+IP-CIDR,103.202.146.44,no-resolve
+IP-CIDR,103.202.146.20,no-resolve
+IP-CIDR,203.76.217.37,no-resolve
+IP-CIDR,203.76.217.244,no-resolve
 DOMAIN-SUFFIX,dianping.com
 DOMAIN-SUFFIX,51ping.com
 DOMAIN-SUFFIX,maoyan.com
