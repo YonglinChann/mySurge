@@ -176,7 +176,7 @@ DOMAIN, iadmusicmatvideo.music.126.net
 DOMAIN-SUFFIX, 163jiasu.com
 # 微博 开屏广告
 DOMAIN, adstrategy.biz.weibo.com
-DOMAIN, kadmimage.biz.weibo.com
+# DOMAIN, kadmimage.biz.weibo.com
 DOMAIN, sdkaction.biz.weibo.com
 DOMAIN, sdkclick.biz.weibo.com
 DOMAIN, sdkmonitor.biz.weibo.com
