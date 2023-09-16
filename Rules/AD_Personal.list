@@ -3,7 +3,7 @@
 
 # ======= A ======= #
 # 阿里云
-IP-CIDR, 203.107.1.1/24
+IP-CIDR, 203.107.1.1/24,no-resolve
 # 爱奇艺
 DOMAIN, api.iqiyi.com
 # Apple
@@ -175,11 +175,11 @@ DOMAIN, iadmusicmat.music.126.net
 DOMAIN, iadmusicmatvideo.music.126.net
 DOMAIN-SUFFIX, 163jiasu.com
 # 微博 开屏广告
-DOMAIN, adstrategy.biz.weibo.com
+# DOMAIN, adstrategy.biz.weibo.com
 # DOMAIN, kadmimage.biz.weibo.com
-DOMAIN, sdkaction.biz.weibo.com
-DOMAIN, sdkclick.biz.weibo.com
-DOMAIN, sdkmonitor.biz.weibo.com
+# DOMAIN, sdkaction.biz.weibo.com
+# DOMAIN, sdkclick.biz.weibo.com
+# DOMAIN, sdkmonitor.biz.weibo.com
 
 # ======= X ======= #
 # 小米
