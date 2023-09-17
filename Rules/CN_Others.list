@@ -81,9 +81,12 @@ DOMAIN-SUFFIX,meituan.net
 DOMAIN-SUFFIX,mtyun.com
 DOMAIN-SUFFIX,neixin.cn
 DOMAIN-SUFFIX,sankuai.com
-
+# ------------------------------
 IP-CIDR,103.202.146.44/32,no-resolve
 IP-CIDR,103.202.146.20/32,no-resolve
 IP-CIDR,203.76.217.37/32,no-resolve
 IP-CIDR,203.76.217.244/32,no-resolve
 IP-CIDR,203.76.217.163/32,no-resolve
+
+# Surge Bug 反馈检测
+DOMAIN-SUFFIX,bugsnag.com
