@@ -91,3 +91,6 @@ IP-CIDR,203.76.217.163/32,no-resolve
 
 # Surge Bug 反馈检测
 DOMAIN-SUFFIX,bugsnag.com
+
+# 小红书 CDN 补充
+DOMAIN-SUFFIX,xhscdn.com
