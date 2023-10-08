@@ -1,45 +1,16 @@
 # 1 - IP 地址后面添加【,no-resolve】
-# 2 - 删除所有【;HOST】
-# 3 - 删除所有【, REJECT】策略后缀
-# 4 - 所有【DOMAIN】改成【DOMAIN】
-# 5 - 所有【IP-CIDR6】改成【IP-CIDR6】
+# 2 - 删除所有【; H O S T】（迅雷）的注释行列
+# 3 - 删除所有【, R E J E C T】策略后缀
+# 4 - 所有【H O S T】改成【DOMAIN】
 # ------------------------------
 
-# 2023-09-20 23:35
+# 2023-10-05 16:50
 
 # ======= A ======= #
 # 阿里云
 IP-CIDR, 203.107.1.1/24,no-resolve
 # 爱奇艺
 DOMAIN, api.iqiyi.com
-# Apple
-DOMAIN, advertising.apple.com
-DOMAIN, api-adservices.apple.com
-DOMAIN, apple.comscoreresearch.com
-DOMAIN, banners.itunes.apple.com
-DOMAIN, iad.apple.com
-DOMAIN, iadcontent.apple.com
-DOMAIN, iadctest.qwapi.com
-DOMAIN, iadmoo.apple.com
-DOMAIN, iadworkbench.apple.com
-DOMAIN, launch.apple.com
-DOMAIN, metrics.apple.com
-DOMAIN, qwapi.apple.com
-DOMAIN, securemetrics.apple.com
-DOMAIN, webproxy-advp.iad-apple.com
-DOMAIN, webproxy-advp.iad-apple.com.akadns.net
-DOMAIN-SUFFIX, advp.apple.com
-DOMAIN-SUFFIX, iadsdk.apple.com
-# 安全浏览限制解除
-DOMAIN, lookup.api.bsb.baidu.com
-DOMAIN, proxy.safebrowsing.apple
-DOMAIN, safebrowsing.g.applimg.com
-DOMAIN, safebrowsing.googleapis.com
-DOMAIN, safebrowsing.urlsec.qq.com
-DOMAIN, token.safebrowsing.apple
-DOMAIN, vs6.bj2ct.u3.ucweb.com
-DOMAIN-SUFFIX, safebrowsing.apple
-DOMAIN-SUFFIX, u3.ucweb.com
 
 # ======= B ======= #
 # 百度
@@ -53,7 +24,7 @@ DOMAIN, lc.map.baidu.com
 DOMAIN, mobads.baidu.com
 DOMAIN, sf3-fe-tos.pglstatp-toutiao.com
 # 百度贴吧
-IP-CIDR, 180.76.76.200/32
+IP-CIDR, 180.76.76.200/32,no-resolve
 # 哔哩哔哩
 DOMAIN, mall.bilibili.com
 DOMAIN, passport.bilibili.com
@@ -89,6 +60,7 @@ DOMAIN, amap-aos-info-nogw.amap.com
 DOMAIN, awaken.amap.com
 DOMAIN, free-aos-cdn-image.amap.com
 # 工商银行 开屏广告
+DOMAIN, oisc.icbc.com.cn
 DOMAIN, pageviewp.icbc.com.cn
 # 广告联盟
 DOMAIN, is.snssdk.com
@@ -102,6 +74,11 @@ DOMAIN-SUFFIX, pangolin.snssdk.com
 # ======= H ======= #
 # 海尔智家
 DOMAIN-SUFFIX, ehaier.com
+
+# ======= J ======= #
+# 建设银行
+DOMAIN, adv.ccb.com
+DOMAIN, imageadv.ccb.com
 
 # ======= K ======= #
 # 酷我音乐
@@ -124,15 +101,13 @@ DOMAIN, credits3.bz.mgtv.com
 DOMAIN, dflow.bz.mgtv.com
 DOMAIN, encounter.bz.mgtv.com
 DOMAIN, floor.bz.mgtv.com
-DOMAIN, img.da.mgtv.com
 DOMAIN, layer.bz.mgtv.com
 DOMAIN, mob.bz.mgtv.com
-DOMAIN, mobile.da.mgtv.com
 DOMAIN, rc-topic-api.bz.mgtv.com
-DOMAIN, v2.da.mgtv.com
-DOMAIN, video.da.mgtv.com
+DOMAIN, rprain.bz.mgtv.com
+DOMAIN, rprain.log.mgtv.com
 DOMAIN, vip.bz.mgtv.com
-DOMAIN, ys.da.mgtv.com
+DOMAIN-SUFFIX, da.mgtv.com
 # 美团
 DOMAIN, al-log.d.meituan.net
 DOMAIN, babel-statistics-android.d.meituan.net
@@ -156,9 +131,7 @@ DOMAIN, api.zuihuimai.com
 DOMAIN-SUFFIX, shuzilm.cn
 
 # ======= T ======= #
-# 腾讯 无法使用的推送服务
-DOMAIN, tpns.qq.com
-# 腾讯视频
+# 腾讯
 DOMAIN, adsmind.gdtimg.com
 DOMAIN, btrace.qq.com
 DOMAIN, btrace.video.qq.com
@@ -166,9 +139,13 @@ DOMAIN, info4.video.qq.com
 DOMAIN, info6.video.qq.com
 DOMAIN, ios.video.mpush.qq.com
 DOMAIN, mtrace.qq.com
+DOMAIN, otheve.beacon.qq.com
 DOMAIN, p.l.qq.com
 DOMAIN, pgdt.gtimg.cn
 DOMAIN, rpt.gdt.qq.com
+DOMAIN, tpns.qq.com
+DOMAIN, tytx.m.cn.miaozhen.com
+DOMAIN, vv6.video.qq.com
 DOMAIN-SUFFIX, trace.qq.com
 
 # ======= W ======= #
@@ -176,8 +153,10 @@ DOMAIN-SUFFIX, trace.qq.com
 DOMAIN, h5-api.feiersmart.com
 # 网易云音乐
 DOMAIN, gdt.qq.com
+DOMAIN, httpdns.music.163.com
 DOMAIN, httpdns.n.netease.com
 DOMAIN, iadmat.nosdn.127.net
+DOMAIN, iadmatapk.nosdn.127.net
 DOMAIN, iadmusicmat.music.126.net
 DOMAIN, iadmusicmatvideo.music.126.net
 DOMAIN-SUFFIX, 163jiasu.com
@@ -223,9 +202,8 @@ DOMAIN, crash2.zhihu.com
 DOMAIN, mqtt.zhihu.com
 DOMAIN, sugar.zhihu.com
 DOMAIN, zxid-m.mobileservice.cn
-IP-CIDR, 103.41.167.237/32
-IP-CIDR, 118.89.204.198/32
-IP-CIDR6, 2402:4e00:1200:ed00:0:9089:6dac:96b6/128
+IP-CIDR, 103.41.167.237/32,no-resolve
+IP-CIDR, 118.89.204.198/32,no-resolve
 # 字节跳动
 DOMAIN, ad.zijieapi.com
 DOMAIN-KEYWORD, -ad-sign.byteimg.com
