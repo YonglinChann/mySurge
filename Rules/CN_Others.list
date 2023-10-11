@@ -101,3 +101,9 @@ DOMAIN-SUFFIX,xhscdn.com
 # 特斯拉 app 分流（走国内）
 DOMAIN-SUFFIX,tesla.com
 DOMAIN-SUFFIX,tesla.cn
+DOMAIN-SUFFIX,tesla.com.cn
+
+# 高德地图 加速
+DOMAIN-SUFFIX,autonavi.com
+DOMAIN-SUFFIX,autonavi.cn
+DOMAIN-SUFFIX,autonavi.com.cn
