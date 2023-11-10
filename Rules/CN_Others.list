@@ -85,6 +85,9 @@ DOMAIN-SUFFIX,maoyan.com
 DOMAIN-SUFFIX,mtyun.com
 DOMAIN-SUFFIX,neixin.cn
 DOMAIN-SUFFIX,sankuai.com
+DOMAIN,metrics-picture.d.meituan.net
+DOMAIN,route-stats.d.meituan.net
+DOMAIN,maplocatesdksnapshot.d.meituan.net
 # ------------------------------
 IP-CIDR,103.202.146.44/32,no-resolve
 IP-CIDR,103.202.146.20/32,no-resolve
@@ -117,3 +120,6 @@ DOMAIN-SUFFIX,ts.la
 DOMAIN-SUFFIX,autonavi.com
 DOMAIN-SUFFIX,autonavi.cn
 DOMAIN-SUFFIX,autonavi.com.cn
+
+# 政务网站
+DOMAIN-SUFFIX,gov.com
