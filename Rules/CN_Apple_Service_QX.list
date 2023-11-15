@@ -1,0 +1,25 @@
+# 本人针对 iOS 自带 Apple 服务规则的简化整理
+
+HOST-SUFFIX,aaplimg.com
+HOST-SUFFIX,apple.co
+HOST-SUFFIX,apple.com
+HOST-SUFFIX,apple.cn
+HOST-SUFFIX,apple.com.cn
+HOST-SUFFIX,apple.news
+HOST-SUFFIX,apple-cloudkit.com
+HOST-SUFFIX,apple-livephotoskit.com
+HOST-SUFFIX,apple-mapkit.com
+HOST-SUFFIX,applemusic.com
+HOST-SUFFIX,appstore.com
+HOST-SUFFIX,apzones.com
+HOST-SUFFIX,cdn-apple.com
+HOST-SUFFIX,icloud.com
+HOST-SUFFIX,icloud.cn
+HOST-SUFFIX,icloud.com.cn
+HOST-SUFFIX,icloud-content.com
+HOST-SUFFIX,icloud-content.com.cn
+HOST-SUFFIX,me.com
+HOST-SUFFIX,mzstatic.com
+HOST-SUFFIX,itunes.com
+HOST-SUFFIX,safebrowsing.apple
+HOST-SUFFIX,push-apple.com.akadns.net
