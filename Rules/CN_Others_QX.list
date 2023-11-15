@@ -121,3 +121,7 @@ HOST-SUFFIX,autonavi.com.cn,DIRECT
 
 # 政务网站
 HOST-SUFFIX,gov.com,DIRECT
+
+# 【Quantumult X 专用 GEOIP 及 CN 分流】
+HOST-SUFFIX,cn,DIRECT
+GEOIP,CN,DIRECT
