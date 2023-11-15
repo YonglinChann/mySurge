@@ -1,0 +1,123 @@
+# 个人定制其它的分流规则（大陆影视流媒体软件与其他等）
+
+# 从 神机规则 的 China.list 选择性补充
+HOST,download.jetbrains.com
+HOST,origin-a.akamaihd.net
+HOST-SUFFIX,flyert.com
+HOST-SUFFIX,gandi.net
+HOST-SUFFIX,snapdrop.net
+HOST-SUFFIX,paypal.com
+HOST-SUFFIX,paypal.me
+HOST-SUFFIX,paypal-mktg.com
+HOST-SUFFIX,paypalobjects.com
+
+# 白云天气 API
+HOST-SUFFIX,revenuecat.com
+
+# 彩云天气 API
+HOST-SUFFIX,caiyunapp.com
+
+# 影视软件（口算小达人 app）
+HOST-KEYWORD,ffzy
+HOST-SUFFIX,pki.goog
+HOST-SUFFIX,lencr.org
+HOST-SUFFIX,jssp.tv
+HOST-SUFFIX,updatede.com
+HOST-SUFFIX,haiwaiziyuan.com
+HOST-SUFFIX,haiwaikan.com
+HOST-SUFFIX,wujinpp.com
+HOST-SUFFIX,mazc.org
+HOST-SUFFIX,yparse.com
+HOST-SUFFIX,yslhyht.com
+HOST-SUFFIX,iapijy.com
+
+# 影视软件（大师兄 app）
+HOST-KEYWORD,lz-cdn
+HOST-SUFFIX,cdn.jsdelivr.net
+HOST-SUFFIX,amazontrust.com
+HOST-SUFFIX,mintegral.net
+HOST-SUFFIX,ailbaba.me
+HOST-SUFFIX,ailbaba.com
+HOST-SUFFIX,liangzipic.com
+HOST-SUFFIX,pstatp.com
+HOST-SUFFIX,mintegral.net
+HOST-SUFFIX,bcebos.com
+HOST-SUFFIX,9day.cc
+HOST-SUFFIX,bdzyimg.com
+HOST-SUFFIX,kuaikanzy.net
+HOST-SUFFIX,cloudfront.net
+HOST-SUFFIX,bfzypic.com
+HOST-SUFFIX,bfzycdn.com
+HOST-SUFFIX,52swat.cn
+HOST-SUFFIX,if101.tv
+HOST-SUFFIX,hou.lu
+HOST-SUFFIX,maimn.com
+HOST-SUFFIX,sectigo.com
+HOST-SUFFIX,dsxys.us
+HOST-SUFFIX,digicert.com
+HOST-SUFFIX,usertrust.com
+
+# 速方云下载（suufun.com）
+HOST-SUFFIX,extransfer.xyz
+HOST-SUFFIX,suufun.info
+HOST-SUFFIX,suu-fun.com
+
+# 授时校准（time.is）
+HOST-SUFFIX,time.is
+
+# 软件下载（xxmac.com）
+HOST-SUFFIX,xxmac.com
+
+# 百度网盘 上传 & 下载
+HOST-SUFFIX,baidupcs.com
+HOST-SUFFIX,albatross.10086.cn
+
+# 大众点评 & 美团 app 补充（IP及域名）
+HOST,babel-statistics-android.d.meituan.net,no-resolve
+HOST,maplocatesdksnapshot.d.meituan.net,no-resolve
+HOST,route-stats.d.meituan.net,no-resolve
+HOST,metrics-picture.d.meituan.net,no-resolve
+HOST-SUFFIX,meituan.net,no-resolve
+HOST-SUFFIX,d.meituan.net,no-resolve
+HOST-SUFFIX,meituan.com
+HOST-SUFFIX,dianping.com
+HOST-SUFFIX,51ping.com
+HOST-SUFFIX,maoyan.com
+HOST-SUFFIX,mtyun.com
+HOST-SUFFIX,neixin.cn
+HOST-SUFFIX,sankuai.com
+# ------------------------------
+IP-CIDR,103.202.146.44/32,no-resolve
+IP-CIDR,103.202.146.20/32,no-resolve
+IP-CIDR,203.76.217.37/32,no-resolve
+IP-CIDR,203.76.217.244/32,no-resolve
+IP-CIDR,203.76.217.163/32,no-resolve
+
+# Surge Bug 反馈检测
+HOST-SUFFIX,bugsnag.com
+
+# 小红书 CDN 补充
+HOST-SUFFIX,xhscdn.com
+
+# 特斯拉 app 分流（走国内）
+HOST-SUFFIX,tesla.com
+HOST-SUFFIX,tesla.cn
+HOST-SUFFIX,tesla.com.cn
+HOST-SUFFIX,solarcity.com
+HOST-SUFFIX,tesla-cdn.thron.cn
+HOST-SUFFIX,tesla-cdn.thron.com
+HOST-SUFFIX,tesla.services
+HOST-SUFFIX,teslaenergy.services
+HOST-SUFFIX,teslamotors.cn
+HOST-SUFFIX,teslamotors.com
+HOST-SUFFIX,teslamotors.com.cn
+HOST-SUFFIX,teslazta.net
+HOST-SUFFIX,ts.la
+
+# 高德地图 加速
+HOST-SUFFIX,autonavi.com
+HOST-SUFFIX,autonavi.cn
+HOST-SUFFIX,autonavi.com.cn
+
+# 政务网站
+HOST-SUFFIX,gov.com
