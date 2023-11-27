@@ -6,7 +6,7 @@
 
 IP-ASN,140731,DIRECT // TOHU Public Internet
 IP-ASN,4134,DIRECT // China Telecom Backbone
-IP-ASN,24429,DIRECT // Zhejiang Taobao Network Co.,Ltd
+//IP-ASN,24429,DIRECT // Zhejiang Taobao Network Co.,Ltd
 IP-ASN,132203,DIRECT // Tencent Building, Kejizhongyi Avenue
 IP-ASN,45102,DIRECT // Alibaba (US) Technology Co., Ltd.
 IP-ASN,4809,DIRECT // China Telecom Next Generation Carrier Network
