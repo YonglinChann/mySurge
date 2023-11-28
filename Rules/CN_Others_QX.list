@@ -1,5 +1,7 @@
 # 个人定制其它的分流规则（大陆影视流媒体软件与其他等）
 
+HOST-SUFFIX,cn,DIRECT
+
 # 从 神机规则 的 China.list 选择性补充
 HOST,download.jetbrains.com,DIRECT
 HOST,origin-a.akamaihd.net,DIRECT
@@ -123,5 +125,4 @@ HOST-SUFFIX,autonavi.com.cn,DIRECT
 HOST-SUFFIX,gov.com,DIRECT
 
 # 【Quantumult X 专用 GEOIP 及 CN 分流】
-HOST-SUFFIX,cn,DIRECT
 GEOIP,CN,DIRECT
