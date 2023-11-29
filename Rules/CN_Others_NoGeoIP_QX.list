@@ -126,4 +126,4 @@ HOST-SUFFIX,autonavi.com.cn,DIRECT
 HOST-SUFFIX,gov.com,DIRECT
 
 # 桂畔里停车系统
-HOST,merchant.ajbcloud.com
+HOST,merchant.ajbcloud.com,DIRECT
