@@ -1,7 +1,10 @@
-// 1 -- 将【空格/】更改为【,DIREC T空格/】
-// 2 -- 用 Regexp 方法，匹配【DIREC T.*】，并全部替换为【DIREC T】
+# 1 -- 将【空格/】更改为【,DIREC T空格/】
+# 2 -- 用 Regexp 方法，匹配【DIREC T.*】，并全部替换为【DIREC T】
 
-// ———— 以下为手动替换更新内容 ————
+# 1 -- 用 Regexp 方法，匹配【/空格.*】，并全部删掉
+# 2 -- 将【空格/】更改为【,DIRECT】
+
+# ———— 以下为手动替换更新内容 ————
 
 // ASN Information in China. (https://github.com/missuo/ASN-China) 
 // Last Updated: UTC 2023-11-28 16:04:55
