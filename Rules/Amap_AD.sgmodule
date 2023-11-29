@@ -22,28 +22,28 @@
 
 [Script]
 # 导航详情页 - 路线规划、地点详情页、搜索详情页
-amap1.response.beta=type=http-response,pattern=^https:\/\/m5\.amap\.com\/ws\/shield\/search\/(common\/coupon\/info|poi\/detail)\?,requires-body=1,binary-body-mode=1,script-path=https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Resource/Script/Amap/Amap_remove_ads.js
-amap2.response.beta=type=http-response,pattern=^https:\/\/m5\.amap\.com\/ws\/shield\/search_poi\/(city_feed|mps|search\/sp|tips_operation_location)\?,requires-body=1,binary-body-mode=1,script-path=https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Resource/Script/Amap/Amap_remove_ads.js
-amap3.response.beta=type=http-response,pattern=^https:\/\/m5\.amap\.com\/ws\/shield\/search(_poi)?\/sug\?,requires-body=1,binary-body-mode=1,script-path=https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Resource/Script/Amap/Amap_remove_ads.js
+amap1.response.beta=type=http-response,pattern=^https:\/\/m5\.amap\.com\/ws\/shield\/search\/(common\/coupon\/info|poi\/detail)\?,requires-body=1,binary-body-mode=1,script-path=https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Resource/Script/Amap/Amap_remove_ads.js
+amap2.response.beta=type=http-response,pattern=^https:\/\/m5\.amap\.com\/ws\/shield\/search_poi\/(city_feed|mps|search\/sp|tips_operation_location)\?,requires-body=1,binary-body-mode=1,script-path=https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Resource/Script/Amap/Amap_remove_ads.js
+amap3.response.beta=type=http-response,pattern=^https:\/\/m5\.amap\.com\/ws\/shield\/search(_poi)?\/sug\?,requires-body=1,binary-body-mode=1,script-path=https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Resource/Script/Amap/Amap_remove_ads.js
 
 # 首页 - 推广卡片、红点角标、右上角动图、搜索框热词、左下角天气、消息横幅
-amap4.response.beta=type=http-response,pattern=^https:\/\/m5\.amap\.com\/ws\/faas\/amap-navigation\/main-page\?,requires-body=1,binary-body-mode=1,script-path=https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Resource/Script/Amap/Amap_remove_ads.js
-amap5.response.beta=type=http-response,pattern=^https:\/\/m5\.amap\.com\/ws\/mapapi\/poi\/infolite\/\?,requires-body=1,binary-body-mode=1,script-path=https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Resource/Script/Amap/Amap_remove_ads.js
-amap6.response.beta=type=http-response,pattern=^https:\/\/m5\.amap\.com\/ws\/shield\/frogserver\/aocs\/updatable\/1\?,requires-body=1,binary-body-mode=1,script-path=https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Resource/Script/Amap/Amap_remove_ads.js
+amap4.response.beta=type=http-response,pattern=^https:\/\/m5\.amap\.com\/ws\/faas\/amap-navigation\/main-page\?,requires-body=1,binary-body-mode=1,script-path=https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Resource/Script/Amap/Amap_remove_ads.js
+amap5.response.beta=type=http-response,pattern=^https:\/\/m5\.amap\.com\/ws\/mapapi\/poi\/infolite\/\?,requires-body=1,binary-body-mode=1,script-path=https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Resource/Script/Amap/Amap_remove_ads.js
+amap6.response.beta=type=http-response,pattern=^https:\/\/m5\.amap\.com\/ws\/shield\/frogserver\/aocs\/updatable\/1\?,requires-body=1,binary-body-mode=1,script-path=https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Resource/Script/Amap/Amap_remove_ads.js
 
 # 我的页面 - 个人主页、推广卡片
-amap7.response.beta=type=http-response,pattern=^https:\/\/m5\.amap\.com\/ws\/faas\/amap-navigation\/usr-profile-fc\/(highlightV2|home)\?,requires-body=1,binary-body-mode=1,script-path=https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Resource/Script/Amap/Amap_remove_ads.js
-amap8.response.beta=type=http-response,pattern=^https:\/\/m5\.amap\.com\/ws\/shield\/dsp\/profile\/index\/nodefaasv3\?,requires-body=1,binary-body-mode=1,script-path=https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Resource/Script/Amap/Amap_remove_ads.js
+amap7.response.beta=type=http-response,pattern=^https:\/\/m5\.amap\.com\/ws\/faas\/amap-navigation\/usr-profile-fc\/(highlightV2|home)\?,requires-body=1,binary-body-mode=1,script-path=https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Resource/Script/Amap/Amap_remove_ads.js
+amap8.response.beta=type=http-response,pattern=^https:\/\/m5\.amap\.com\/ws\/shield\/dsp\/profile\/index\/nodefaasv3\?,requires-body=1,binary-body-mode=1,script-path=https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Resource/Script/Amap/Amap_remove_ads.js
 
 # 附近页
-amap9.response.beta=type=http-response,pattern=^https:\/\/m5\.amap\.com\/ws\/shield\/search\/nearbyrec_smart\?,requires-body=1,binary-body-mode=1,script-path=https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Resource/Script/Amap/Amap_remove_ads.js
+amap9.response.beta=type=http-response,pattern=^https:\/\/m5\.amap\.com\/ws\/shield\/search\/nearbyrec_smart\?,requires-body=1,binary-body-mode=1,script-path=https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Resource/Script/Amap/Amap_remove_ads.js
 
 # 开屏广告
-amap10.response.beta=type=http-response,pattern=^https:\/\/m5\.amap\.com\/ws\/valueadded\/alimama\/splash_screen\?,requires-body=1,binary-body-mode=1,script-path=https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Resource/Script/Amap/Amap_remove_ads.js
+amap10.response.beta=type=http-response,pattern=^https:\/\/m5\.amap\.com\/ws\/valueadded\/alimama\/splash_screen\?,requires-body=1,binary-body-mode=1,script-path=https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Resource/Script/Amap/Amap_remove_ads.js
 
 # 打车页 - 红点角标、弹窗、推广卡片
-amap11.response.beta=type=http-response,pattern=^https:\/\/m5-zb\.amap\.com\/ws\/promotion-web\/resource\??,requires-body=1,binary-body-mode=1,script-path=https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Resource/Script/Amap/Amap_remove_ads.js
-amap12.response.beta=type=http-response,pattern=^https:\/\/m5-zb\.amap\.com\/ws\/sharedtrip\/taxi\/order_detail_car_tips\?,requires-body=1,binary-body-mode=1,script-path=https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Resource/Script/Amap/Amap_remove_ads.js
+amap11.response.beta=type=http-response,pattern=^https:\/\/m5-zb\.amap\.com\/ws\/promotion-web\/resource\??,requires-body=1,binary-body-mode=1,script-path=https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Resource/Script/Amap/Amap_remove_ads.js
+amap12.response.beta=type=http-response,pattern=^https:\/\/m5-zb\.amap\.com\/ws\/sharedtrip\/taxi\/order_detail_car_tips\?,requires-body=1,binary-body-mode=1,script-path=https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Resource/Script/Amap/Amap_remove_ads.js
 
 [MITM]
 hostname = m5.amap.com, m5-zb.amap.com, sns.amap.com
