@@ -7,8 +7,8 @@
 ^https?:\/\/[\w-]+\.googlevideo\.com\/initplayback.+&oad _ reject-tinygif
 
 [Script]
-youtube.response.beta=type=http-response,pattern=^https:\/\/youtubei\.googleapis\.com\/youtubei\/v1\/(browse|next|player|search|reel\/reel_watch_sequence|guide|account\/get_setting)\?,requires-body=1,binary-body-mode=1,script-path=https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Resource/Script/YouTube/YouTube_remove_ads_response.js
-youtube.request.beta=type=http-request,pattern=^https:\/\/youtubei\.googleapis\.com\/youtubei\/v1\/(browse|next|player|reel\/reel_watch_sequence)\?,requires-body=1,binary-body-mode=1,script-path=https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Resource/Script/YouTube/YouTube_remove_ads_request.js
+youtube.response.beta=type=http-response,pattern=^https:\/\/youtubei\.googleapis\.com\/youtubei\/v1\/(browse|next|player|search|reel\/reel_watch_sequence|guide|account\/get_setting)\?,requires-body=1,binary-body-mode=1,script-path=https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Resource/Script/YouTube/YouTube_remove_ads_response.js
+youtube.request.beta=type=http-request,pattern=^https:\/\/youtubei\.googleapis\.com\/youtubei\/v1\/(browse|next|player|reel\/reel_watch_sequence)\?,requires-body=1,binary-body-mode=1,script-path=https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Resource/Script/YouTube/YouTube_remove_ads_request.js
 
 [MITM]
 hostname = *.googlevideo.com, youtubei.googleapis.com
