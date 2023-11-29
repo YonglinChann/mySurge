@@ -123,3 +123,6 @@ DOMAIN-SUFFIX,autonavi.com.cn
 
 # 政务网站
 DOMAIN-SUFFIX,gov.com
+
+# 桂畔里停车系统
+DOMAIN,merchant.ajbcloud.com
