@@ -16,16 +16,12 @@
 #############################################
 
 
-
 # >>>>>>>>>>>>>>> ✅ 1 ✅ <<<<<<<<<<<<<<
-domain, ad.12306.cn
-
-
-
+domain,ad.12306.cn
 
 # >>>>>>>>>>>>>>> ✅ A ✅ <<<<<<<<<<<<<<
 # > anti-ad
-domain-keyword, anti-ad.net
+domain-keyword,anti-ad.net
 
 # > Alibaba
 domain,log.mmstat.com
@@ -128,13 +124,13 @@ domain,msg.umengcloud.com
 
 # >>>>>>>>>>>>>>> ✅ X ✅ <<<<<<<<<<<<<<
 # > 携程
-domain-keyword, aw-s.tripcdn.com
-domain-keyword, trip.com
+domain-keyword,aw-s.tripcdn.com
+domain-keyword,trip.com
 
 
 
 # > 其他分流修正
 # > 路由器后台
-ip-cidr, 192.168.0.1/24
+ip-cidr,192.168.0.1/24
 # > 天翼网关
-ip-cidr, 192.168.1.1/24
+ip-cidr,192.168.1.1/24
