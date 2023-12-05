@@ -1,0 +1,140 @@
+#!name=分流修正
+#!desc=修正某些被分流到外区的国内网站
+#!author=fmz200
+#!homepage=https://github.com/fmz200/wool_scripts
+#!icon=https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/author/NaiSi_01.png
+#!raw-url=https://github.com/fmz200/wool_scripts/raw/main/QuantumultX/filter/fenliuxiuzheng.list
+#!tg-group=https://t.me/lanjieguanggao
+#!date=2023-11-06 21:30:00
+#!proxy-select=direct
+#############################################
+# > "reject"        策略返回 HTTP 状态码 404,不附带任何额外内容
+# > "reject-200"    策略返回 HTTP 状态码 200,不附带任何额外内容
+# > "reject-img"    策略返回 HTTP 状态码 200,同时附带 1px gif
+# > "reject-dict"   策略返回 HTTP 状态码 200,同时附带一个空的 JSON 对象
+# > "reject-array"  策略返回 HTTP 状态码 200,同时附带一个空的 JSON 数组
+#############################################
+
+
+
+# >>>>>>>>>>>>>>> ✅ 1 ✅ <<<<<<<<<<<<<<
+domain, ad.12306.cn
+
+
+
+
+# >>>>>>>>>>>>>>> ✅ A ✅ <<<<<<<<<<<<<<
+# > anti-ad
+domain-keyword, anti-ad.net
+
+# > Alibaba
+domain,log.mmstat.com
+domain,sycm.mmstat.com
+
+# > 爱影视
+domain,static.jssp.tv
+domain,lain.bgm.tv
+domain,tiao.cjkypo.com
+domain,ok.zuidapic.com
+domain,ts.thefiledomaining.com
+domain,deo.shopeemobile.com
+domain,m3u8.255tv.tk
+domain,m3u8.mstopq.com
+domain,ain.bgm.tv
+domain-keyword,vip.lz-cdn
+domain-keyword,ax1x.com
+domain-keyword,o.lencr.org
+domain-keyword,ttcdn-tos.kkimg.cc
+
+
+
+# >>>>>>>>>>>>>>> ✅ D ✅ <<<<<<<<<<<<<<
+# > 大师兄影视
+domain,sdk.alibaba.com.ailbaba.me
+domain,img.ffzypic.com
+domain,img.liangzipic.com
+domain,img.bfzypic.com
+domain,img.kuaikanzy.net
+domain,vip.imgffzy.com
+domain,vip.ffzyread.com
+domain,cdn.jsdelivr.net
+domain,image.maimn.com
+domain-keyword,bfzycdn.com
+domain-keyword,vip.kuaikan-cdn
+domain-keyword,vip.ffzy-play
+domain-keyword,vip.ffzy-online
+
+
+
+# >>>>>>>>>>>>>>> ✅ P ✅ <<<<<<<<<<<<<<
+# > 苹果推送服务
+domain-keyword, push.apple.com
+# > 苹果时间同步
+domain, time.apple.com
+# > 苹果天气服务
+domain-keyword, weather-edge.apple.com
+domain-keyword, weather-adge.apple.com
+domain-suffix, weather-data.apple.com
+domain-suffix, weather-map.apple.com
+domain-suffix, weather-analytics-events.apple.com
+# > 苹果内购服务
+domain-keyword, buy.itunes.apple.com
+# > 苹果icloud
+domain-keyword, icloud.com
+# > 苹果输入法相关服务
+domain-keyword, api.smoot.apple.com
+domain-keyword, api.smoot.apple.cn
+# > 苹果iMessage服务
+domain, init.ess.apple.com
+# > 苹果其他服务
+domain-keyword, ssl.apple.com
+domain-keyword, humb.apple.com
+domain, smp-device-content.apple.com
+domain-keyword, api-adservices.apple.com
+domain-keyword, ls.apple.com
+domain-keyword, gsa.apple.com
+domain-keyword, ess.apple.com
+# > 苹果app store
+domain, itunes.apple.com
+
+
+
+# >>>>>>>>>>>>>>> ✅ Q ✅ <<<<<<<<<<<<<<
+# > QQ空间
+domain-keyword, ctc.qzs.qzone.qq.com
+
+
+# >>>>>>>>>>>>>>> ✅ S ✅ <<<<<<<<<<<<<<
+# > Strava
+domain,analytics.strava.com
+
+
+
+# >>>>>>>>>>>>>>> ✅ T ✅ <<<<<<<<<<<<<<
+# > Tencent
+domain,fairplay.l.qq.com
+domain,livew.l.qq.com
+domain,vd.l.qq.com
+domain,vi.l.qq.com
+
+
+
+# >>>>>>>>>>>>>>> ✅ U ✅ <<<<<<<<<<<<<<
+# > Umeng
+domain,msg.umeng.com
+domain,msg.umengcloud.com
+
+
+
+# >>>>>>>>>>>>>>> ✅ X ✅ <<<<<<<<<<<<<<
+# > 携程
+domain-keyword, aw-s.tripcdn.com
+domain-keyword, trip.com
+
+
+
+# > 其他分流修正
+# > 路由器后台
+ip-cidr, 192.168.0.1/24
+# > 天翼网关
+ip-cidr, 192.168.1.1/24
