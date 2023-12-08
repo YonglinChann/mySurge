@@ -61,10 +61,10 @@ var subtitle = isp_check(obj['as']);
 // 不展示
 var ip = obj['query'];
 // 长按节点选择“查看节点信息”时的信息
-var description = '\n' + 'myEmojis[0]' + '国家：' + flags.get(obj['countryCode']) + ' ' + obj['countryCode'] + ' ' + obj['country'] + '\n'
-  + '\n' + 'myEmojis[1]' + '地区：' + obj['region'] + ' ' + city_check(obj['regionName']) + '\n'
-  + '\n' + 'myEmojis[2]' + 'IP 地址：' + obj['query'] + '\n'
-  + '\n' + 'myEmojis[3]' + '服务商：' + obj['isp'] + '\n'
-  + '\n' + 'myEmojis[4]' + '时区：' + obj['timezone'];
+var description = '\n' + myEmojis[0] + '国家：' + flags.get(obj['countryCode']) + ' ' + obj['countryCode'] + ' ' + obj['country'] + '\n'
+  + '\n' + myEmojis[1] + '地区：' + obj['region'] + ' ' + city_check(obj['regionName']) + '\n'
+  + '\n' + myEmojis[2] + 'IP 地址：' + obj['query'] + '\n'
+  + '\n' + myEmojis[3] + '服务商：' + obj['isp'] + '\n'
+  + '\n' + myEmojis[4] + '时区：' + obj['timezone'];
 //+ '经纬度：' + obj['lat'] + ' / ' + obj['lon'] + '\n'
 $done({title, subtitle, ip, description});
