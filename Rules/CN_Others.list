@@ -102,6 +102,7 @@ DOMAIN-SUFFIX,bugsnag.com
 DOMAIN-SUFFIX,xhscdn.com
 
 # 特斯拉 app 分流（走国内）
+DOMAIN,gio-analytics.tesla.cn
 DOMAIN-SUFFIX,tesla.com
 DOMAIN-SUFFIX,tesla.cn
 DOMAIN-SUFFIX,tesla.com.cn
