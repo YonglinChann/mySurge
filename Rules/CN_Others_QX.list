@@ -102,6 +102,7 @@ HOST-SUFFIX,bugsnag.com,DIRECT
 HOST-SUFFIX,xhscdn.com,DIRECT
 
 # 特斯拉 app 分流（走国内）
+HOST,gio-analytics.tesla.cn,DIRECT
 HOST-SUFFIX,tesla.com,DIRECT
 HOST-SUFFIX,tesla.cn,DIRECT
 HOST-SUFFIX,tesla.com.cn,DIRECT
