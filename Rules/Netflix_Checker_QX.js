@@ -1,13 +1,13 @@
-# 使用方法：
-# 1 -- Quantumult X 内使用【HTTP请求】
-# 2 -- Cron 表达式为【0 */2 * * *】
-# 3 -- 图标【https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Netflix_Letter.png】
+// 使用方法：
+// 1 -- Quantumult X 内使用【HTTP请求】
+// 2 -- Cron 表达式为【0 */2 * * *】
+// 3 -- 图标【https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Netflix_Letter.png】
 
-# Netflix_Checker.js (https://github.com/Hyseen/Scripts/blob/master/QuantumultX/NetflixPolicySwitcher)
-# Last Updated: Save 2024-01-08（From 2022-12-19）
-# Made by Hyseen, All rights reserved. 
+// Netflix_Checker.js (https://github.com/Hyseen/Scripts/blob/master/QuantumultX/NetflixPolicySwitcher)
+// Last Updated: Save 2024-01-08（From 2022-12-19）
+// Made by Hyseen, All rights reserved. 
 
-# ———— 以下为脚本内容 ————
+// ———— 以下为脚本内容 ————
 
 const STATUS_FULL_AVAILABLE = 2 // 完整支持
 const STATUS_ORIGINAL_AVAILABLE = 1 // 支持自制剧
