@@ -15,8 +15,6 @@ const STATUS_NOT_AVAILABLE = 0 // 不支持解锁
 const STATUS_TIMEOUT = -1 // 检测超时
 const STATUS_ERROR = -2 // 检测异常
 
-const myEmojis = ['✅', '⚠️', '🚫', '❌', '❗️', '👉🏻', '📝'] // 自添加表情
-
 const $ = new Env('Netflix 解锁检测')
 let policyName = $.getval('Helge_0x00.Netflix_Policy') || 'Netflix'
 let debug = $.getval('Helge_0x00.Netflix_Debug') === 'true'
@@ -61,32 +59,32 @@ async function testPolicies(policyName, policies = []) {
   let fullAvailablePolicies = []
   let originalAvailablePolicies = []
   let echo = results => {
-    console.log(`\n策略组 「${policyName}」 检测结果📝` + `myEmojis[6]` + `：\n`)
+    console.log(`\n\n策略组 「${policyName}」 检测结果📝：\n`)
     for (let { policy, status, region, time } of results) {
       switch (status) {
         case STATUS_FULL_AVAILABLE: {
           let flag = getCountryFlagEmoji(region) ?? ''
           let regionName = REGIONS?.[region.toUpperCase()]?.chinese ?? ''
-          console.log(`${policy}:` + `myEmojis[0]` + `✅ 完全解锁 👉🏻` + `myEmojis[5]` + `${flag}${regionName}`)
+          console.log(`${policy}: ✅完全解锁 👉🏻 ${flag}${regionName}`)
           fullAvailablePolicies.push({ policy, region, status, time })
           break
         }
         case STATUS_ORIGINAL_AVAILABLE: {
           let flag = getCountryFlagEmoji(region) ?? ''
           let regionName = REGIONS?.[region.toUpperCase()]?.chinese ?? ''
-          console.log(`${policy}:` + `myEmojis[1]` + `⚠️ 仅支持自制剧 👉🏻` + `myEmojis[5]` + `${flag}${regionName}`)
+          console.log(`${policy}: ⚠️仅支持自制剧 👉🏻 ${flag}${regionName}`)
           originalAvailablePolicies.push({ policy, region, status, time })
           break
         }
         case STATUS_NOT_AVAILABLE:
-          console.log(`${policy}:` + `myEmojis[2]` + `🚫 不支持 Netflix`)
+          console.log(`${policy}: 🚫不支持 Netflix`)
           break
         case STATUS_TIMEOUT:
-          console.log(`${policy}:` + `myEmojis[3]` + `❌ 检测超时`)
+          console.log(`${policy}: ❌检测超时`)
           failedPolicies.push(policy)
           break
         default:
-          console.log(`${policy}:` + `myEmojis[4]` + `❗️ 检测异常`)
+          console.log(`${policy}: ❗️检测异常`)
           failedPolicies.push(policy)
       }
     }
@@ -170,7 +168,7 @@ function getFilmPage(filmId, policyName) {
 }
 
 async function test(policyName) {
-  console.log(`开始测试 ${policyName}`)
+  console.log(`⌛️ 开始测试 ${policyName}`)
   let startTime = new Date().getTime()
   let result = await Promise.race([getFilmPage(81280792, policyName), timeout(t)])
     .then(region => {
