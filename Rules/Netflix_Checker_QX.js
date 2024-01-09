@@ -72,15 +72,15 @@ async function testPolicies(policyName, policies = []) {
         case STATUS_ORIGINAL_AVAILABLE: {
           let flag = getCountryFlagEmoji(region) ?? ''
           let regionName = REGIONS?.[region.toUpperCase()]?.chinese ?? ''
-          console.log(`${policy}: 🟠仅支持自制剧 👉🏻 ${flag}${regionName}`)
+          console.log(`${policy}: 🔵仅支持自制剧 👉🏻 ${flag}${regionName}`)
           originalAvailablePolicies.push({ policy, region, status, time })
           break
         }
         case STATUS_NOT_AVAILABLE:
-          console.log(`${policy}: 🚫不支持 Netflix`)
+          console.log(`${policy}: 🟣不支持 Netflix`)
           break
         case STATUS_TIMEOUT:
-          console.log(`${policy}: ❌检测超时`)
+          console.log(`${policy}: 🔴检测超时`)
           failedPolicies.push(policy)
           break
         default:
@@ -168,7 +168,7 @@ function getFilmPage(filmId, policyName) {
 }
 
 async function test(policyName) {
-  console.log(`⌛️ 开始测试 ${policyName}`)
+  console.log(`-> 开始测试 ${policyName}`)
   let startTime = new Date().getTime()
   let result = await Promise.race([getFilmPage(81280792, policyName), timeout(t)])
     .then(region => {
