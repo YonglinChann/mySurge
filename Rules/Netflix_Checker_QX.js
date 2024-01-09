@@ -67,14 +67,14 @@ async function testPolicies(policyName, policies = []) {
         case STATUS_FULL_AVAILABLE: {
           let flag = getCountryFlagEmoji(region) ?? ''
           let regionName = REGIONS?.[region.toUpperCase()]?.chinese ?? ''
-          console.log(`${policy}:` + `myEmojis[0]` + `✅ 完全解锁` + `myEmojis[5]` + `${flag}${regionName}`)
+          console.log(`${policy}:` + `myEmojis[0]` + `✅ 完全解锁 👉🏻` + `myEmojis[5]` + `${flag}${regionName}`)
           fullAvailablePolicies.push({ policy, region, status, time })
           break
         }
         case STATUS_ORIGINAL_AVAILABLE: {
           let flag = getCountryFlagEmoji(region) ?? ''
           let regionName = REGIONS?.[region.toUpperCase()]?.chinese ?? ''
-          console.log(`${policy}:` + `myEmojis[1]` + `⚠️ 仅支持自制剧` + `myEmojis[5]` + `${flag}${regionName}`)
+          console.log(`${policy}:` + `myEmojis[1]` + `⚠️ 仅支持自制剧 👉🏻` + `myEmojis[5]` + `${flag}${regionName}`)
           originalAvailablePolicies.push({ policy, region, status, time })
           break
         }
