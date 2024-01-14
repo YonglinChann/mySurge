@@ -80,11 +80,11 @@ async function testPolicies(policyName, policies = []) {
           console.log(`${policy}: 🟣不支持 Netflix`)
           break
         case STATUS_TIMEOUT:
-          console.log(`${policy}: 🔴检测超时`)
+          console.log(`${policy}: ❌检测超时`)
           failedPolicies.push(policy)
           break
         default:
-          console.log(`${policy}: ❗️检测异常`)
+          console.log(`${policy}: 🔴检测异常`)
           failedPolicies.push(policy)
       }
     }
