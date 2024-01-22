@@ -25,6 +25,10 @@ HOST-SUFFIX,safebrowsing.apple,DIRECT
 HOST-SUFFIX,push-apple.com.akadns.net,DIRECT
 HOST-SUFFIX,apple-livephotoskit.com,DIRECT
 HOST-SUFFIX,apzones.com,DIRECT
+HOST-SUFFIX,apple-dns.cn,DIRECT
+HOST-SUFFIX,apple-dns.com,DIRECT
+HOST-SUFFIX,apple-dns.com.cn,DIRECT
+HOST-SUFFIX,apple-maps.cn,DIRECT
 HOST,icons.axm-usercontent-apple.com,DIRECT
 HOST,appldnld.apple.com.edgesuite.net,DIRECT
 HOST,ocsp.digicert.cn,DIRECT
