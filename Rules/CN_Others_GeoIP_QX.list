@@ -129,5 +129,17 @@ HOST-SUFFIX,gov.com,DIRECT
 # 桂畔里停车系统
 HOST,merchant.ajbcloud.com,DIRECT
 
+# Jetbrains 中国分流
+HOST-SUFFIX,datalore.io,DIRECT
+HOST-SUFFIX,grazie.ai,DIRECT
+HOST-SUFFIX,intellij.com,DIRECT
+HOST-SUFFIX,intellij.net,DIRECT
+HOST-SUFFIX,intellij.org,DIRECT
+HOST-SUFFIX,jetbrains.com,DIRECT
+HOST-SUFFIX,jetbrains.net,DIRECT
+HOST-SUFFIX,jetbrains.space,DIRECT
+HOST-SUFFIX,jetbrains.team,DIRECT
+HOST-SUFFIX,kotlinlang.org,DIRECT
+
 # 【Quantumult X 专用 GEOIP 及 CN 分流】
 GEOIP,CN,DIRECT
