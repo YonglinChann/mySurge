@@ -23,8 +23,8 @@ HOST-SUFFIX,mzstatic.com,DIRECT
 HOST-SUFFIX,itunes.com,DIRECT
 HOST-SUFFIX,safebrowsing.apple,DIRECT
 HOST-SUFFIX,push-apple.com.akadns.net,DIRECT
-HOST-SUFFIX,apple-livephotoskit.com
-HOST-SUFFIX,apzones.com
-HOST,icons.axm-usercontent-apple.com
-HOST,appldnld.apple.com.edgesuite.net
-HOST,ocsp.digicert.cn
+HOST-SUFFIX,apple-livephotoskit.com,DIRECT
+HOST-SUFFIX,apzones.com,DIRECT
+HOST,icons.axm-usercontent-apple.com,DIRECT
+HOST,appldnld.apple.com.edgesuite.net,DIRECT
+HOST,ocsp.digicert.cn,DIRECT
