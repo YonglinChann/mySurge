@@ -25,6 +25,10 @@ DOMAIN-SUFFIX,safebrowsing.apple
 DOMAIN-SUFFIX,push-apple.com.akadns.net
 DOMAIN-SUFFIX,apple-livephotoskit.com
 DOMAIN-SUFFIX,apzones.com
+DOMAIN-SUFFIX,apple-dns.cn
+DOMAIN-SUFFIX,apple-dns.com
+DOMAIN-SUFFIX,apple-dns.com.cn
+DOMAIN-SUFFIX,apple-maps.cn
 DOMAIN,icons.axm-usercontent-apple.com
 DOMAIN,appldnld.apple.com.edgesuite.net
 DOMAIN,ocsp.digicert.cn
