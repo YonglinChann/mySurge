@@ -1,5 +1,9 @@
 # 本人针对 iOS 自带 Apple 服务规则的简化整理
 
+# 优先拦截所有 CN 结尾/关键词 域名
+DOMAIN-SUFFIX,cn
+DOMAIN-KEYWORD,-cn
+
 DOMAIN-SUFFIX,aaplimg.com
 DOMAIN-SUFFIX,apple.co
 DOMAIN-SUFFIX,apple.com
