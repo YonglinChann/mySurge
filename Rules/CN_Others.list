@@ -1,8 +1,5 @@
 # 个人定制其它的分流规则（大陆影视流媒体软件与其他等）
 
-DOMAIN-SUFFIX,cn
-DOMAIN-KEYWORD,-cn
-
 # 从 神机规则 的 China.list 选择性补充
 DOMAIN,download.jetbrains.com
 DOMAIN,origin-a.akamaihd.net
