@@ -138,5 +138,8 @@ HOST-SUFFIX,jetbrains.space,DIRECT
 HOST-SUFFIX,jetbrains.team,DIRECT
 HOST-SUFFIX,kotlinlang.org,DIRECT
 
+# 虎牙 CDN 加速
+HOST-SUFFIX,qnqcdn.net,DIRECT
+
 # 【Quantumult X 专用 GEOIP 及 CN 分流】
 GEOIP,CN,DIRECT
