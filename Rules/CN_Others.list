@@ -137,3 +137,6 @@ DOMAIN-SUFFIX,jetbrains.net
 DOMAIN-SUFFIX,jetbrains.space
 DOMAIN-SUFFIX,jetbrains.team
 DOMAIN-SUFFIX,kotlinlang.org
+
+# 虎牙 CDN 加速
+DOMAIN-SUFFIX,qnqcdn.net
