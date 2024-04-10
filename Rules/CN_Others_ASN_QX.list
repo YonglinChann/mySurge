@@ -98,6 +98,7 @@ HOST-SUFFIX,bugsnag.com,DIRECT
 
 # 小红书 CDN 补充
 HOST-SUFFIX,xhscdn.com,DIRECT
+HOST-SUFFIX,xiaohongshu.com,DIRECT
 
 # 特斯拉 app 分流（走国内）
 HOST,gio-analytics.tesla.cn,DIRECT
