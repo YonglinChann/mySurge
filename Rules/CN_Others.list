@@ -98,6 +98,7 @@ DOMAIN-SUFFIX,bugsnag.com
 
 # 小红书 CDN 补充
 DOMAIN-SUFFIX,xhscdn.com
+DOMAIN-SUFFIX,xiaohongshu.com
 
 # 特斯拉 app 分流（走国内）
 DOMAIN,gio-analytics.tesla.cn
