@@ -53,12 +53,12 @@ $httpClient.get(requestParams, (error, response, data) => {
 function json2info(cnt, paras) {
 	//var res = "-------------------------------";
 	var res = "\n\n";
-	res = res + "</br>" + "<font color=#6959CD>" + "「 " + $environment.params.node + " 」" + "</br>" + "</br>"  + "👇🏻" + "</br>" + "</font>";
+	res = res + "</br>" + "<font color=#6959CD>" + "「 " + $environment.params.node + " 」" + "</br>" + "</br>"  + "👇🏻👇🏻👇🏻" + "</br>" + "</font>";
 	cnt = JSON.parse(cnt);
 	console.log(cnt);
 	for (i = 0;i < paras.length; i ++) {
 		cnt[paras[i]] = paras[i] == "countryCode" ? cnt[paras[i]] + " " + flags.get(cnt[paras[i]].toUpperCase()) : cnt[paras[i]];
-		res = cnt[paras[i]] ? res + "</br><b>" + "<font  color=>" + paran[i] + "</font>" + "</br></br></b>"+ "<font  color=>" + cnt[paras[i]] + "</font></br>" : res;
+		res = cnt[paras[i]] ? res + "</br><b>" + "<font  color=>" + paran[i] + "</font>" + "</br>-> </b>"+ "<font  color=>" + cnt[paras[i]] + "</font></br>" : res;
 	}
 	//res = res + "-------------------------------" + "</br>" + "<font color=#6959CD>" + "<b>节点</b> ➟ " + $environment.params.node + "</font>";
 	res = `<p style="text-align: center; font-family: -apple-system; font-size: large; font-weight: thin">` + res + `</p>`;
