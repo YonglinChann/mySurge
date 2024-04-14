@@ -53,7 +53,7 @@ $httpClient.get(requestParams, (error, response, data) => {
 function json2info(cnt, paras) {
 	//var res = "-------------------------------";
 	var res = "\n\n";
-	res = res + "</br>" + "<font color=#6959CD>" + "「 " + $environment.params.node + " 」" + "</br>" + </font>";
+	res = res + "</br>" + "<font color=#6959CD>" + "「 " + $environment.params.node + " 」" + "</br>" + "</font>";
 	cnt = JSON.parse(cnt);
 	console.log(cnt);
 	for (i = 0;i < paras.length; i ++) {
