@@ -7,6 +7,6 @@
 #!date = 2024-04-14 16:58:00
 
 [Script]
-generic script-path = https://raw.githubusercontent.com/YonglinChann/mySurge/main/Rules/My_Server_Location_Loon.js, timeout = 10, tag = 节点信息查询, img-url = location.circle.system
+generic script-path = https://raw.githubusercontent.com/YonglinChann/mySurge/main/Rules/My_Server_Location_Loon.js, timeout = 10, tag = 📍 节点信息查询, img-url = location.circle.system
 
 #generic script-path = https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Resource/Script/Node_detection_tool/NodeUnlockDetection.js, timeout = 20, tag = 节点解锁查询, img-url = play.circle.system
