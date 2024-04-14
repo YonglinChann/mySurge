@@ -58,7 +58,7 @@ function json2info(cnt, paras) {
 	console.log(cnt);
 	for (i = 0;i < paras.length; i ++) {
 		cnt[paras[i]] = paras[i] == "countryCode" ? cnt[paras[i]] + " " + flags.get(cnt[paras[i]].toUpperCase()) : cnt[paras[i]];
-		res = cnt[paras[i]] ? res + "</br><b>" + "<font  color=>" + paran[i] + "</font>" + "</br></b>"+ "<font  color=>" + cnt[paras[i]] + "</br></font>" : res;
+		res = cnt[paras[i]] ? res + "</br><b>" + "<font  color=>" + paran[i] + "</font>" + "</br></b>" + "<font  color=>" + cnt[paras[i]] + "</br></br>-</br></font>" : res;
 	}
 	//res = res + "-------------------------------" + "</br>" + "<font color=#6959CD>" + "<b>节点</b> ➟ " + $environment.params.node + "</font>";
 	res = `<p style="text-align: center; font-family: -apple-system; font-size: large; font-weight: thin">` + res + `</p>`;
