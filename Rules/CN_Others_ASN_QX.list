@@ -139,5 +139,9 @@ HOST-SUFFIX,jetbrains.space,DIRECT
 HOST-SUFFIX,jetbrains.team,DIRECT
 HOST-SUFFIX,kotlinlang.org,DIRECT
 
-# 虎牙 CDN 加速
+# 虎牙 CDN/加速
 HOST-SUFFIX,qnqcdn.net,DIRECT
+HOST-SUFFIX,huya.com,DIRECT
+HOST-SUFFIX,huyagame.cn,DIRECT
+HOST-SUFFIX,peiwanlu.com,DIRECT
+HOST-SUFFIX,snapplay.com,DIRECT
