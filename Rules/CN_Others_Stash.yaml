@@ -140,5 +140,9 @@ DOMAIN-KEYWORD,ffzy
   - DOMAIN-SUFFIX,jetbrains.team
   - DOMAIN-SUFFIX,kotlinlang.org
 
-# 虎牙 CDN 加速
+# 虎牙 CDN/加速
   - DOMAIN-SUFFIX,qnqcdn.net
+  - DOMAIN-SUFFIX,huya.com
+  - DOMAIN-SUFFIX,huyagame.cn
+  - DOMAIN-SUFFIX,peiwanlu.com
+  - DOMAIN-SUFFIX,snapplay.com
