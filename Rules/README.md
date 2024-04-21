@@ -13,8 +13,8 @@
 ## 兼容平台 📱
 
 **<img src="https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Gallery/Color/Surge-HD.png" width="19" height="19"> Surge（全平台）**：带 **`.list`** 及 **`.sgmodule`** 后缀直接使用。<br>
-**<img src="https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Gallery/Color/Loon-HD.png" width="19" height="19"> Loon**：带 **`.list`** 及 **`.plugin`** 后缀直接使用。<br>
-**<img src="https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Gallery/Color/QuantumultX-HD.png" width="19" height="19"> Quantumult X**：带 **`_QX.list`** 及 **`.conf`** 后缀专为 **Quantumult X** 优化而使用。<br>
+**<img src="https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Gallery/Color/Loon-HD.png" width="19" height="19"> Loon**：带 **`.list`** 及 **`.plugin`** 及 **`_Loon`** 后缀直接使用。<br>
+**<img src="https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Gallery/Color/QuantumultX-HD.png" width="19" height="19"> Quantumult X**：带 **`_QX`** 及 **`.conf`** 后缀专为 **Quantumult X** 优化而使用。<br>
 **<img src="https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Gallery/Color/Stash-HD.png" width="19" height="19"> Stash**：带 **`_Stash.yaml`** 后缀专为 **Stash** 优化而使用。<br>
 
 - 💡其中仓库内不同平台的 模块/插件/重写 可使用 **[`Script-Hub`](https://github.com/Script-Hub-Org/Script-Hub)** 进行相互转换，转换后的效果已通过验证并可在各平台工具中流畅稳定使用。
