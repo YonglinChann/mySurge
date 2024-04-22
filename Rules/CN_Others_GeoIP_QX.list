@@ -124,7 +124,7 @@ HOST-SUFFIX,autonavi.com.cn,DIRECT
 # 政务网站
 HOST-SUFFIX,gov.com,DIRECT
 
-# 桂畔里停车系统
+# 国内停车系统
 HOST,merchant.ajbcloud.com,DIRECT
 
 # Jetbrains 中国分流
@@ -145,6 +145,10 @@ HOST-SUFFIX,huya.com,DIRECT
 HOST-SUFFIX,huyagame.cn,DIRECT
 HOST-SUFFIX,peiwanlu.com,DIRECT
 HOST-SUFFIX,snapplay.com,DIRECT
+
+# PlusAI 国内 CDN 加速直连
+HOST-SUFFIX,plusai.me,DIRECT
+HOST-SUFFIX,plusaigpt.com,DIRECT
 
 # 【Quantumult X 专用 GEOIP 及 CN 分流】
 GEOIP,CN,DIRECT
