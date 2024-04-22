@@ -38,8 +38,8 @@
 
 ## 工具类文件使用说明 🤖
 
-- **`.sgmodule`** 后缀文件为 **<img src="https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Gallery/Color/Surge-HD.png" width="19" height="19"> Surge（全平台）** `模块` 文件。有些为 **去广告模块、服务提供商解锁检测模块** 等。
-- **`.conf`** 后缀文件为 **<img src="https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Gallery/Color/QuantumultX-HD.png" width="19" height="19"> Quantumult X** `重写` 文件。有些为 **去广告模块、服务提供商解锁检测模块** 等。
+- **`.sgmodule`** 后缀文件为 **<img src="https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Gallery/Color/Surge-HD.png" width="19" height="19"> Surge（全平台）** `模块` 文件。主要为 **去广告模块、服务提供商解锁检测模块** 等。
+- **`.conf`** 后缀文件为 **<img src="https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Gallery/Color/QuantumultX-HD.png" width="19" height="19"> Quantumult X** `重写` 文件。主要为 **去广告模块、服务提供商解锁检测模块** 等。
 - **`.js`** 后缀文件为 `JavaScript 脚本` 文件。可以被 **<img src="https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Gallery/Color/QuantumultX-HD.png" width="19" height="19"> Quantumult X** 和 **<img src="https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Gallery/Color/Loon-HD.png" width="19" height="19"> Loon** 来使用。主要为 **服务提供商解锁检测脚本、节点 IP 查询脚本** 等。
 - **`.plugin`** 后缀文件为 **<img src="https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Gallery/Color/Loon-HD.png" width="19" height="19"> Loon** `插件` 文件。主要为 **节点 IP 查询插件** 等。
 
