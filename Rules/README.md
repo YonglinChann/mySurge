@@ -1,6 +1,6 @@
 # 🌟阿林自用 分流规则、去广告模块/插件/重写 仓库
 
-自整理、定期维护 的 网络工具分流规则、Module 模块 / Plugin 插件 / Rewrite 重写。
+自整理、定期维护 的 网络工具 分流规则、Module 模块 / Plugin 插件 / Rewrite 重写。
 
 ## 维护周期 ⌛️
 
@@ -36,6 +36,15 @@
   - **`CN_Apple_Service.list`** 系列为 **Apple 平台基本分流规则**（不包含 Apple 平台的各项附加服务）。<br>其中规则**顶端优先拦截**所有 `cn 与 -cn 关键词` 相关域名，让大部分 `cn 直连请求` 与 `Apple 系统自带请求` 不必进入到最后的 GeoIP / ASN 分流中，**节约资源与性能**。
   - **`CN_Others.list`** 系列为 **个人补充直连分流规则**，作为某些无法最终被正确识别为直连请求的补充修正。<br>其中 **`_GeoIP_QX.list`** 后缀规则专门为  **Quantumult X** 使用 `GeoIP` 分流时而优化，因为该工具的规则系统对于 `GeoIP` 分流规则的加载顺序特殊。
 
+## 工具类文件使用说明 🤖
+
+- **`.sgmodule`** 后缀文件为 **<img src="https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Gallery/Color/Surge-HD.png" width="19" height="19"> Surge（全平台）** `模块` 文件。有些为 **去广告模块、服务提供商解锁检测模块** 等。
+- **`.conf`** 后缀文件为 **<img src="https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Gallery/Color/QuantumultX-HD.png" width="19" height="19"> Quantumult X** `重写` 文件。有些为 **去广告模块、服务提供商解锁检测模块** 等。
+- **`.js`** 后缀文件为 `JavaScript 脚本` 文件。可以被 **<img src="https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Gallery/Color/QuantumultX-HD.png" width="19" height="19"> Quantumult X** 和 **<img src="https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Gallery/Color/Loon-HD.png" width="19" height="19"> Loon** 来使用。主要为 **服务提供商解锁检测脚本、节点 IP 查询脚本** 等。
+- **`.plugin`** 后缀文件为 **<img src="https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Gallery/Color/Loon-HD.png" width="19" height="19"> Loon** `插件` 文件。主要为 **节点 IP 查询插件** 等。
+
+（❗️不同文件实现的功能可能与您已有的配置效果产生重复或冲突，请视自身情况合理挑选使用。）
+
 ## *鸣谢 🩷
 
 除了个人的某些自(改)编规则外，其余引用的各大内容来自各大作者的辛勤付出和维护，在此特别感谢（排名不分先后）：
@@ -54,3 +63,4 @@
 - 所有基于本项目源代码，进行的任何修改，为其他个人或组织的自发行为，与本项目没有任何直接或间接的关系，所造成的一切后果亦与本项目无关。
 - 所有直接或间接使用本项目的个人和组织，应24小时内完成学习和研究，并及时删除本项目中的所有内容。如对本项目的功能有需求，应自行开发相关功能。
   <br>
+  
