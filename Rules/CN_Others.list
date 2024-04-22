@@ -124,7 +124,7 @@ DOMAIN-SUFFIX,autonavi.com.cn
 # 政务网站
 DOMAIN-SUFFIX,gov.com
 
-# 桂畔里停车系统
+# 国内停车系统
 DOMAIN,merchant.ajbcloud.com
 
 # Jetbrains 中国分流
@@ -145,3 +145,7 @@ DOMAIN-SUFFIX,huya.com
 DOMAIN-SUFFIX,huyagame.cn
 DOMAIN-SUFFIX,peiwanlu.com
 DOMAIN-SUFFIX,snapplay.com
+
+# PlusAI 国内 CDN 加速直连
+DOMAIN-SUFFIX,plusai.me
+DOMAIN-SUFFIX,plusaigpt.com
