@@ -35,7 +35,7 @@
   <br>
 - 解释：
   
-  - **`ChatGPT_QX.list`** 为  **Quantumult X** 使用 `ChatGPT` 服务时而优化的分流规则，需要排列在 **下方两条规则** 以及您的 **GeoIP / ASN 分流规则** 及 **Final / Match 最终规则** 前。
+  - **`ChatGPT_QX.list`** 为  **Quantumult X** 使用 `ChatGPT` 服务时而优化的分流规则，需要排列在 **下方两条规则** 以及您的 **GeoIP / ASN 分流规则** 及 **Final / Match 最终规则** 前。**请注意使用时**需开启 Quantumult X 中的 **`「策略偏好」`** 功能，并选择您的对应策略组，否则将自动创建名为【ChatGPT】的策略组、且可能不能正常使用该规则。
   - **`CN_Apple_Service.list`** 系列为 **Apple 平台基本分流规则**（不包含 Apple 平台的各项附加服务）。<br>其中规则**顶端优先拦截**所有 `cn 与 -cn 关键词` 相关域名，让大部分 `cn 直连请求` 与 `Apple 系统自带请求` 不必进入到最后的 GeoIP / ASN 分流中，**节约资源与性能**。
   - **`CN_Others.list`** 系列为 **个人补充直连分流规则**，作为某些无法最终被正确识别为直连请求的补充修正。<br>其中 **`_GeoIP_QX.list`** 后缀规则专门为  **Quantumult X** 使用 `GeoIP` 分流时而优化，因为该工具的规则系统对于 `GeoIP` 分流规则的加载顺序特殊。
 
