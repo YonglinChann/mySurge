@@ -26,7 +26,7 @@ function area_check(para) {
 }
 
 function append(country, city) {
-  return country === city ? country : country + ' ' + city;
+  return country === city ? country : country + '·' + city;
 }
 
 // 一个简单的函数来实现将繁体中文转换为简体中文
