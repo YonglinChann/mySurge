@@ -150,5 +150,9 @@ HOST-SUFFIX,snapplay.com,DIRECT
 HOST-SUFFIX,plusai.me,DIRECT
 HOST-SUFFIX,plusaigpt.com,DIRECT
 
+# 小米 IoT 及 手环 加速
+DOMAIN-SUFFIX,mi.com,DIRECT
+DOMAIN-SUFFIX,miui.com,DIRECT
+
 # 【Quantumult X 专用 GEOIP 及 CN 分流】
 GEOIP,CN,DIRECT
