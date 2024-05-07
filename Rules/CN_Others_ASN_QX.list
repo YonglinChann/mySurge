@@ -149,3 +149,7 @@ HOST-SUFFIX,snapplay.com,DIRECT
 # PlusAI 国内 CDN 加速直连
 HOST-SUFFIX,plusai.me,DIRECT
 HOST-SUFFIX,plusaigpt.com,DIRECT
+
+# 小米 IoT 及 手环 加速
+DOMAIN-SUFFIX,mi.com,DIRECT
+DOMAIN-SUFFIX,miui.com,DIRECT
