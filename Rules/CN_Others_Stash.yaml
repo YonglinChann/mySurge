@@ -150,3 +150,7 @@ DOMAIN-KEYWORD,ffzy
 # PlusAI 国内 CDN 加速直连
   - DOMAIN-SUFFIX,plusai.me
   - DOMAIN-SUFFIX,plusaigpt.com
+
+# 小米 IoT 及 手环 加速
+  - DOMAIN-SUFFIX,mi.com
+  - DOMAIN-SUFFIX,miui.com
