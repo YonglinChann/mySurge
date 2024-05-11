@@ -151,5 +151,11 @@ HOST-SUFFIX,plusai.me,DIRECT
 HOST-SUFFIX,plusaigpt.com,DIRECT
 
 # 小米 IoT 及 手环 加速
-DOMAIN-SUFFIX,mi.com,DIRECT
-DOMAIN-SUFFIX,miui.com,DIRECT
+HOST-SUFFIX,mi.com,DIRECT
+HOST-SUFFIX,miui.com,DIRECT
+
+# 特派锁铃
+HOST-SUFFIX,lockchime.vip,DIRECT
+
+# TeslaMate.cloud
+HOST-SUFFIX,teslamate.cloud,DIRECT
