@@ -159,6 +159,7 @@ HOST-SUFFIX,lockchime.vip,DIRECT
 
 # TeslaMate.cloud
 HOST-SUFFIX,teslamate.cloud,DIRECT
+HOST-SUFFIX,teslamate.club,DIRECT
 
 # 【Quantumult X 专用 GEOIP 及 CN 分流】
 GEOIP,CN,DIRECT
