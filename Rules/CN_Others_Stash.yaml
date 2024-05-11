@@ -154,3 +154,9 @@ DOMAIN-KEYWORD,ffzy
 # 小米 IoT 及 手环 加速
   - DOMAIN-SUFFIX,mi.com
   - DOMAIN-SUFFIX,miui.com
+
+# 特派锁铃
+  - DOMAIN-SUFFIX,lockchime.vip
+
+# TeslaMate.cloud
+  - DOMAIN-SUFFIX,teslamate.cloud
