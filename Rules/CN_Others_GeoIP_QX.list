@@ -1,15 +1,4 @@
-# 个人定制其它的分流规则（大陆影视流媒体软件与其他等）
-
-# 从 神机规则 的 China.list 选择性补充
-HOST,download.jetbrains.com,DIRECT
-HOST,origin-a.akamaihd.net,DIRECT
-HOST-SUFFIX,flyert.com,DIRECT
-HOST-SUFFIX,gandi.net,DIRECT
-HOST-SUFFIX,snapdrop.net,DIRECT
-HOST-SUFFIX,paypal.com,DIRECT
-HOST-SUFFIX,paypal.me,DIRECT
-HOST-SUFFIX,paypal-mktg.com,DIRECT
-HOST-SUFFIX,paypalobjects.com,DIRECT
+### 个人定制其它的分流规则（大陆影视流媒体软件与其他等）###
 
 # 白云天气 API
 HOST-SUFFIX,revenuecat.com,DIRECT
@@ -18,44 +7,44 @@ HOST-SUFFIX,revenuecat.com,DIRECT
 HOST-SUFFIX,caiyunapp.com,DIRECT
 
 # 影视软件（口算小达人 app）
-HOST-KEYWORD,ffzy,DIRECT
-HOST-SUFFIX,pki.goog,DIRECT
-HOST-SUFFIX,lencr.org,DIRECT
-HOST-SUFFIX,jssp.tv,DIRECT
-HOST-SUFFIX,updatede.com,DIRECT
-HOST-SUFFIX,haiwaiziyuan.com,DIRECT
-HOST-SUFFIX,haiwaikan.com,DIRECT
-HOST-SUFFIX,wujinpp.com,DIRECT
-HOST-SUFFIX,mazc.org,DIRECT
-HOST-SUFFIX,yparse.com,DIRECT
-HOST-SUFFIX,yslhyht.com,DIRECT
-HOST-SUFFIX,iapijy.com,DIRECT
+# HOST-KEYWORD,ffzy,DIRECT
+# HOST-SUFFIX,pki.goog,DIRECT
+# HOST-SUFFIX,lencr.org,DIRECT
+# HOST-SUFFIX,jssp.tv,DIRECT
+# HOST-SUFFIX,updatede.com,DIRECT
+# HOST-SUFFIX,haiwaiziyuan.com,DIRECT
+# HOST-SUFFIX,haiwaikan.com,DIRECT
+# HOST-SUFFIX,wujinpp.com,DIRECT
+# HOST-SUFFIX,mazc.org,DIRECT
+# HOST-SUFFIX,yparse.com,DIRECT
+# HOST-SUFFIX,yslhyht.com,DIRECT
+# HOST-SUFFIX,iapijy.com,DIRECT
 
 # 影视软件（大师兄 app）
-HOST-KEYWORD,lz-cdn,DIRECT
-HOST-SUFFIX,cdn.jsdelivr.net,DIRECT
-HOST-SUFFIX,amazontrust.com,DIRECT
-HOST-SUFFIX,mintegral.net,DIRECT
-HOST-SUFFIX,ailbaba.me,DIRECT
-HOST-SUFFIX,ailbaba.com,DIRECT
-HOST-SUFFIX,liangzipic.com,DIRECT
-HOST-SUFFIX,pstatp.com,DIRECT
-HOST-SUFFIX,mintegral.net,DIRECT
-HOST-SUFFIX,bcebos.com,DIRECT
-HOST-SUFFIX,9day.cc,DIRECT
-HOST-SUFFIX,bdzyimg.com,DIRECT
-HOST-SUFFIX,kuaikanzy.net,DIRECT
-HOST-SUFFIX,cloudfront.net,DIRECT
-HOST-SUFFIX,bfzypic.com,DIRECT
-HOST-SUFFIX,bfzycdn.com,DIRECT
-HOST-SUFFIX,52swat.cn,DIRECT
-HOST-SUFFIX,if101.tv,DIRECT
-HOST-SUFFIX,hou.lu,DIRECT
-HOST-SUFFIX,maimn.com,DIRECT
-HOST-SUFFIX,sectigo.com,DIRECT
-HOST-SUFFIX,dsxys.us,DIRECT
-HOST-SUFFIX,digicert.com,DIRECT
-HOST-SUFFIX,usertrust.com,DIRECT
+# HOST-KEYWORD,lz-cdn,DIRECT
+# HOST-SUFFIX,cdn.jsdelivr.net,DIRECT
+# HOST-SUFFIX,amazontrust.com,DIRECT
+# HOST-SUFFIX,mintegral.net,DIRECT
+# HOST-SUFFIX,ailbaba.me,DIRECT
+# HOST-SUFFIX,ailbaba.com,DIRECT
+# HOST-SUFFIX,liangzipic.com,DIRECT
+# HOST-SUFFIX,pstatp.com,DIRECT
+# HOST-SUFFIX,mintegral.net,DIRECT
+# HOST-SUFFIX,bcebos.com,DIRECT
+# HOST-SUFFIX,9day.cc,DIRECT
+# HOST-SUFFIX,bdzyimg.com,DIRECT
+# HOST-SUFFIX,kuaikanzy.net,DIRECT
+# HOST-SUFFIX,cloudfront.net,DIRECT
+# HOST-SUFFIX,bfzypic.com,DIRECT
+# HOST-SUFFIX,bfzycdn.com,DIRECT
+# HOST-SUFFIX,52swat.cn,DIRECT
+# HOST-SUFFIX,if101.tv,DIRECT
+# HOST-SUFFIX,hou.lu,DIRECT
+# HOST-SUFFIX,maimn.com,DIRECT
+# HOST-SUFFIX,sectigo.com,DIRECT
+# HOST-SUFFIX,dsxys.us,DIRECT
+# HOST-SUFFIX,digicert.com,DIRECT
+# HOST-SUFFIX,usertrust.com,DIRECT
 
 # 速方云下载（suufun.com）
 HOST-SUFFIX,extransfer.xyz,DIRECT
@@ -127,24 +116,22 @@ HOST-SUFFIX,gov.com,DIRECT
 # 国内停车系统
 HOST,merchant.ajbcloud.com,DIRECT
 
-# Jetbrains 中国分流
-HOST-SUFFIX,datalore.io,DIRECT
-HOST-SUFFIX,grazie.ai,DIRECT
-HOST-SUFFIX,intellij.com,DIRECT
-HOST-SUFFIX,intellij.net,DIRECT
-HOST-SUFFIX,intellij.org,DIRECT
-HOST-SUFFIX,jetbrains.com,DIRECT
-HOST-SUFFIX,jetbrains.net,DIRECT
-HOST-SUFFIX,jetbrains.space,DIRECT
-HOST-SUFFIX,jetbrains.team,DIRECT
-HOST-SUFFIX,kotlinlang.org,DIRECT
-
 # 虎牙 CDN/加速
 HOST-SUFFIX,qnqcdn.net,DIRECT
 HOST-SUFFIX,huya.com,DIRECT
 HOST-SUFFIX,huyagame.cn,DIRECT
 HOST-SUFFIX,peiwanlu.com,DIRECT
 HOST-SUFFIX,snapplay.com,DIRECT
+
+# 网易云音乐 加速（部分）
+HOST-SUFFIX,netease.com,DIRECT
+HOST-SUFFIX,music.126.com,DIRECT
+HOST-SUFFIX,music.126.net,DIRECT
+HOST-SUFFIX,music.163.com,DIRECT
+HOST-SUFFIX,music.163.com.163jiasu.com,DIRECT
+
+# B站 加速（部分）
+HOST-KEYWORD,bili,DIRECT
 
 # PlusAI 国内 CDN 加速直连
 HOST-SUFFIX,plusai.me,DIRECT
@@ -160,6 +147,29 @@ HOST-SUFFIX,lockchime.vip,DIRECT
 # TeslaMate.cloud
 HOST-SUFFIX,teslamate.cloud,DIRECT
 HOST-SUFFIX,teslamate.club,DIRECT
+
+# 从 神机规则 的 China.list 选择性补充
+HOST,download.jetbrains.com,DIRECT
+HOST,origin-a.akamaihd.net,DIRECT
+HOST-SUFFIX,flyert.com,DIRECT
+HOST-SUFFIX,gandi.net,DIRECT
+HOST-SUFFIX,snapdrop.net,DIRECT
+HOST-SUFFIX,paypal.com,DIRECT
+HOST-SUFFIX,paypal.me,DIRECT
+HOST-SUFFIX,paypal-mktg.com,DIRECT
+HOST-SUFFIX,paypalobjects.com,DIRECT
+
+# Jetbrains 中国分流
+HOST-SUFFIX,datalore.io,DIRECT
+HOST-SUFFIX,grazie.ai,DIRECT
+HOST-SUFFIX,intellij.com,DIRECT
+HOST-SUFFIX,intellij.net,DIRECT
+HOST-SUFFIX,intellij.org,DIRECT
+HOST-SUFFIX,jetbrains.com,DIRECT
+HOST-SUFFIX,jetbrains.net,DIRECT
+HOST-SUFFIX,jetbrains.space,DIRECT
+HOST-SUFFIX,jetbrains.team,DIRECT
+HOST-SUFFIX,kotlinlang.org,DIRECT
 
 # 【Quantumult X 专用 GEOIP 及 CN 分流】
 GEOIP,CN,DIRECT
