@@ -83,16 +83,6 @@ DOMAIN-SUFFIX,huyagame.cn
 DOMAIN-SUFFIX,peiwanlu.com
 DOMAIN-SUFFIX,snapplay.com
 
-# 网易云音乐 加速（部分）
-DOMAIN-SUFFIX,netease.com
-DOMAIN-SUFFIX,music.126.com
-DOMAIN-SUFFIX,music.126.net
-DOMAIN-SUFFIX,music.163.com
-DOMAIN-SUFFIX,music.163.com.163jiasu.com
-
-# B站 加速（部分）
-DOMAIN-KEYWORD,bili
-
 # PlusAI 国内 CDN 加速直连
 DOMAIN-SUFFIX,plusai.me
 DOMAIN-SUFFIX,plusaigpt.com
