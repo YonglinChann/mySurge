@@ -123,16 +123,6 @@ HOST-SUFFIX,huyagame.cn,DIRECT
 HOST-SUFFIX,peiwanlu.com,DIRECT
 HOST-SUFFIX,snapplay.com,DIRECT
 
-# 网易云音乐 加速（部分）
-HOST-SUFFIX,netease.com,DIRECT
-HOST-SUFFIX,music.126.com,DIRECT
-HOST-SUFFIX,music.126.net,DIRECT
-HOST-SUFFIX,music.163.com,DIRECT
-HOST-SUFFIX,music.163.com.163jiasu.com,DIRECT
-
-# B站 加速（部分）
-HOST-KEYWORD,bili,DIRECT
-
 # PlusAI 国内 CDN 加速直连
 HOST-SUFFIX,plusai.me,DIRECT
 HOST-SUFFIX,plusaigpt.com,DIRECT
