@@ -1,6 +1,9 @@
 ### 王者荣耀游戏加速（部分、持续更新）###
 
 HOST,receiver.tdm.qq.com,DIRECT
+HOST,ios.perfsight.qq.com,DIRECT
+HOST,ios.crashsight.qq.com,DIRECT
+HOST,down.anticheatexpert.com,DIRECT
 HOST-SUFFIX,eve.mdt.qq.com,DIRECT
 HOST-SUFFIX,str.mdt.qq.com,DIRECT
 HOST-SUFFIX,smoba.qq.com,DIRECT
@@ -8,3 +11,11 @@ HOST-SUFFIX,ingame.qq.com,DIRECT
 HOST-SUFFIX,igame.qq.com,DIRECT
 HOST-SUFFIX,tgpa.qq.com,DIRECT
 HOST-SUFFIX,ssl.msdk.qq.com,DIRECT
+HOST-SUFFIX,wx.qlogo.cn,DIRECT
+HOST-SUFFIX,tv.kohesport.qq.com,DIRECT
+HOST-SUFFIX,dlied1.cdntips.net,DIRECT
+HOST-SUFFIX,mazu.m.qq.com,DIRECT
+HOST-SUFFIX,szmg.qq.com,DIRECT
+HOST-SUFFIX,kohsocialapp.qq.com,DIRECT
+HOST-SUFFIX,tpns.tencent.com,DIRECT
+IP-CIDR,180.153.202.208,DIRECT
