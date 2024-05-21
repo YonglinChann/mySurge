@@ -1,0 +1,67 @@
+### QX 规则系统补充引用 GeoIP 顺序 ###
+
+# 从 神机规则 的 China.list 选择性补充
+HOST,download.jetbrains.com,DIRECT
+HOST,origin-a.akamaihd.net,DIRECT
+HOST-SUFFIX,flyert.com,DIRECT
+HOST-SUFFIX,gandi.net,DIRECT
+HOST-SUFFIX,snapdrop.net,DIRECT
+HOST-SUFFIX,paypal.com,DIRECT
+HOST-SUFFIX,paypal.me,DIRECT
+HOST-SUFFIX,paypal-mktg.com,DIRECT
+HOST-SUFFIX,paypalobjects.com,DIRECT
+
+# Jetbrains 中国分流
+HOST-SUFFIX,datalore.io,DIRECT
+HOST-SUFFIX,grazie.ai,DIRECT
+HOST-SUFFIX,intellij.com,DIRECT
+HOST-SUFFIX,intellij.net,DIRECT
+HOST-SUFFIX,intellij.org,DIRECT
+HOST-SUFFIX,jetbrains.com,DIRECT
+HOST-SUFFIX,jetbrains.net,DIRECT
+HOST-SUFFIX,jetbrains.space,DIRECT
+HOST-SUFFIX,jetbrains.team,DIRECT
+HOST-SUFFIX,kotlinlang.org,DIRECT
+
+# 【Quantumult X 专用 GEOIP 及 CN 分流】
+GEOIP,CN,DIRECT
+
+# 已禁用 ----------影视软件（口算小达人 app）----------
+# HOST-KEYWORD,ffzy,DIRECT
+# HOST-SUFFIX,pki.goog,DIRECT
+# HOST-SUFFIX,lencr.org,DIRECT
+# HOST-SUFFIX,jssp.tv,DIRECT
+# HOST-SUFFIX,updatede.com,DIRECT
+# HOST-SUFFIX,haiwaiziyuan.com,DIRECT
+# HOST-SUFFIX,haiwaikan.com,DIRECT
+# HOST-SUFFIX,wujinpp.com,DIRECT
+# HOST-SUFFIX,mazc.org,DIRECT
+# HOST-SUFFIX,yparse.com,DIRECT
+# HOST-SUFFIX,yslhyht.com,DIRECT
+# HOST-SUFFIX,iapijy.com,DIRECT
+
+# 已禁用 ---------- 影视软件（大师兄 app）----------
+# HOST-KEYWORD,lz-cdn,DIRECT
+# HOST-SUFFIX,cdn.jsdelivr.net,DIRECT
+# HOST-SUFFIX,amazontrust.com,DIRECT
+# HOST-SUFFIX,mintegral.net,DIRECT
+# HOST-SUFFIX,ailbaba.me,DIRECT
+# HOST-SUFFIX,ailbaba.com,DIRECT
+# HOST-SUFFIX,liangzipic.com,DIRECT
+# HOST-SUFFIX,pstatp.com,DIRECT
+# HOST-SUFFIX,mintegral.net,DIRECT
+# HOST-SUFFIX,bcebos.com,DIRECT
+# HOST-SUFFIX,9day.cc,DIRECT
+# HOST-SUFFIX,bdzyimg.com,DIRECT
+# HOST-SUFFIX,kuaikanzy.net,DIRECT
+# HOST-SUFFIX,cloudfront.net,DIRECT
+# HOST-SUFFIX,bfzypic.com,DIRECT
+# HOST-SUFFIX,bfzycdn.com,DIRECT
+# HOST-SUFFIX,52swat.cn,DIRECT
+# HOST-SUFFIX,if101.tv,DIRECT
+# HOST-SUFFIX,hou.lu,DIRECT
+# HOST-SUFFIX,maimn.com,DIRECT
+# HOST-SUFFIX,sectigo.com,DIRECT
+# HOST-SUFFIX,dsxys.us,DIRECT
+# HOST-SUFFIX,digicert.com,DIRECT
+# HOST-SUFFIX,usertrust.com,DIRECT
