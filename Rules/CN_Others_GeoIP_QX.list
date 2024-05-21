@@ -138,6 +138,9 @@ HOST-SUFFIX,lockchime.vip,DIRECT
 HOST-SUFFIX,teslamate.cloud,DIRECT
 HOST-SUFFIX,teslamate.club,DIRECT
 
+# lemonsqueezy 电子内容销售平台
+HOST-SUFFIX,lemonsqueezy.com,DIRECT
+
 # 从 神机规则 的 China.list 选择性补充
 HOST,download.jetbrains.com,DIRECT
 HOST,origin-a.akamaihd.net,DIRECT
