@@ -98,6 +98,9 @@ DOMAIN-SUFFIX,lockchime.vip
 DOMAIN-SUFFIX,teslamate.cloud
 DOMAIN-SUFFIX,teslamate.club
 
+# lemonsqueezy 电子内容销售平台
+DOMAIN-SUFFIX,lemonsqueezy.com
+
 # 从 神机规则 的 China.list 选择性补充
 DOMAIN,download.jetbrains.com
 DOMAIN,origin-a.akamaihd.net
