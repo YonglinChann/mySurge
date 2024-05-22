@@ -1,5 +1,21 @@
 ### 个人定制其它的分流规则（大陆影视流媒体软件与其他等）###
 
+# 特斯拉 app 分流（走国内）
+HOST,gio-analytics.tesla.cn,DIRECT
+HOST-SUFFIX,tesla.com,DIRECT
+HOST-SUFFIX,tesla.cn,DIRECT
+HOST-SUFFIX,tesla.com.cn,DIRECT
+HOST-SUFFIX,solarcity.com,DIRECT
+HOST-SUFFIX,tesla-cdn.thron.cn,DIRECT
+HOST-SUFFIX,tesla-cdn.thron.com,DIRECT
+HOST-SUFFIX,tesla.services,DIRECT
+HOST-SUFFIX,teslaenergy.services,DIRECT
+HOST-SUFFIX,teslamotors.cn,DIRECT
+HOST-SUFFIX,teslamotors.com,DIRECT
+HOST-SUFFIX,teslamotors.com.cn,DIRECT
+HOST-SUFFIX,teslazta.net,DIRECT
+HOST-SUFFIX,ts.la,DIRECT
+
 # 字节（火山）系
 HOST-SUFFIX,umeng.com,DIRECT
 HOST-SUFFIX,rtc.volcvideo.com,DIRECT
@@ -15,6 +31,7 @@ HOST-SUFFIX,xhscdn.com,DIRECT
 HOST-SUFFIX,xiaohongshu.com,DIRECT
 
 # 高德地图 加速
+HOST-SUFFIX,amap.com,DIRECT
 HOST-SUFFIX,autonavi.com,DIRECT
 HOST-SUFFIX,autonavi.cn,DIRECT
 HOST-SUFFIX,autonavi.com.cn,DIRECT
@@ -23,6 +40,8 @@ HOST-SUFFIX,autonavi.com.cn,DIRECT
 HOST-SUFFIX,taobao.com,DIRECT
 HOST-SUFFIX,alipay.com,DIRECT
 HOST-SUFFIX,alicdn.com,DIRECT
+HOST-SUFFIX,alibaba.com,DIRECT
+HOST-SUFFIX,aliyuncs.com,DIRECT
 
 # IT 之家
 HOST-SUFFIX,ithome.com,DIRECT
@@ -55,23 +74,16 @@ HOST-SUFFIX,didialift.com,DIRECT
 HOST-SUFFIX,doubanio.com,DIRECT
 HOST-SUFFIX,douban.com,DIRECT
 
-# 特斯拉 app 分流（走国内）
-HOST,gio-analytics.tesla.cn,DIRECT
-HOST-SUFFIX,tesla.com,DIRECT
-HOST-SUFFIX,tesla.cn,DIRECT
-HOST-SUFFIX,tesla.com.cn,DIRECT
-HOST-SUFFIX,solarcity.com,DIRECT
-HOST-SUFFIX,tesla-cdn.thron.cn,DIRECT
-HOST-SUFFIX,tesla-cdn.thron.com,DIRECT
-HOST-SUFFIX,tesla.services,DIRECT
-HOST-SUFFIX,teslaenergy.services,DIRECT
-HOST-SUFFIX,teslamotors.cn,DIRECT
-HOST-SUFFIX,teslamotors.com,DIRECT
-HOST-SUFFIX,teslamotors.com.cn,DIRECT
-HOST-SUFFIX,teslazta.net,DIRECT
-HOST-SUFFIX,ts.la,DIRECT
+# 中国电信
+HOST-SUFFIX,10010.com,DIRECT
+HOST-SUFFIX,mob.com,DIRECT
 
-# 白云天气 API
+# 云闪付
+HOST-SUFFIX,95516.com,DIRECT
+HOST-SUFFIX,unionpay.com,DIRECT
+HOST-SUFFIX,unicompayment.com,DIRECT
+
+# 白云天气 API（revenuecat 订阅服务）
 HOST-SUFFIX,revenuecat.com,DIRECT
 
 # 彩云天气 API
