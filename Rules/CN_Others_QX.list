@@ -1,5 +1,60 @@
 ### 个人定制其它的分流规则（大陆影视流媒体软件与其他等）###
 
+# 字节（火山）系
+HOST-SUFFIX,umeng.com,DIRECT
+HOST-SUFFIX,rtc.volcvideo.com,DIRECT
+HOST-SUFFIX,volces.com,DIRECT
+HOST-SUFFIX,zijieapi.com,DIRECT
+
+# 微博
+HOST-SUFFIX,weibo.com,DIRECT
+HOST-SUFFIX,weibocdn.com,DIRECT
+
+# 小红书 CDN 补充
+HOST-SUFFIX,xhscdn.com,DIRECT
+HOST-SUFFIX,xiaohongshu.com,DIRECT
+
+# 高德地图 加速
+HOST-SUFFIX,autonavi.com,DIRECT
+HOST-SUFFIX,autonavi.cn,DIRECT
+HOST-SUFFIX,autonavi.com.cn,DIRECT
+
+# 淘宝、阿里系
+HOST-SUFFIX,taobao.com,DIRECT
+HOST-SUFFIX,alipay.com,DIRECT
+HOST-SUFFIX,alicdn.com,DIRECT
+
+# IT 之家
+HOST-SUFFIX,ithome.com,DIRECT
+HOST-SUFFIX,ruanmei.com,DIRECT
+HOST-SUFFIX,lapin365.com,DIRECT
+
+# 虎扑
+HOST-SUFFIX,hupu.com,DIRECT
+
+# 饿了么
+HOST-SUFFIX,ele.me,DIRECT
+HOST-SUFFIX,elemecdn.com,DIRECT
+
+# 瑞幸咖啡
+HOST-SUFFIX,luckincoffeecdn.com,DIRECT
+HOST-SUFFIX,lkcoffee.com,DIRECT
+
+# 京东
+HOST-SUFFIX,jd.com,DIRECT
+HOST-SUFFIX,360buyimg.com,DIRECT
+HOST-SUFFIX,jdpay.com,DIRECT
+
+# 滴滴系
+HOST-SUFFIX,xiaojukeji.com,DIRECT
+HOST-SUFFIX,kuaidadi.com,DIRECT
+HOST-SUFFIX,didistatic.com,DIRECT
+HOST-SUFFIX,didialift.com,DIRECT
+
+# 豆瓣
+HOST-SUFFIX,doubanio.com,DIRECT
+HOST-SUFFIX,douban.com,DIRECT
+
 # 特斯拉 app 分流（走国内）
 HOST,gio-analytics.tesla.cn,DIRECT
 HOST-SUFFIX,tesla.com,DIRECT
@@ -60,15 +115,6 @@ IP-CIDR,203.76.217.163/32,DIRECT
 
 # Surge Bug 反馈检测
 HOST-SUFFIX,bugsnag.com,DIRECT
-
-# 小红书 CDN 补充
-HOST-SUFFIX,xhscdn.com,DIRECT
-HOST-SUFFIX,xiaohongshu.com,DIRECT
-
-# 高德地图 加速
-HOST-SUFFIX,autonavi.com,DIRECT
-HOST-SUFFIX,autonavi.cn,DIRECT
-HOST-SUFFIX,autonavi.com.cn,DIRECT
 
 # 政务网站
 HOST-SUFFIX,gov.com,DIRECT
