@@ -1,56 +1,39 @@
 ### 个人定制其它的分流规则（大陆影视流媒体软件与其他等）###
 
-# 白云天气 API
+#-----------------以下为使用 Script-Hub 转换解析后的规则-----------------#
+
 payload:
-  - DOMAIN-SUFFIX,revenuecat.com
-
-# 彩云天气 API
-  - DOMAIN-SUFFIX,caiyunapp.com
-
-# 速方云下载（suufun.com）
-  - DOMAIN-SUFFIX,extransfer.xyz
-  - DOMAIN-SUFFIX,suufun.info
-  - DOMAIN-SUFFIX,suu-fun.com
-
-# 授时校准（time.is）
-  - DOMAIN-SUFFIX,time.is
-
-# 软件下载（xxmac.com）
-  - DOMAIN-SUFFIX,xxmac.com
-
-# 百度网盘 上传 & 下载
-  - DOMAIN-SUFFIX,baidupcs.com
-  - DOMAIN-SUFFIX,albatross.10086.cn
-
-# 大众点评 & 美团 app 补充（IP及域名）
-  - DOMAIN,babel-statistics-android.d.meituan.net,no-resolve
-  - DOMAIN,maplocatesdksnapshot.d.meituan.net,no-resolve
-  - DOMAIN,route-stats.d.meituan.net,no-resolve
-  - DOMAIN,metrics-picture.d.meituan.net,no-resolve
-  - DOMAIN-SUFFIX,meituan.net,no-resolve
-  - DOMAIN-SUFFIX,d.meituan.net,no-resolve
-  - DOMAIN-SUFFIX,meituan.com
-  - DOMAIN-SUFFIX,dianping.com
-  - DOMAIN-SUFFIX,51ping.com
-  - DOMAIN-SUFFIX,maoyan.com
-  - DOMAIN-SUFFIX,mtyun.com
-  - DOMAIN-SUFFIX,neixin.cn
-  - DOMAIN-SUFFIX,sankuai.com
-# ------------------------------
-  - IP-CIDR,103.202.146.44/32,no-resolve
-  - IP-CIDR,103.202.146.20/32,no-resolve
-  - IP-CIDR,203.76.217.37/32,no-resolve
-  - IP-CIDR,203.76.217.244/32,no-resolve
-  - IP-CIDR,203.76.217.163/32,no-resolve
-
-# Surge Bug 反馈检测
-  - DOMAIN-SUFFIX,bugsnag.com
-
-# 小红书 CDN 补充
+  - DOMAIN-SUFFIX,umeng.com
+  - DOMAIN-SUFFIX,rtc.volcvideo.com
+  - DOMAIN-SUFFIX,volces.com
+  - DOMAIN-SUFFIX,zijieapi.com
+  - DOMAIN-SUFFIX,weibo.com
+  - DOMAIN-SUFFIX,weibocdn.com
   - DOMAIN-SUFFIX,xhscdn.com
   - DOMAIN-SUFFIX,xiaohongshu.com
-
-# 特斯拉 app 分流（走国内）
+  - DOMAIN-SUFFIX,autonavi.com
+  - DOMAIN-SUFFIX,autonavi.cn
+  - DOMAIN-SUFFIX,autonavi.com.cn
+  - DOMAIN-SUFFIX,taobao.com
+  - DOMAIN-SUFFIX,alipay.com
+  - DOMAIN-SUFFIX,alicdn.com
+  - DOMAIN-SUFFIX,ithome.com
+  - DOMAIN-SUFFIX,ruanmei.com
+  - DOMAIN-SUFFIX,lapin365.com
+  - DOMAIN-SUFFIX,hupu.com
+  - DOMAIN-SUFFIX,ele.me
+  - DOMAIN-SUFFIX,elemecdn.com
+  - DOMAIN-SUFFIX,luckincoffeecdn.com
+  - DOMAIN-SUFFIX,lkcoffee.com
+  - DOMAIN-SUFFIX,jd.com
+  - DOMAIN-SUFFIX,360buyimg.com
+  - DOMAIN-SUFFIX,jdpay.com
+  - DOMAIN-SUFFIX,xiaojukeji.com
+  - DOMAIN-SUFFIX,kuaidadi.com
+  - DOMAIN-SUFFIX,didistatic.com
+  - DOMAIN-SUFFIX,didialift.com
+  - DOMAIN-SUFFIX,doubanio.com
+  - DOMAIN-SUFFIX,douban.com
   - DOMAIN,gio-analytics.tesla.cn
   - DOMAIN-SUFFIX,tesla.com
   - DOMAIN-SUFFIX,tesla.cn
@@ -65,44 +48,49 @@ payload:
   - DOMAIN-SUFFIX,teslamotors.com.cn
   - DOMAIN-SUFFIX,teslazta.net
   - DOMAIN-SUFFIX,ts.la
-
-# 高德地图 加速
-  - DOMAIN-SUFFIX,autonavi.com
-  - DOMAIN-SUFFIX,autonavi.cn
-  - DOMAIN-SUFFIX,autonavi.com.cn
-
-# 政务网站
+  - DOMAIN-SUFFIX,revenuecat.com
+  - DOMAIN-SUFFIX,caiyunapp.com
+  - DOMAIN-SUFFIX,extransfer.xyz
+  - DOMAIN-SUFFIX,suufun.info
+  - DOMAIN-SUFFIX,suu-fun.com
+  - DOMAIN-SUFFIX,time.is
+  - DOMAIN-SUFFIX,xxmac.com
+  - DOMAIN-SUFFIX,baidupcs.com
+  - DOMAIN-SUFFIX,albatross.10086.cn
+  - DOMAIN,babel-statistics-android.d.meituan.net
+  - DOMAIN,maplocatesdksnapshot.d.meituan.net
+  - DOMAIN,route-stats.d.meituan.net
+  - DOMAIN,metrics-picture.d.meituan.net
+  - DOMAIN-SUFFIX,meituan.net
+  - DOMAIN-SUFFIX,d.meituan.net
+  - DOMAIN-SUFFIX,meituan.com
+  - DOMAIN-SUFFIX,dianping.com
+  - DOMAIN-SUFFIX,51ping.com
+  - DOMAIN-SUFFIX,maoyan.com
+  - DOMAIN-SUFFIX,mtyun.com
+  - DOMAIN-SUFFIX,neixin.cn
+  - DOMAIN-SUFFIX,sankuai.com
+  - IP-CIDR,103.202.146.44/32
+  - IP-CIDR,103.202.146.20/32
+  - IP-CIDR,203.76.217.37/32
+  - IP-CIDR,203.76.217.244/32
+  - IP-CIDR,203.76.217.163/32
+  - DOMAIN-SUFFIX,bugsnag.com
   - DOMAIN-SUFFIX,gov.com
-
-# 国内停车系统
   - DOMAIN,merchant.ajbcloud.com
-
-# 虎牙 CDN/加速
   - DOMAIN-SUFFIX,qnqcdn.net
   - DOMAIN-SUFFIX,huya.com
   - DOMAIN-SUFFIX,huyagame.cn
   - DOMAIN-SUFFIX,peiwanlu.com
   - DOMAIN-SUFFIX,snapplay.com
-
-# PlusAI 国内 CDN 加速直连
   - DOMAIN-SUFFIX,plusai.me
   - DOMAIN-SUFFIX,plusaigpt.com
-
-# 小米 IoT 及 手环 加速
   - DOMAIN-SUFFIX,mi.com
   - DOMAIN-SUFFIX,miui.com
-
-# 特派锁铃
   - DOMAIN-SUFFIX,lockchime.vip
-
-# TeslaMate.cloud
   - DOMAIN-SUFFIX,teslamate.cloud
   - DOMAIN-SUFFIX,teslamate.club
-
-# lemonsqueezy 电子内容销售平台
   - DOMAIN-SUFFIX,lemonsqueezy.com
-
-# 从 神机规则 的 China.list 选择性补充
   - DOMAIN,download.jetbrains.com
   - DOMAIN,origin-a.akamaihd.net
   - DOMAIN-SUFFIX,flyert.com
@@ -112,8 +100,6 @@ payload:
   - DOMAIN-SUFFIX,paypal.me
   - DOMAIN-SUFFIX,paypal-mktg.com
   - DOMAIN-SUFFIX,paypalobjects.com
-
-# Jetbrains 中国分流
   - DOMAIN-SUFFIX,datalore.io
   - DOMAIN-SUFFIX,grazie.ai
   - DOMAIN-SUFFIX,intellij.com
