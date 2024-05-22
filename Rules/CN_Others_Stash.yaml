@@ -3,6 +3,20 @@
 #-----------------以下为使用 Script-Hub 转换解析后的规则-----------------#
 
 payload:
+  - DOMAIN,gio-analytics.tesla.cn
+  - DOMAIN-SUFFIX,tesla.com
+  - DOMAIN-SUFFIX,tesla.cn
+  - DOMAIN-SUFFIX,tesla.com.cn
+  - DOMAIN-SUFFIX,solarcity.com
+  - DOMAIN-SUFFIX,tesla-cdn.thron.cn
+  - DOMAIN-SUFFIX,tesla-cdn.thron.com
+  - DOMAIN-SUFFIX,tesla.services
+  - DOMAIN-SUFFIX,teslaenergy.services
+  - DOMAIN-SUFFIX,teslamotors.cn
+  - DOMAIN-SUFFIX,teslamotors.com
+  - DOMAIN-SUFFIX,teslamotors.com.cn
+  - DOMAIN-SUFFIX,teslazta.net
+  - DOMAIN-SUFFIX,ts.la
   - DOMAIN-SUFFIX,umeng.com
   - DOMAIN-SUFFIX,rtc.volcvideo.com
   - DOMAIN-SUFFIX,volces.com
@@ -11,12 +25,15 @@ payload:
   - DOMAIN-SUFFIX,weibocdn.com
   - DOMAIN-SUFFIX,xhscdn.com
   - DOMAIN-SUFFIX,xiaohongshu.com
+  - DOMAIN-SUFFIX,amap.com
   - DOMAIN-SUFFIX,autonavi.com
   - DOMAIN-SUFFIX,autonavi.cn
   - DOMAIN-SUFFIX,autonavi.com.cn
   - DOMAIN-SUFFIX,taobao.com
   - DOMAIN-SUFFIX,alipay.com
   - DOMAIN-SUFFIX,alicdn.com
+  - DOMAIN-SUFFIX,alibaba.com
+  - DOMAIN-SUFFIX,aliyuncs.com
   - DOMAIN-SUFFIX,ithome.com
   - DOMAIN-SUFFIX,ruanmei.com
   - DOMAIN-SUFFIX,lapin365.com
@@ -34,20 +51,11 @@ payload:
   - DOMAIN-SUFFIX,didialift.com
   - DOMAIN-SUFFIX,doubanio.com
   - DOMAIN-SUFFIX,douban.com
-  - DOMAIN,gio-analytics.tesla.cn
-  - DOMAIN-SUFFIX,tesla.com
-  - DOMAIN-SUFFIX,tesla.cn
-  - DOMAIN-SUFFIX,tesla.com.cn
-  - DOMAIN-SUFFIX,solarcity.com
-  - DOMAIN-SUFFIX,tesla-cdn.thron.cn
-  - DOMAIN-SUFFIX,tesla-cdn.thron.com
-  - DOMAIN-SUFFIX,tesla.services
-  - DOMAIN-SUFFIX,teslaenergy.services
-  - DOMAIN-SUFFIX,teslamotors.cn
-  - DOMAIN-SUFFIX,teslamotors.com
-  - DOMAIN-SUFFIX,teslamotors.com.cn
-  - DOMAIN-SUFFIX,teslazta.net
-  - DOMAIN-SUFFIX,ts.la
+  - DOMAIN-SUFFIX,10010.com
+  - DOMAIN-SUFFIX,mob.com
+  - DOMAIN-SUFFIX,95516.com
+  - DOMAIN-SUFFIX,unionpay.com
+  - DOMAIN-SUFFIX,unicompayment.com
   - DOMAIN-SUFFIX,revenuecat.com
   - DOMAIN-SUFFIX,caiyunapp.com
   - DOMAIN-SUFFIX,extransfer.xyz
