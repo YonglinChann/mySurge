@@ -1,5 +1,76 @@
 ### 个人定制其它的分流规则（大陆影视流媒体软件与其他等）###
 
+# 字节（火山）系
+DOMAIN-SUFFIX,umeng.com
+DOMAIN-SUFFIX,rtc.volcvideo.com
+DOMAIN-SUFFIX,volces.com
+DOMAIN-SUFFIX,zijieapi.com
+
+# 微博
+DOMAIN-SUFFIX,weibo.com
+DOMAIN-SUFFIX,weibocdn.com
+
+# 小红书 CDN 补充
+DOMAIN-SUFFIX,xhscdn.com
+DOMAIN-SUFFIX,xiaohongshu.com
+
+# 高德地图 加速
+DOMAIN-SUFFIX,autonavi.com
+DOMAIN-SUFFIX,autonavi.cn
+DOMAIN-SUFFIX,autonavi.com.cn
+
+# 淘宝、阿里系
+DOMAIN-SUFFIX,taobao.com
+DOMAIN-SUFFIX,alipay.com
+DOMAIN-SUFFIX,alicdn.com
+
+# IT 之家
+DOMAIN-SUFFIX,ithome.com
+DOMAIN-SUFFIX,ruanmei.com
+DOMAIN-SUFFIX,lapin365.com
+
+# 虎扑
+DOMAIN-SUFFIX,hupu.com
+
+# 饿了么
+DOMAIN-SUFFIX,ele.me
+DOMAIN-SUFFIX,elemecdn.com
+
+# 瑞幸咖啡
+DOMAIN-SUFFIX,luckincoffeecdn.com
+DOMAIN-SUFFIX,lkcoffee.com
+
+# 京东
+DOMAIN-SUFFIX,jd.com
+DOMAIN-SUFFIX,360buyimg.com
+DOMAIN-SUFFIX,jdpay.com
+
+# 滴滴系
+DOMAIN-SUFFIX,xiaojukeji.com
+DOMAIN-SUFFIX,kuaidadi.com
+DOMAIN-SUFFIX,didistatic.com
+DOMAIN-SUFFIX,didialift.com
+
+# 豆瓣
+DOMAIN-SUFFIX,doubanio.com
+DOMAIN-SUFFIX,douban.com
+
+# 特斯拉 app 分流（走国内）
+DOMAIN,gio-analytics.tesla.cn
+DOMAIN-SUFFIX,tesla.com
+DOMAIN-SUFFIX,tesla.cn
+DOMAIN-SUFFIX,tesla.com.cn
+DOMAIN-SUFFIX,solarcity.com
+DOMAIN-SUFFIX,tesla-cdn.thron.cn
+DOMAIN-SUFFIX,tesla-cdn.thron.com
+DOMAIN-SUFFIX,tesla.services
+DOMAIN-SUFFIX,teslaenergy.services
+DOMAIN-SUFFIX,teslamotors.cn
+DOMAIN-SUFFIX,teslamotors.com
+DOMAIN-SUFFIX,teslamotors.com.cn
+DOMAIN-SUFFIX,teslazta.net
+DOMAIN-SUFFIX,ts.la
+
 # 白云天气 API
 DOMAIN-SUFFIX,revenuecat.com
 
@@ -22,12 +93,12 @@ DOMAIN-SUFFIX,baidupcs.com
 DOMAIN-SUFFIX,albatross.10086.cn
 
 # 大众点评 & 美团 app 补充（IP及域名）
-DOMAIN,babel-statistics-android.d.meituan.net,no-resolve
-DOMAIN,maplocatesdksnapshot.d.meituan.net,no-resolve
-DOMAIN,route-stats.d.meituan.net,no-resolve
-DOMAIN,metrics-picture.d.meituan.net,no-resolve
-DOMAIN-SUFFIX,meituan.net,no-resolve
-DOMAIN-SUFFIX,d.meituan.net,no-resolve
+DOMAIN,babel-statistics-android.d.meituan.net
+DOMAIN,maplocatesdksnapshot.d.meituan.net
+DOMAIN,route-stats.d.meituan.net
+DOMAIN,metrics-picture.d.meituan.net
+DOMAIN-SUFFIX,meituan.net
+DOMAIN-SUFFIX,d.meituan.net
 DOMAIN-SUFFIX,meituan.com
 DOMAIN-SUFFIX,dianping.com
 DOMAIN-SUFFIX,51ping.com
@@ -36,39 +107,14 @@ DOMAIN-SUFFIX,mtyun.com
 DOMAIN-SUFFIX,neixin.cn
 DOMAIN-SUFFIX,sankuai.com
 # ------------------------------
-IP-CIDR,103.202.146.44/32,no-resolve
-IP-CIDR,103.202.146.20/32,no-resolve
-IP-CIDR,203.76.217.37/32,no-resolve
-IP-CIDR,203.76.217.244/32,no-resolve
-IP-CIDR,203.76.217.163/32,no-resolve
+IP-CIDR,103.202.146.44/32
+IP-CIDR,103.202.146.20/32
+IP-CIDR,203.76.217.37/32
+IP-CIDR,203.76.217.244/32
+IP-CIDR,203.76.217.163/32
 
 # Surge Bug 反馈检测
 DOMAIN-SUFFIX,bugsnag.com
-
-# 小红书 CDN 补充
-DOMAIN-SUFFIX,xhscdn.com
-DOMAIN-SUFFIX,xiaohongshu.com
-
-# 特斯拉 app 分流（走国内）
-DOMAIN,gio-analytics.tesla.cn
-DOMAIN-SUFFIX,tesla.com
-DOMAIN-SUFFIX,tesla.cn
-DOMAIN-SUFFIX,tesla.com.cn
-DOMAIN-SUFFIX,solarcity.com
-DOMAIN-SUFFIX,tesla-cdn.thron.cn
-DOMAIN-SUFFIX,tesla-cdn.thron.com
-DOMAIN-SUFFIX,tesla.services
-DOMAIN-SUFFIX,teslaenergy.services
-DOMAIN-SUFFIX,teslamotors.cn
-DOMAIN-SUFFIX,teslamotors.com
-DOMAIN-SUFFIX,teslamotors.com.cn
-DOMAIN-SUFFIX,teslazta.net
-DOMAIN-SUFFIX,ts.la
-
-# 高德地图 加速
-DOMAIN-SUFFIX,autonavi.com
-DOMAIN-SUFFIX,autonavi.cn
-DOMAIN-SUFFIX,autonavi.com.cn
 
 # 政务网站
 DOMAIN-SUFFIX,gov.com
