@@ -83,6 +83,9 @@ HOST-SUFFIX,95516.com,DIRECT
 HOST-SUFFIX,unionpay.com,DIRECT
 HOST-SUFFIX,unicompayment.com,DIRECT
 
+# 百度
+HOST-SUFFIX,baidu.com,DIRECT
+
 # 白云天气 API（revenuecat 订阅服务）
 HOST-SUFFIX,revenuecat.com,DIRECT
 
