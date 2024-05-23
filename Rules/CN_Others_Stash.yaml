@@ -56,6 +56,7 @@ payload:
   - DOMAIN-SUFFIX,95516.com
   - DOMAIN-SUFFIX,unionpay.com
   - DOMAIN-SUFFIX,unicompayment.com
+  - DOMAIN-SUFFIX,baidu.com
   - DOMAIN-SUFFIX,revenuecat.com
   - DOMAIN-SUFFIX,caiyunapp.com
   - DOMAIN-SUFFIX,extransfer.xyz
