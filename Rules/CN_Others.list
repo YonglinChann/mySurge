@@ -83,6 +83,9 @@ DOMAIN-SUFFIX,95516.com
 DOMAIN-SUFFIX,unionpay.com
 DOMAIN-SUFFIX,unicompayment.com
 
+# 百度
+DOMAIN-SUFFIX,baidu.com
+
 # 白云天气 API（revenuecat 订阅服务）
 DOMAIN-SUFFIX,revenuecat.com
 
