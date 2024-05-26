@@ -18,4 +18,10 @@ HOST-SUFFIX,mazu.m.qq.com,DIRECT
 HOST-SUFFIX,szmg.qq.com,DIRECT
 HOST-SUFFIX,kohsocialapp.qq.com,DIRECT
 HOST-SUFFIX,tpns.tencent.com,DIRECT
+HOST-SUFFIX,csy.ll.tcdnos.com,DIRECT
+HOST-SUFFIX,down-update.qq.com,DIRECT
+HOST-SUFFIX,teg.tencent-cloud.net,DIRECT
+HOST-SUFFIX,downupdate.gtyy.tcdnos.com,DIRECT
+HOST-SUFFIX,jsonatm.broker.tplay.qq.com,DIRECT
+HOST-SUFFIX,cdn.wetest.qq.com,DIRECT
 IP-CIDR,180.153.202.208/32,DIRECT
