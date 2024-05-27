@@ -38,17 +38,7 @@ function operator(proxies) {
     Object.assign({}, proxies[0], {
       server: "traffic-in-lite.811920.xyz",
       port: 50013,
-      name: "🇭🇰 HK 丁香酰氧胺 L (标准)",
-    })
-  );
-  insertIndex = 0;
-  proxies.splice(
-    insertIndex,
-    0,
-    Object.assign({}, proxies[0], {
-      server: "traffic-in-03.811920.xyz",
-      port: 50013,
-      name: "🇭🇰 HK 丁香酰氧胺 L (广东)",
+      name: "🇭🇰 HK 丁香酰氧胺 L（广东）",
     })
   );
   // * 重置插入元素位置
@@ -68,17 +58,7 @@ function operator(proxies) {
     Object.assign({}, proxies[0], {
       server: "traffic-in-lite.811920.xyz",
       port: 50012,
-      name: "🇸🇬 SG 苯巴比妥钠 L (标准)",
-    })
-  );
-  insertIndex = 0;
-  proxies.splice(
-    insertIndex,
-    0,
-    Object.assign({}, proxies[0], {
-      server: "traffic-in-03.811920.xyz",
-      port: 50012,
-      name: "🇸🇬 SG 苯巴比妥钠 L (广东)",
+      name: "🇸🇬 SG 苯巴比妥钠 L（广东）",
     })
   );
 
