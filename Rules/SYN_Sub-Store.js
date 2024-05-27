@@ -36,7 +36,7 @@ function operator(proxies) {
     insertIndex,
     0,
     Object.assign({}, proxies[0], {
-      server: "traffic-in-lite.811920.xyz",
+      server: "traffic-in-03.811920.xyz",
       port: 50013,
       name: "🇭🇰 HK 丁香酰氧胺 L（广东）",
     })
@@ -56,7 +56,7 @@ function operator(proxies) {
     insertIndex,
     0,
     Object.assign({}, proxies[0], {
-      server: "traffic-in-lite.811920.xyz",
+      server: "traffic-in-03.811920.xyz",
       port: 50012,
       name: "🇸🇬 SG 苯巴比妥钠 L（广东）",
     })
@@ -64,7 +64,7 @@ function operator(proxies) {
 
   proxies.push(
     Object.assign({}, proxies[0], {
-      server: "traffic-in-lite.811920.xyz",
+      server: "traffic-in-03.811920.xyz",
       port: 50009,
       name: "🇱🇺 LU 硝酸二甲酯 L",
     })
