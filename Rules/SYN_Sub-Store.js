@@ -41,10 +41,11 @@ function operator(proxies) {
       name: "🇭🇰 HK 丁香酰氧胺 L (标准)",
     })
   );
+  insertIndex = 0;
   proxies.splice(
     insertIndex,
-    1,
-    Object.assign({}, proxies[1], {
+    0,
+    Object.assign({}, proxies[0], {
       server: "traffic-in-03.811920.xyz",
       port: 50013,
       name: "🇭🇰 HK 丁香酰氧胺 L (广东)",
@@ -70,10 +71,11 @@ function operator(proxies) {
       name: "🇸🇬 SG 苯巴比妥钠 L (标准)",
     })
   );
+  insertIndex = 0;
   proxies.splice(
     insertIndex,
-    1,
-    Object.assign({}, proxies[1], {
+    0,
+    Object.assign({}, proxies[0], {
       server: "traffic-in-03.811920.xyz",
       port: 50012,
       name: "🇸🇬 SG 苯巴比妥钠 L (广东)",
