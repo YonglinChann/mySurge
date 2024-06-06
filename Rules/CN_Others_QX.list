@@ -112,10 +112,6 @@ HOST-SUFFIX,baidupcs.com,DIRECT
 HOST-SUFFIX,albatross.10086.cn,DIRECT
 
 # 大众点评 & 美团 app 补充（IP及域名）
-HOST,babel-statistics-android.d.meituan.net,DIRECT
-HOST,maplocatesdksnapshot.d.meituan.net,DIRECT
-HOST,route-stats.d.meituan.net,DIRECT
-HOST,metrics-picture.d.meituan.net,DIRECT
 HOST-SUFFIX,meituan.net,DIRECT
 HOST-SUFFIX,d.meituan.net,DIRECT
 HOST-SUFFIX,meituan.com,DIRECT
