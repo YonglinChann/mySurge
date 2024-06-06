@@ -112,10 +112,6 @@ DOMAIN-SUFFIX,baidupcs.com
 DOMAIN-SUFFIX,albatross.10086.cn
 
 # 大众点评 & 美团 app 补充（IP及域名）
-DOMAIN,babel-statistics-android.d.meituan.net
-DOMAIN,maplocatesdksnapshot.d.meituan.net
-DOMAIN,route-stats.d.meituan.net
-DOMAIN,metrics-picture.d.meituan.net
 DOMAIN-SUFFIX,meituan.net
 DOMAIN-SUFFIX,d.meituan.net
 DOMAIN-SUFFIX,meituan.com
