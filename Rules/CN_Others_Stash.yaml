@@ -3,6 +3,8 @@
 #-----------------以下为使用 Script-Hub 转换解析后的规则-----------------#
 
 payload:
+  - DOMAIN-SUFFIX,cn
+  - DOMAIN-KEYWORD,-cn
   - DOMAIN,gio-analytics.tesla.cn
   - DOMAIN-SUFFIX,tesla.com
   - DOMAIN-SUFFIX,tesla.cn
