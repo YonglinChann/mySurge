@@ -23,6 +23,8 @@ payload:
   - DOMAIN-SUFFIX,zijieapi.com
   - DOMAIN-SUFFIX,weibo.com
   - DOMAIN-SUFFIX,weibocdn.com
+  - DOMAIN-SUFFIX,weibo.cn
+  - DOMAIN-SUFFIX,sinaimg.cn
   - DOMAIN-SUFFIX,xhscdn.com
   - DOMAIN-SUFFIX,xiaohongshu.com
   - DOMAIN-SUFFIX,amap.com
