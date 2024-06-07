@@ -25,6 +25,8 @@ HOST-SUFFIX,zijieapi.com,DIRECT
 # 微博
 HOST-SUFFIX,weibo.com,DIRECT
 HOST-SUFFIX,weibocdn.com,DIRECT
+HOST-SUFFIX,weibo.cn,DIRECT
+HOST-SUFFIX,sinaimg.cn,DIRECT
 
 # 小红书 CDN 补充
 HOST-SUFFIX,xhscdn.com,DIRECT
