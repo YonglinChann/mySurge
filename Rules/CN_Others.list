@@ -25,6 +25,8 @@ DOMAIN-SUFFIX,zijieapi.com
 # 微博
 DOMAIN-SUFFIX,weibo.com
 DOMAIN-SUFFIX,weibocdn.com
+DOMAIN-SUFFIX,weibo.cn
+DOMAIN-SUFFIX,sinaimg.cn
 
 # 小红书 CDN 补充
 DOMAIN-SUFFIX,xhscdn.com
