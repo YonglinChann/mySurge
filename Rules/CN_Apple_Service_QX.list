@@ -1,5 +1,6 @@
 # 本人针对 iOS 自带 Apple 服务规则的简化整理
 
+HOST,token.safebrowsing.apple,DIRECT
 HOST-SUFFIX,aaplimg.com,DIRECT
 HOST-SUFFIX,apple.co,DIRECT
 HOST-SUFFIX,apple.com,DIRECT
@@ -28,7 +29,6 @@ HOST-SUFFIX,icloud-content.com.cn,DIRECT
 HOST-SUFFIX,me.com,DIRECT
 HOST-SUFFIX,mzstatic.com,DIRECT
 HOST-SUFFIX,itunes.com,DIRECT
-HOST-SUFFIX,safebrowsing.apple,DIRECT
 HOST-SUFFIX,push-apple.com.akadns.net,DIRECT
 HOST-SUFFIX,apple-livephotoskit.com,DIRECT
 HOST-SUFFIX,apzones.com,DIRECT
