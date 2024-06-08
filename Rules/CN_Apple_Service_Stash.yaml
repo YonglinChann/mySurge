@@ -1,6 +1,7 @@
 # 本人针对 iOS 自带 Apple 服务规则的简化整理
 
 payload:
+  - DOMAIN,token.safebrowsing.apple
   - DOMAIN-SUFFIX,aaplimg.com
   - DOMAIN-SUFFIX,apple.co
   - DOMAIN-SUFFIX,apple.com
@@ -29,7 +30,6 @@ payload:
   - DOMAIN-SUFFIX,me.com
   - DOMAIN-SUFFIX,mzstatic.com
   - DOMAIN-SUFFIX,itunes.com
-  - DOMAIN-SUFFIX,safebrowsing.apple
   - DOMAIN-SUFFIX,push-apple.com.akadns.net
   - DOMAIN-SUFFIX,apple-livephotoskit.com
   - DOMAIN-SUFFIX,apzones.com
