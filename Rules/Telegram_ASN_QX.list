@@ -7,6 +7,7 @@
 # 1 -- 删除【PROCESS-NAME】
 # 2 -- 删除所有【后缀】
 # 3 -- 删除所有 IP 地址的【no-resolve】
+# 4 -- 删除【IPv6】规则
 
 # ———— 以下为手动替换更新内容 ————
 
@@ -23,7 +24,6 @@ DOMAIN-SUFFIX,legra.ph,Telegram
 DOMAIN-SUFFIX,telesco.pe,Telegram
 IP-CIDR,109.239.140.0/24,Telegram
 IP-CIDR,5.28.192.0/18,Telegram
-IP-CIDR6,2a0a:f280::/32,Telegram
 IP-ASN,44907,Telegram
 IP-ASN,62014,Telegram
 IP-ASN,62041,Telegram
