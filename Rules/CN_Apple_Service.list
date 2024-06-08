@@ -1,6 +1,5 @@
 # 本人针对 iOS 自带 Apple 服务规则的简化整理
 
-DOMAIN,token.safebrowsing.apple
 DOMAIN-SUFFIX,aaplimg.com
 DOMAIN-SUFFIX,apple.co
 DOMAIN-SUFFIX,apple.com
