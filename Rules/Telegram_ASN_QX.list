@@ -2,24 +2,30 @@
 #!desc=按ASN分流Telegram
 #!author=VirgilClyne
 #!homepage=https://github.com/VirgilClyne/GetSomeFries/wiki/🌐-ASN
-#!icon=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Server.png
 
-DOMAIN-SUFFIX,comments.app // @CommentsBot
-DOMAIN-SUFFIX,t.me
-DOMAIN-SUFFIX,tx.me
-DOMAIN-SUFFIX,tdesktop.com
-DOMAIN-SUFFIX,telegra.ph // Telegraph
-DOMAIN-SUFFIX,telegram.me
-DOMAIN-SUFFIX,telegram.org
-DOMAIN-SUFFIX,telegram-cdn.org
-DOMAIN-SUFFIX,graph.org
-DOMAIN-SUFFIX,legra.ph
-DOMAIN-SUFFIX,telesco.pe // Telescope
-IP-CIDR,109.239.140.0/24,no-resolve // Telegram Messenger LLP
-IP-CIDR,5.28.192.0/18,no-resolve // IPFFM - Internet Provider Frankfurt GmbH
-IP-CIDR6,2a0a:f280::/32,no-resolve
-IP-ASN,44907,no-resolve // Telegram Messenger Inc
-IP-ASN,62014,no-resolve // Telegram Messenger Inc
-IP-ASN,62041,no-resolve // Telegram Messenger Inc
-IP-ASN,59930,no-resolve // Telegram Messenger Inc
-IP-ASN,211157,no-resolve // Telegram Messenger Inc
+# 规则处理：
+# 1 -- 删除【PROCESS-NAME】
+# 2 -- 删除所有【后缀】
+# 3 -- 删除所有 IP 地址的【no-resolve】
+
+# ———— 以下为手动替换更新内容 ————
+
+DOMAIN-SUFFIX,comments.app,Telegram
+DOMAIN-SUFFIX,t.me,Telegram
+DOMAIN-SUFFIX,tx.me,Telegram
+DOMAIN-SUFFIX,tdesktop.com,Telegram
+DOMAIN-SUFFIX,telegra.ph,Telegram
+DOMAIN-SUFFIX,telegram.me,Telegram
+DOMAIN-SUFFIX,telegram.org,Telegram
+DOMAIN-SUFFIX,telegram-cdn.org,Telegram
+DOMAIN-SUFFIX,graph.org,Telegram
+DOMAIN-SUFFIX,legra.ph,Telegram
+DOMAIN-SUFFIX,telesco.pe,Telegram
+IP-CIDR,109.239.140.0/24,Telegram
+IP-CIDR,5.28.192.0/18,Telegram
+IP-CIDR6,2a0a:f280::/32,Telegram
+IP-ASN,44907,Telegram
+IP-ASN,62014,Telegram
+IP-ASN,62041,Telegram
+IP-ASN,59930,Telegram
+IP-ASN,211157,Telegram
