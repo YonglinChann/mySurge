@@ -149,6 +149,21 @@ HOST-SUFFIX,teslamate.club,DIRECT
 # lemonsqueezy 电子内容销售平台
 HOST-SUFFIX,lemonsqueezy.com,DIRECT
 
+# 国内 IP 查询 API 接口
+HOST-SUFFIX,cip.cc,DIRECT
+HOST-SUFFIX,forge.speedtest.cn,DIRECT
+HOST-SUFFIX,rmb.pingan.com.cn,DIRECT
+HOST-SUFFIX,api-v3.speedtest.cn,DIRECT
+HOST-SUFFIX,ipservice.ws.126.net,DIRECT
+HOST-SUFFIX,api.bilibili.com,DIRECT
+HOST-SUFFIX,api.live.bilibili.com,DIRECT
+HOST-SUFFIX,myip.ipip.net,DIRECT
+HOST-SUFFIX,ip.ip233.cn,DIRECT
+HOST-SUFFIX,uapi.woobx.cn,DIRECT
+HOST-SUFFIX,ip.im,DIRECT
+HOST-SUFFIX,ips.market.alicloudapi.com,DIRECT
+HOST-SUFFIX,api.ip.plus,DIRECT
+
 # 拦截所有 CN 结尾/关键词 域名
 HOST-SUFFIX,cn,DIRECT
 HOST-KEYWORD,-cn,DIRECT
