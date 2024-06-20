@@ -2,6 +2,10 @@
 
 #-----------------以下为使用 Script-Hub 转换解析后的规则-----------------#
 
+#规则数量:118
+#不支持的规则数量:0
+#已排除的规则数量:0
+
 payload:
   - DOMAIN-KEYWORD,tesla
   - DOMAIN-SUFFIX,solarcity.com
@@ -106,5 +110,18 @@ payload:
   - DOMAIN-SUFFIX,jetbrains.space
   - DOMAIN-SUFFIX,jetbrains.team
   - DOMAIN-SUFFIX,kotlinlang.org
+  - DOMAIN-SUFFIX,cip.cc
+  - DOMAIN-SUFFIX,forge.speedtest.cn
+  - DOMAIN-SUFFIX,rmb.pingan.com.cn
+  - DOMAIN-SUFFIX,api-v3.speedtest.cn
+  - DOMAIN-SUFFIX,ipservice.ws.126.net
+  - DOMAIN-SUFFIX,api.bilibili.com
+  - DOMAIN-SUFFIX,api.live.bilibili.com
+  - DOMAIN-SUFFIX,myip.ipip.net
+  - DOMAIN-SUFFIX,ip.ip233.cn
+  - DOMAIN-SUFFIX,uapi.woobx.cn
+  - DOMAIN-SUFFIX,ip.im
+  - DOMAIN-SUFFIX,ips.market.alicloudapi.com
+  - DOMAIN-SUFFIX,api.ip.plus
   - DOMAIN-SUFFIX,cn
   - DOMAIN-KEYWORD,-cn
