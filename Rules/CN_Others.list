@@ -172,6 +172,21 @@ DOMAIN-SUFFIX,jetbrains.space
 DOMAIN-SUFFIX,jetbrains.team
 DOMAIN-SUFFIX,kotlinlang.org
 
+# 国内 IP 查询 API 接口
+DOMAIN-SUFFIX,cip.cc
+DOMAIN-SUFFIX,forge.speedtest.cn
+DOMAIN-SUFFIX,rmb.pingan.com.cn
+DOMAIN-SUFFIX,api-v3.speedtest.cn
+DOMAIN-SUFFIX,ipservice.ws.126.net
+DOMAIN-SUFFIX,api.bilibili.com
+DOMAIN-SUFFIX,api.live.bilibili.com
+DOMAIN-SUFFIX,myip.ipip.net
+DOMAIN-SUFFIX,ip.ip233.cn
+DOMAIN-SUFFIX,uapi.woobx.cn
+DOMAIN-SUFFIX,ip.im
+DOMAIN-SUFFIX,ips.market.alicloudapi.com
+DOMAIN-SUFFIX,api.ip.plus
+
 # 拦截所有 CN 结尾/关键词 域名
 DOMAIN-SUFFIX,cn
 DOMAIN-KEYWORD,-cn
