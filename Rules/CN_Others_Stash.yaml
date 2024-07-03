@@ -88,6 +88,7 @@ payload:
   - DOMAIN-SUFFIX,mi.com
   - DOMAIN-SUFFIX,miui.com
   - DOMAIN-SUFFIX,xiaomi.com
+  - DOMAIN-SUFFIX,mi-img.com
   - DOMAIN-SUFFIX,lockchime.vip
   - DOMAIN-SUFFIX,teslamate.cloud
   - DOMAIN-SUFFIX,teslamate.club
