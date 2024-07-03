@@ -135,9 +135,10 @@ HOST-SUFFIX,snapplay.com,DIRECT
 HOST-SUFFIX,plusai.me,DIRECT
 HOST-SUFFIX,plusaigpt.com,DIRECT
 
-# 小米 IoT 及 手环 加速
+# 小米 及 手环 加速
 HOST-SUFFIX,mi.com,DIRECT
 HOST-SUFFIX,miui.com,DIRECT
+HOST-SUFFIX,xiaomi.com,DIRECT
 
 # 特派锁铃
 HOST-SUFFIX,lockchime.vip,DIRECT
