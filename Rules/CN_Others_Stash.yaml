@@ -2,7 +2,7 @@
 
 #-----------------以下为使用 Script-Hub 转换解析后的规则-----------------#
 
-#规则数量:118
+#规则数量:119
 #不支持的规则数量:0
 #已排除的规则数量:0
 
@@ -87,6 +87,7 @@ payload:
   - DOMAIN-SUFFIX,plusaigpt.com
   - DOMAIN-SUFFIX,mi.com
   - DOMAIN-SUFFIX,miui.com
+  - DOMAIN-SUFFIX,xiaomi.com
   - DOMAIN-SUFFIX,lockchime.vip
   - DOMAIN-SUFFIX,teslamate.cloud
   - DOMAIN-SUFFIX,teslamate.club
