@@ -1,7 +1,9 @@
 # RAW from - https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Tool/Loon/Rule/AI.list
-# 1 -- 匹配所有【DOMAIN】，并全部更改为【HOST】
-# 2 -- 所有末尾添加后缀【,ChatGPT】
-# 3 -- 请注意使用时请开启 Quantumult X 中的「策略偏好」功能，并选择您的对应策略组，否则将自动创建名为【ChatGPT】的策略组并可能不能正常使用该规则
+# 1 -- 匹配所有【DO MAIN】，并全部更改为【H OST】
+# 2 -- IP 类格式转换模板：ip6-cidr, 2001:4860:4860::8888/32, direct
+# 3 -- IP 类格式转换模板：ip-cidr, 10.0.0.0/8, direct
+# 4 -- 所有末尾添加后缀【,ChatGPT】
+# 5 -- 请注意使用时请开启 Quantumult X 中的「策略偏好」功能，并选择您的对应策略组，否则将自动创建名为【,ChatGPT】的策略组并可能不能正常使用该规则
 
 # ———— 以下为手动替换更新内容 ————
 
@@ -18,3 +20,51 @@ HOST-SUFFIX, chatgpt.com,ChatGPT
 HOST-SUFFIX, oaistatic.com,ChatGPT
 HOST-SUFFIX, oaiusercontent.com,ChatGPT
 HOST-SUFFIX, openai.com,ChatGPT
+
+# 2024-07-08 12:57:55
+# ChatGPT
+HOST, chat.openai.com.cdn.cloudflare.net,ChatGPT
+HOST, o33249.ingest.sentry.io,ChatGPT
+HOST, openaiapi-site.azureedge.net,ChatGPT
+HOST, openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net,ChatGPT
+HOST, openaicom.imgix.net,ChatGPT
+HOST, openaicomproductionae4b.blob.core.windows.net,ChatGPT
+HOST, production-openaicom-storage.azureedge.net,ChatGPT
+HOST-SUFFIX, chatgpt.com,ChatGPT
+HOST-SUFFIX, oaistatic.com,ChatGPT
+HOST-SUFFIX, oaiusercontent.com,ChatGPT
+HOST-SUFFIX, openai.com,ChatGPT
+
+# Copilot
+HOST, api.githubcopilot.com,ChatGPT
+HOST, copilot-proxy.githubusercontent.com,ChatGPT
+HOST, copilot.microsoft.com,ChatGPT
+HOST, sydney.bing.com,ChatGPT
+HOST, www.bing.com,ChatGPT
+
+# Gemini
+HOST, bard.google.com,ChatGPT
+HOST, gemini.google.com,ChatGPT
+HOST, generativelanguage.googleapis.com,ChatGPT
+HOST, ai.google.dev,ChatGPT
+HOST, aida.googleapis.com,ChatGPT
+HOST, aistudio.google.com,ChatGPT
+HOST, alkalimakersuite-pa.clients6.google.com,ChatGPT
+HOST, makersuite.google.com,ChatGPT
+
+# Claude
+HOST-SUFFIX, anthropic.com,ChatGPT
+HOST-SUFFIX, claude.ai,ChatGPT
+IP-CIDR, 160.79.104.0/23,ChatGPT
+IP6-CIDR, 2607:6bc0::/48,ChatGPT
+
+# JetBrains AI
+HOST-SUFFIX, grazie.ai,ChatGPT
+HOST-SUFFIX, grazie.aws.intellij.net,ChatGPT
+
+# Meta
+HOST, imagine.meta.com,ChatGPT
+HOST-SUFFIX, meta.ai,ChatGPT
+
+# Perplexity
+HOST-SUFFIX, perplexity.ai,ChatGPT
