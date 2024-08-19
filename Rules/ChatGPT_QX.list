@@ -42,6 +42,7 @@ HOST-SUFFIX, anthropic.com,ChatGPT
 HOST-SUFFIX, claude.ai,ChatGPT
 ip-cidr, 160.79.104.0/23,ChatGPT
 ip6-cidr, 2607:6bc0::/48,ChatGPT
+
 # JetBrains AI
 HOST-SUFFIX, grazie.ai,ChatGPT
 HOST-SUFFIX, grazie.aws.intellij.net,ChatGPT
