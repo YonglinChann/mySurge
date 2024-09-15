@@ -34,6 +34,14 @@ DOMAIN-SUFFIX,alicdn.com
 DOMAIN-SUFFIX,alibaba.com
 DOMAIN-SUFFIX,aliyuncs.com
 
+# 小米 及 手环 加速
+DOMAIN-SUFFIX,mi.com
+DOMAIN-SUFFIX,miui.com
+DOMAIN-SUFFIX,xiaomi.com
+DOMAIN-SUFFIX,xiaomiev.com
+DOMAIN-SUFFIX,mi-img.com
+DOMAIN-SUFFIX,mifile.cn
+
 # IT 之家
 DOMAIN-SUFFIX,ithome.com
 DOMAIN-SUFFIX,ruanmei.com
@@ -134,12 +142,6 @@ DOMAIN-SUFFIX,snapplay.com
 # PlusAI 国内 CDN 加速直连
 DOMAIN-SUFFIX,plusai.me
 DOMAIN-SUFFIX,plusaigpt.com
-
-# 小米 及 手环 加速
-DOMAIN-SUFFIX,mi.com
-DOMAIN-SUFFIX,miui.com
-DOMAIN-SUFFIX,xiaomi.com
-DOMAIN-SUFFIX,mi-img.com
 
 # 特派锁铃
 DOMAIN-SUFFIX,lockchime.vip
