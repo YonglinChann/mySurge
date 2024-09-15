@@ -34,6 +34,14 @@ HOST-SUFFIX,alicdn.com,DIRECT
 HOST-SUFFIX,alibaba.com,DIRECT
 HOST-SUFFIX,aliyuncs.com,DIRECT
 
+# 小米 及 手环 加速
+HOST-SUFFIX,mi.com,DIRECT
+HOST-SUFFIX,miui.com,DIRECT
+HOST-SUFFIX,xiaomi.com,DIRECT
+HOST-SUFFIX,xiaomiev.com,DIRECT
+HOST-SUFFIX,mi-img.com,DIRECT
+HOST-SUFFIX,mifile.cn,DIRECT
+
 # IT 之家
 HOST-SUFFIX,ithome.com,DIRECT
 HOST-SUFFIX,ruanmei.com,DIRECT
@@ -134,12 +142,6 @@ HOST-SUFFIX,snapplay.com,DIRECT
 # PlusAI 国内 CDN 加速直连
 HOST-SUFFIX,plusai.me,DIRECT
 HOST-SUFFIX,plusaigpt.com,DIRECT
-
-# 小米 及 手环 加速
-HOST-SUFFIX,mi.com,DIRECT
-HOST-SUFFIX,miui.com,DIRECT
-HOST-SUFFIX,xiaomi.com,DIRECT
-HOST-SUFFIX,mi-img.com,DIRECT
 
 # 特派锁铃
 HOST-SUFFIX,lockchime.vip,DIRECT
