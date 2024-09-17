@@ -153,6 +153,9 @@ HOST-SUFFIX,teslamate.club,DIRECT
 # lemonsqueezy 电子内容销售平台
 HOST-SUFFIX,lemonsqueezy.com,DIRECT
 
+# HapiGo（Mac）
+HOST-KEYWORD,hapigo
+
 # 国内 IP 查询 API 接口
 HOST-SUFFIX,cip.cc,DIRECT
 HOST-SUFFIX,forge.speedtest.cn,DIRECT
