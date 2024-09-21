@@ -156,6 +156,9 @@ DOMAIN-SUFFIX,lemonsqueezy.com
 # HapiGo（Mac）
 DOMAIN-KEYWORD,hapigo
 
+# 蜜糖商店（MetShop）
+DOMAIN-KEYWORD,metshop
+
 # 从 神机规则 的 China.list 选择性补充
 DOMAIN,download.jetbrains.com
 DOMAIN,origin-a.akamaihd.net
