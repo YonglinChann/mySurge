@@ -156,6 +156,9 @@ HOST-SUFFIX,lemonsqueezy.com,DIRECT
 # HapiGo（Mac）
 HOST-KEYWORD,hapigo,DIRECT
 
+# 蜜糖商店（MetShop）
+HOST-KEYWORD,metshop,DIRECT
+
 # 国内 IP 查询 API 接口
 HOST-SUFFIX,cip.cc,DIRECT
 HOST-SUFFIX,forge.speedtest.cn,DIRECT
