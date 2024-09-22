@@ -69,6 +69,10 @@ DOMAIN-SUFFIX,kuaidadi.com
 DOMAIN-SUFFIX,didistatic.com
 DOMAIN-SUFFIX,didialift.com
 
+# 蔚来（蔚来能源）
+DOMAIN-SUFFIX,nio.com
+DOMAIN-SUFFIX,niopower.com
+
 # 豆瓣
 DOMAIN-SUFFIX,doubanio.com
 DOMAIN-SUFFIX,douban.com
