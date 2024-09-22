@@ -2,7 +2,7 @@
 
 #-----------------以下为使用 Script-Hub 转换解析后的规则-----------------#
 
-#规则数量:123
+#规则数量:125
 #不支持的规则数量:0
 #已排除的规则数量:0
 
@@ -50,6 +50,8 @@ payload:
   - DOMAIN-SUFFIX,kuaidadi.com
   - DOMAIN-SUFFIX,didistatic.com
   - DOMAIN-SUFFIX,didialift.com
+  - DOMAIN-SUFFIX,nio.com
+  - DOMAIN-SUFFIX,niopower.com
   - DOMAIN-SUFFIX,doubanio.com
   - DOMAIN-SUFFIX,douban.com
   - DOMAIN-SUFFIX,10010.com
