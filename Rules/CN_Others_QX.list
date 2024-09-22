@@ -69,6 +69,10 @@ HOST-SUFFIX,kuaidadi.com,DIRECT
 HOST-SUFFIX,didistatic.com,DIRECT
 HOST-SUFFIX,didialift.com,DIRECT
 
+# 蔚来（蔚来能源）
+HOST-SUFFIX,nio.com,DIRECT
+HOST-SUFFIX,niopower.com,DIRECT
+
 # 豆瓣
 HOST-SUFFIX,doubanio.com,DIRECT
 HOST-SUFFIX,douban.com,DIRECT
