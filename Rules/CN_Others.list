@@ -33,6 +33,7 @@ DOMAIN-SUFFIX,alipay.com
 DOMAIN-SUFFIX,alicdn.com
 DOMAIN-SUFFIX,alibaba.com
 DOMAIN-SUFFIX,aliyuncs.com
+DOMAIN-SUFFIX,aliyun.com
 
 # 小米 及 手环 加速
 DOMAIN-SUFFIX,mi.com
@@ -41,6 +42,7 @@ DOMAIN-SUFFIX,xiaomi.com
 DOMAIN-SUFFIX,xiaomiev.com
 DOMAIN-SUFFIX,mi-img.com
 DOMAIN-SUFFIX,mifile.cn
+DOMAIN-SUFFIX,miwifi.com
 
 # IT 之家
 DOMAIN-SUFFIX,ithome.com
