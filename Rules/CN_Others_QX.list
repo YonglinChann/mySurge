@@ -41,6 +41,7 @@ HOST-SUFFIX,xiaomi.com,DIRECT
 HOST-SUFFIX,xiaomiev.com,DIRECT
 HOST-SUFFIX,mi-img.com,DIRECT
 HOST-SUFFIX,mifile.cn,DIRECT
+HOST-SUFFIX,miwifi.com,DIRECT
 
 # IT 之家
 HOST-SUFFIX,ithome.com,DIRECT
