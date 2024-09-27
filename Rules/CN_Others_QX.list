@@ -33,6 +33,7 @@ HOST-SUFFIX,alipay.com,DIRECT
 HOST-SUFFIX,alicdn.com,DIRECT
 HOST-SUFFIX,alibaba.com,DIRECT
 HOST-SUFFIX,aliyuncs.com,DIRECT
+HOST-SUFFIX,aliyun.com,DIRECT
 
 # 小米 及 手环 加速
 HOST-SUFFIX,mi.com,DIRECT
