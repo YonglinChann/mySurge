@@ -5,6 +5,19 @@ DOMAIN-KEYWORD,tesla
 DOMAIN-SUFFIX,solarcity.com
 DOMAIN-SUFFIX,ts.la
 
+# 钉钉
+DOMAIN-SUFFIX,ddurl.to
+DOMAIN-SUFFIX,dg-work.cn
+DOMAIN-SUFFIX,dingding.xin
+DOMAIN-SUFFIX,dingtalk.cn
+DOMAIN-SUFFIX,dingtalk.com
+DOMAIN-SUFFIX,dingtalk.com.cn
+DOMAIN-SUFFIX,dingtalk.net
+DOMAIN-SUFFIX,dingtalkapps.com
+DOMAIN-SUFFIX,laiwang.com
+DOMAIN-SUFFIX,lwurl.to
+DOMAIN-SUFFIX,realapp.xin
+
 # 字节（火山）系
 DOMAIN-SUFFIX,umeng.com
 DOMAIN-SUFFIX,rtc.volcvideo.com
