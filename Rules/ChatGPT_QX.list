@@ -7,6 +7,9 @@
 
 # ———— 以下为手动替换更新内容 ————
 
+# devvAI 服务
+HOST-SUFFIX, devv.ai,ChatGPT
+
 # 2024-10-10 14:36:12
 # ChatGPT
 HOST, o33249.ingest.sentry.io,ChatGPT
