@@ -39,6 +39,7 @@ HOST, alkalimakersuite-pa.clients6.google.com,ChatGPT
 HOST, makersuite.google.com,ChatGPT
 
 # Claude
+HOST, cdn.usefathom.com,ChatGPT
 HOST-SUFFIX, anthropic.com,ChatGPT
 HOST-SUFFIX, claude.ai,ChatGPT
 ip-cidr, 160.79.104.0/23,ChatGPT
