@@ -1,0 +1,144 @@
+# RAW from - https://github.com/jqyisbest/RuCu6/blob/main/Rules/MyBlockAds.list
+# 2024-09-17 22:35
+
+# ======= A ======= #
+## 阿里云
+ip-cidr, 203.107.1.1/24,Reject
+# Apple
+HOST, api-adservices.apple.com,Reject
+HOST-SUFFIX, iadsdk.apple.com,Reject
+# 安全浏览限制解除
+HOST, lookup.api.bsb.baidu.com,Reject
+HOST, proxy.safebrowsing.apple,Reject
+HOST, safebrowsing.g.applimg.com,Reject
+HOST, safebrowsing.googleapis.com,Reject
+HOST, safebrowsing.urlsec.qq.com,Reject
+HOST, token.safebrowsing.apple,Reject
+HOST, vs6.bj2ct.u3.ucweb.com,Reject
+HOST-SUFFIX, safebrowsing.apple,Reject
+HOST-SUFFIX, u3.ucweb.com,Reject
+
+# ======= B ======= #
+# 百度
+HOST-SUFFIX, pos.baidu.com,Reject
+# 百度贴吧
+ip-cidr, 180.76.76.200/32,Reject
+
+# ======= C ======= #
+# ChatGPT
+HOST, o33249.ingest.sentry.io,Reject
+# Clue 智库
+HOST, api.helloclue.com,Reject
+HOST, brahe.apptimize.com,Reject
+HOST, collector.clue.run,Reject
+HOST, mapi.apptimize.com,Reject
+HOST, md-i-s.apptimize.com,Reject
+HOST, images.ctfassets.net,Reject
+
+# ======= F ======= #
+# Flurry
+HOST, data.flurry.com,Reject
+# Foreca & Google
+HOST, adservice.google.com,Reject
+HOST, googleads.g.doubleclick-cn.net,Reject
+HOST, googleads.g.doubleclick.net,Reject
+HOST, pubads.g.doubleclick.net,Reject
+HOST, pagead2.googlesyndication.com,Reject
+HOST, www.googleadservices.com,Reject
+HOST-KEYWORD, adservice.google.com.,Reject
+
+# ======= G ======= #
+# 工商银行 开屏广告
+HOST, pageviewp.icbc.com.cn,Reject
+# 广告联盟
+#HOST, is.snssdk.com,Reject
+HOST, mi.gdt.qq.com,Reject
+HOST, open.e.kuaishou.com,Reject
+HOST-SUFFIX, pangolin-sdk-toutiao.com,Reject
+HOST-SUFFIX, pangolin-sdk-toutiao-b.com,Reject
+
+# ======= K ======= #
+# 酷我音乐
+HOST, ad.tencentmusic.com,Reject
+HOST, g.koowo.com,Reject
+HOST, mobilead.kuwo.cn,Reject
+HOST, rich.kuwo.cn,Reject
+HOST, tmead.y.qq.com,Reject
+HOST, tmeadcomm.y.qq.com,Reject
+
+# ======= L ======= #
+# 蓝奏云
+HOST, statics.woozooo.com,Reject
+
+# ======= M ======= #
+# 美颜相机
+HOST, aaid.uyunad.com,Reject
+HOST, adui.tg.meitu.com,Reject
+
+# ======= O ======= #
+# Outlook
+HOST, acdn.adnxs.com,Reject
+HOST, mediation.adnxs.com,Reject
+HOST, sin3-ib.adnxs.com,Reject
+
+# ======= R ======= #
+# RARBG 推广跳转
+HOST, bravetense.com,Reject
+HOST, furiousfar.com,Reject
+HOST, swallowcrockerybless.com,Reject
+
+# ======= S ======= #
+# 什么值得买
+HOST, api.zuihuimai.com,Reject
+# 数字联盟
+HOST-SUFFIX, shuzilm.cn,Reject
+
+# ======= T ======= #
+# 腾讯 无法使用的推送服务
+HOST, tpns.qq.com,Reject
+
+# ======= W ======= #
+# 网易云音乐
+HOST, gdt.qq.com,Reject
+HOST, httpdns.n.netease.com,Reject
+HOST, iadmat.nosdn.127.net,Reject
+HOST, iadmusicmat.music.126.net,Reject
+HOST, iadmusicmatvideo.music.126.net,Reject
+HOST-SUFFIX, 163jiasu.com,Reject
+# 微博 开屏广告
+HOST, adstrategy.biz.weibo.com,Reject
+HOST, kadmimage.biz.weibo.com,Reject
+HOST, sdkaction.biz.weibo.com,Reject
+HOST, sdkclick.biz.weibo.com,Reject
+HOST, sdkmonitor.biz.weibo.com,Reject
+
+# ======= X ======= #
+# 小米
+HOST, sdkconfig.ad.xiaomi.com,Reject
+# 迅雷 解除版权限制
+#HOST, hub5btmain.v6.shub.sandai.net,Reject
+#HOST, hub5emu.v6.shub.sandai.net,Reject
+#HOST, hub5idx.v6.shub.sandai.net,Reject
+
+# ======= Y ======= #
+# 云闪付 开屏广告
+HOST, ads.95516.com,Reject
+HOST, cm-10-138.getui.com,Reject
+HOST, sdk.open.talk.getui.net,Reject
+HOST, sdk-conf.getui.com,Reject
+HOST, switch.cup.com.cn,Reject
+HOST, tysdk.95516.com,Reject
+
+# ======= Z ======= #
+# 知乎
+HOST, appcloud.zhihu.com,Reject
+HOST, appcloud2.in.zhihu.com,Reject
+HOST, crash2.zhihu.com,Reject
+HOST, mqtt.zhihu.com,Reject
+HOST, sugar.zhihu.com,Reject
+ip-cidr, 118.89.204.198/32,Reject
+ip-cidr, 103.41.167.237/32,Reject
+ip6-cidr, 2402:4e00:1200:ed00:0:9089:6dac:96b6/128,Reject
+# 字节跳动
+HOST, ad.zijieapi.com,Reject
+HOST-KEYWORD, -ad-sign.byteimg.com,Reject
