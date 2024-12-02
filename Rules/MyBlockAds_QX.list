@@ -1,144 +1,254 @@
-# RAW from - https://github.com/jqyisbest/RuCu6/blob/main/Rules/MyBlockAds.list
-# 2024-09-17 22:35
+#!name = MyBlockAds
+#!desc = 自用去广告插件, 以下app请使用单独插件: 高德地图, 哔哩哔哩, 网易云音乐, 微博, YouTube, 知乎。
+#!author = RuCu6[https://github.com/RuCu6]
+#!icon = https://raw.githubusercontent.com/RuCu6/Loon/main/Icons/app/myblockads.png
+#!date = 2024-10-15 10:05
 
-# ======= A ======= #
-## 阿里云
-ip-cidr, 203.107.1.1/24,Reject
+# ======= 0 =======
+# 12306
+host, ad.12306.cn, direct
+
+# ======= A =======
+# 阿里巴巴
+host-suffix, ut.taobao.com, reject
+host, dns.alidns.com, reject
+host, ems.youku.com, reject
+host, hudong.alicdn.com, reject
+host, ossgw.alicdn.com, reject
+
+# 阿里云盘
+ip-cidr, 203.107.1.1/24, reject, no-resolve
+
+# 爱奇艺
+host, api.iqiyi.com, reject
+
 # Apple
-HOST, api-adservices.apple.com,Reject
-HOST-SUFFIX, iadsdk.apple.com,Reject
+host, ca.iadsdk.apple.com, direct
+host-suffix, advp.apple.com, reject
+host-suffix, iad-apple.com, reject
+host-suffix, iadsdk.apple.com, reject
+host, advertising.apple.com, reject
+host, api-adservices.apple.com, reject
+host, apple.comscoreresearch.com, reject
+host, banners.itunes.apple.com, reject
+host, iad.apple.com, reject
+host, iadcontent.apple.com, reject
+host, iadctest.qwapi.com, reject
+host, iadmoo.apple.com, reject
+host, iadworkbench.apple.com, reject
+host, launch.apple.com, reject
+host, qwapi.apple.com, reject
+
 # 安全浏览限制解除
-HOST, lookup.api.bsb.baidu.com,Reject
-HOST, proxy.safebrowsing.apple,Reject
-HOST, safebrowsing.g.applimg.com,Reject
-HOST, safebrowsing.googleapis.com,Reject
-HOST, safebrowsing.urlsec.qq.com,Reject
-HOST, token.safebrowsing.apple,Reject
-HOST, vs6.bj2ct.u3.ucweb.com,Reject
-HOST-SUFFIX, safebrowsing.apple,Reject
-HOST-SUFFIX, u3.ucweb.com,Reject
+host-keyword, safebrowsing., reject
+host-suffix, u3.ucweb.com, reject
+host, lookup.api.bsb.baidu.com, reject
 
-# ======= B ======= #
+# ======= B =======
 # 百度
-HOST-SUFFIX, pos.baidu.com,Reject
-# 百度贴吧
-ip-cidr, 180.76.76.200/32,Reject
+host-suffix, pos.baidu.com, reject
+host, mobads.baidu.com, reject
+host, afd.baidu.com, reject
+host, afdconf.baidu.com, reject
+host, lc.map.baidu.com, reject
+ip-cidr, 180.76.76.112/32, reject, no-resolve
+ip-cidr, 180.76.76.200/32, reject, no-resolve
 
-# ======= C ======= #
-# ChatGPT
-HOST, o33249.ingest.sentry.io,Reject
+# ======= C =======
+# 昌原云充
+host, m.adyounger.com, reject
+
 # Clue 智库
-HOST, api.helloclue.com,Reject
-HOST, brahe.apptimize.com,Reject
-HOST, collector.clue.run,Reject
-HOST, mapi.apptimize.com,Reject
-HOST, md-i-s.apptimize.com,Reject
-HOST, images.ctfassets.net,Reject
+host, api.helloclue.com, reject
+host, brahe.apptimize.com, reject
+host, collector.clue.run, reject
+host, images.ctfassets.net, reject
+host, mapi.apptimize.com, reject
+host, md-i-s.apptimize.com, reject
 
-# ======= F ======= #
-# Flurry
-HOST, data.flurry.com,Reject
-# Foreca & Google
-HOST, adservice.google.com,Reject
-HOST, googleads.g.doubleclick-cn.net,Reject
-HOST, googleads.g.doubleclick.net,Reject
-HOST, pubads.g.doubleclick.net,Reject
-HOST, pagead2.googlesyndication.com,Reject
-HOST, www.googleadservices.com,Reject
-HOST-KEYWORD, adservice.google.com.,Reject
+# ======= D =======
+# DNS 无响应
+host, adttrackingprd.hwwt8.com, reject
 
-# ======= G ======= #
-# 工商银行 开屏广告
-HOST, pageviewp.icbc.com.cn,Reject
+# ======= F =======
+# 放松双眼
+host, adservice.sigmob.cn, reject
+
+# ======= G =======
+# 工商银行
+host-suffix, mall.icbc.com.cn, reject
+host, pageviewp.icbc.com.cn, reject
+
 # 广告联盟
-#HOST, is.snssdk.com,Reject
-HOST, mi.gdt.qq.com,Reject
-HOST, open.e.kuaishou.com,Reject
-HOST-SUFFIX, pangolin-sdk-toutiao.com,Reject
-HOST-SUFFIX, pangolin-sdk-toutiao-b.com,Reject
+host-keyword, -ad-sign.byteimg.com, reject
+host-keyword, ads.g.doubleclick, reject
+host-keyword, asiad.byteactivity, reject
+host-keyword, pangolin-sdk-toutiao, reject
+host-keyword, pangolin.snssdk.com, reject
+host-keyword, pglstatp-toutiao, reject
+host-keyword, video-cn.snssdk.com, reject
+host-suffix, ads.linkedin.com, reject
+host-suffix, ads.vungle.com, reject
+host-suffix, adservice.google.com, reject
+host-suffix, adukwai.com, reject
+host-suffix, applovin.com, reject
+host-suffix, applvn.com, reject
+host-suffix, appsflyer.com, reject
+host-suffix, appsflyersdk.com, reject
+host-suffix, kuaishouzt.com, reject
+host-suffix, miaozhen.com, reject
+host-suffix, ubixioe.com, reject
+host-suffix, unityads.unity3d.com, reject
+host-suffix, v.smtcdns.com, reject
+host, ad.zijieapi.com, reject
+host, adapi.izuiyou.com, reject
+host, adtracker.adfunlink.com, reject
+host, dig.bdurl.net, reject
+host, dsp-x.jd.com, reject
+host, et.tanx.com, reject
+host, gdfp.gifshow.com, reject
+host, init.supersonicads.com, reject
+host, janapi.jd.com, reject
+host, lf-ad-ies.bytecdn.cn, reject
+host, mercury-gateway.ixiaochuan.cn, reject
+host, mon.toutiaocloud.com, reject
+host, open.e.kuaishou.com, reject
+host, open.kuaishou.com, reject
+host, pagead2.googlesyndication-cn.com, reject
+host, pagead2.googlesyndication.com, reject
+host, sdk.e.qq.com, reject
+host, tangram.e.qq.com, reject
+host, ws.tapjoyads.com, reject
+host, www.googleadservices.com, reject
 
-# ======= K ======= #
+# ======= H =======
+# 海尔智家
+host-suffix, ehaier.com, reject
+
+# httpdns
+host-keyword, httpdns., reject
+host-keyword, httpdns-, reject
+host, hdns.ksyun.com, reject
+
+# ======= J =======
+# 建设银行
+host-keyword, adv.ccb.com, reject
+
+# 京东
+host, dns.jd.com, reject
+ip-cidr, 101.124.19.122/32, reject, no-resolve
+ip6-cidr, 2402:db40:5100:1011::5/128, reject, no-resolve
+
+# ======= K =======
+# 酷狗音乐
+host, adserviceretry.kglink.cn, direct
+host, ads.service.kugou.com, reject
+host, adserviceretry.kugou.com, reject
+
 # 酷我音乐
-HOST, ad.tencentmusic.com,Reject
-HOST, g.koowo.com,Reject
-HOST, mobilead.kuwo.cn,Reject
-HOST, rich.kuwo.cn,Reject
-HOST, tmead.y.qq.com,Reject
-HOST, tmeadcomm.y.qq.com,Reject
+host, ad.tencentmusic.com, reject
+host, g.koowo.com, reject
+host, mobilead.kuwo.cn, reject
+host, rich.kuwo.cn, reject
 
-# ======= L ======= #
+# ======= L =======
 # 蓝奏云
-HOST, statics.woozooo.com,Reject
+host, statics.woozooo.com, reject
 
-# ======= M ======= #
+# ======= M =======
+# 芒果TV
+host-suffix, da.mgtv.com, reject
+host, credits.bz.mgtv.com, reject
+host, credits2.bz.mgtv.com, reject
+host, credits3.bz.mgtv.com, reject
+host, dflow.bz.mgtv.com, reject
+host, encounter.bz.mgtv.com, reject
+host, floor.bz.mgtv.com, reject
+host, layer.bz.mgtv.com, reject
+host, mob.bz.mgtv.com, reject
+host, rc-topic-api.bz.mgtv.com, reject
+host, rprain.bz.mgtv.com, reject
+host, rprain.log.mgtv.com, reject
+host, vip.bz.mgtv.com, reject
+
+# 美团
+host, maplocatesdksnapshot.d.meituan.net, reject
+host, metrics-picture.d.meituan.net, reject
+ip-cidr, 103.37.155.60/32, reject, no-resolve
+
 # 美颜相机
-HOST, aaid.uyunad.com,Reject
-HOST, adui.tg.meitu.com,Reject
+host, aaid.uyunad.com, reject
+host, adui.tg.meitu.com, reject
 
-# ======= O ======= #
+# ======= O =======
 # Outlook
-HOST, acdn.adnxs.com,Reject
-HOST, mediation.adnxs.com,Reject
-HOST, sin3-ib.adnxs.com,Reject
+host, acdn.adnxs.com, reject
+host, mediation.adnxs.com, reject
+host, sin3-ib.adnxs.com, reject
 
-# ======= R ======= #
-# RARBG 推广跳转
-HOST, bravetense.com,Reject
-HOST, furiousfar.com,Reject
-HOST, swallowcrockerybless.com,Reject
+# ======= Q =======
+# 其他
+host, affcpatrk.com, reject
 
-# ======= S ======= #
+# ======= S =======
 # 什么值得买
-HOST, api.zuihuimai.com,Reject
+host, api.zuihuimai.com, reject
+
 # 数字联盟
-HOST-SUFFIX, shuzilm.cn,Reject
+host-suffix, shuzilm.cn, reject
 
-# ======= T ======= #
-# 腾讯 无法使用的推送服务
-HOST, tpns.qq.com,Reject
+# Speedtest
+host-keyword, -adsystem.com, reject
+host, ads.pubmatic.com, reject
+host, id.hadron.ad.gt, reject
 
-# ======= W ======= #
-# 网易云音乐
-HOST, gdt.qq.com,Reject
-HOST, httpdns.n.netease.com,Reject
-HOST, iadmat.nosdn.127.net,Reject
-HOST, iadmusicmat.music.126.net,Reject
-HOST, iadmusicmatvideo.music.126.net,Reject
-HOST-SUFFIX, 163jiasu.com,Reject
-# 微博 开屏广告
-HOST, adstrategy.biz.weibo.com,Reject
-HOST, kadmimage.biz.weibo.com,Reject
-HOST, sdkaction.biz.weibo.com,Reject
-HOST, sdkclick.biz.weibo.com,Reject
-HOST, sdkmonitor.biz.weibo.com,Reject
+# ======= T =======
+# 太平洋保险
+host, a.cpic.com.cn, reject
 
-# ======= X ======= #
+# 腾讯
+host-keyword, trace.qq.com, reject
+host-keyword, trace.video.qq.com, reject
+host-suffix, gdt.qq.com, reject
+host-suffix, l.qq.com, reject
+host, adsmind.gdtimg.com, reject
+host, info4.video.qq.com, reject
+host, info6.video.qq.com, reject
+host, ios.video.mpush.qq.com, reject
+host, otheve.beacon.qq.com, reject
+host, pgdt.gtimg.cn, reject
+host, pgdt.ugdtimg.com, reject
+host, tmead.y.qq.com, reject
+host, tmeadbak.y.qq.com, reject
+host, tmeadcomm.y.qq.com, reject
+host, tpns.qq.com, reject
+ip-cidr, 47.110.187.87/32, reject, no-resolve
+
+# ======= W =======
+# 微信
+host-suffix, wxs.qq.com, reject
+host, badjs.weixinbridge.com, reject
+host, dns.weixin.qq.com.cn, reject
+
+# ======= X =======
 # 小米
-HOST, sdkconfig.ad.xiaomi.com,Reject
+host, sdkconfig.ad.xiaomi.com, reject
+
 # 迅雷 解除版权限制
-#HOST, hub5btmain.v6.shub.sandai.net,Reject
-#HOST, hub5emu.v6.shub.sandai.net,Reject
-#HOST, hub5idx.v6.shub.sandai.net,Reject
+#host, hub5btmain.v6.shub.sandai.net, reject
+#host, hub5emu.v6.shub.sandai.net, reject
+#host, hub5idx.v6.shub.sandai.net, reject
 
-# ======= Y ======= #
+# ======= Y =======
+# 移花宫
+host, tong.8888888888.bid, reject
+
 # 云闪付 开屏广告
-HOST, ads.95516.com,Reject
-HOST, cm-10-138.getui.com,Reject
-HOST, sdk.open.talk.getui.net,Reject
-HOST, sdk-conf.getui.com,Reject
-HOST, switch.cup.com.cn,Reject
-HOST, tysdk.95516.com,Reject
+host, ads.95516.com, reject
+host, switch.cup.com.cn, reject
 
-# ======= Z ======= #
-# 知乎
-HOST, appcloud.zhihu.com,Reject
-HOST, appcloud2.in.zhihu.com,Reject
-HOST, crash2.zhihu.com,Reject
-HOST, mqtt.zhihu.com,Reject
-HOST, sugar.zhihu.com,Reject
-ip-cidr, 118.89.204.198/32,Reject
-ip-cidr, 103.41.167.237/32,Reject
-ip6-cidr, 2402:4e00:1200:ed00:0:9089:6dac:96b6/128,Reject
-# 字节跳动
-HOST, ad.zijieapi.com,Reject
-HOST-KEYWORD, -ad-sign.byteimg.com,Reject
+# Yandex
+host, yandexmetrica.com, reject
+
+# ======= MITM =======
+hostname = ad.12306.cn, mobile.12306.cn, list-app-m.i4.cn, *.api.alipan.com, member.alipan.com, acs.m.taobao.com, heic.alicdn.com, guide-acs.m.taobao.com, poplayer.template.alibaba.com, pan.baidu.com, 2023.redircdn.com, www.washpayer.com, api.douban.com, img3.doubanio.com, qnmob3.doubanio.com, image.mybank.icbc.com.cn, hfapp-service.qweather.net, acs-m.freshippo.com, api.m.jd.com, gab.122.gov.cn, api.coolapk.com, adserviceretry.kglink.cn, gateway.kugou.com, p0.pipi.cn, flowplus.meituan.net, img.meituan.net, s3plus.meituan.net, osg-service.sgcc.com.cn, mp.weixin.qq.com, weixin110.qq.com, security.wechat.com, api.m.mi.com, home.mi.com, shop-api.retail.mi.com, wallet.95516.com, mobilepaas.abchina.com.cn, ad.mcloud.139.com, jzts.cmpassport.com
