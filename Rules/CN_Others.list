@@ -5,6 +5,18 @@ DOMAIN-KEYWORD,tesla
 DOMAIN-SUFFIX,solarcity.com
 DOMAIN-SUFFIX,ts.la
 
+# 同花顺
+DOMAIN-SUFFIX,10jqka.com.cn
+DOMAIN-SUFFIX,hexin.cn
+DOMAIN-SUFFIX,myhexin.com
+
+# Wind 金融终端
+DOMAIN-SUFFIX,wind.com.cn
+DOMAIN-SUFFIX,windin.com
+
+# 财通证券
+DOMAIN-SUFFIX,ctsec.com
+
 # 钉钉
 DOMAIN-SUFFIX,ddurl.to
 DOMAIN-SUFFIX,dg-work.cn
