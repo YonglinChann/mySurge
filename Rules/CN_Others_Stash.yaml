@@ -2,7 +2,7 @@
 
 #-----------------以下为使用 Script-Hub 转换解析后的规则-----------------#
 
-#规则数量:139
+#规则数量:145
 #不支持的规则数量:0
 #已排除的规则数量:0
 
@@ -10,6 +10,12 @@ payload:
   - DOMAIN-KEYWORD,tesla
   - DOMAIN-SUFFIX,solarcity.com
   - DOMAIN-SUFFIX,ts.la
+  - DOMAIN-SUFFIX,10jqka.com.cn
+  - DOMAIN-SUFFIX,hexin.cn
+  - DOMAIN-SUFFIX,myhexin.com
+  - DOMAIN-SUFFIX,wind.com.cn
+  - DOMAIN-SUFFIX,windin.com
+  - DOMAIN-SUFFIX,ctsec.com
   - DOMAIN-SUFFIX,ddurl.to
   - DOMAIN-SUFFIX,dg-work.cn
   - DOMAIN-SUFFIX,dingding.xin
