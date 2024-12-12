@@ -5,6 +5,18 @@ HOST-KEYWORD,tesla,DIRECT
 HOST-SUFFIX,solarcity.com,DIRECT
 HOST-SUFFIX,ts.la,DIRECT
 
+# 同花顺
+HOST-SUFFIX,10jqka.com.cn,DIRECT
+HOST-SUFFIX,hexin.cn,DIRECT
+HOST-SUFFIX,myhexin.com,DIRECT
+
+# Wind 金融终端
+HOST-SUFFIX,wind.com.cn,DIRECT
+HOST-SUFFIX,windin.com,DIRECT
+
+# 财通证券
+HOST-SUFFIX,ctsec.com,DIRECT
+
 # 钉钉
 HOST-SUFFIX,ddurl.to,DIRECT
 HOST-SUFFIX,dg-work.cn,DIRECT
