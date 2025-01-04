@@ -3,6 +3,9 @@
 # devvAI 服务
 DOMAIN-SUFFIX, devv.ai
 
+# AmyMind 服务
+DOMAIN-SUFFIX, amymind.com
+
 # ChatGPT
 DOMAIN,browser-intake-datadoghq.com
 DOMAIN,chat.openai.com.cdn.cloudflare.net
