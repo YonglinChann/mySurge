@@ -10,6 +10,9 @@
 # devvAI 服务
 HOST-SUFFIX, devv.ai,ChatGPT
 
+# AmyMind 服务
+HOST-SUFFIX, amymind.com,ChatGPT
+
 # 2024-10-10 14:36:12
 # ChatGPT
 HOST, o33249.ingest.sentry.io,ChatGPT
