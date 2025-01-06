@@ -17,6 +17,9 @@ DOMAIN-SUFFIX,windin.com
 # 财通证券
 DOMAIN-SUFFIX,ctsec.com
 
+# DeepSeek AI 服务（国内）
+DOMAIN-SUFFIX,deepseek.com
+
 # 钉钉
 DOMAIN-SUFFIX,ddurl.to
 DOMAIN-SUFFIX,dg-work.cn
