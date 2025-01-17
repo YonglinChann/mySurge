@@ -7,8 +7,11 @@
 
 # ———— 以下为手动替换更新内容 ————
 
-# devvAI 服务
+# DevvAI 服务
 HOST-SUFFIX, devv.ai,ChatGPT
+
+# Flowith 服务
+HOST-SUFFIX, flowith.io,ChatGPT
 
 # AmyMind 服务
 HOST-SUFFIX, amymind.com,ChatGPT
