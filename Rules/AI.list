@@ -1,7 +1,10 @@
 # 自用整理的 AIGC 服务分流规则
 
-# devvAI 服务
+# DevvAI 服务
 DOMAIN-SUFFIX, devv.ai
+
+# Flowith 服务
+DOMAIN-SUFFIX, flowith.io
 
 # AmyMind 服务
 DOMAIN-SUFFIX, amymind.com
