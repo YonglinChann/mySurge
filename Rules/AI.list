@@ -6,6 +6,8 @@ DOMAIN-SUFFIX, devv.ai
 # Flowith 服务
 DOMAIN-SUFFIX, flowith.io
 DOMAIN-SUFFIX, flo.ing
+DOMAIN-SUFFIX, flowith.net
+DOMAIN, flowith.featurebase.app
 
 # AmyMind 服务
 DOMAIN-SUFFIX, amymind.com
