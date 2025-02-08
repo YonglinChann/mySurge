@@ -12,6 +12,9 @@ HOST-SUFFIX, devv.ai,ChatGPT
 
 # Flowith 服务
 HOST-SUFFIX, flowith.io,ChatGPT
+HOST-SUFFIX, flo.ing,ChatGPT
+HOST-SUFFIX, flowith.net,ChatGPT
+HOST, flowith.featurebase.app,ChatGPT
 
 # AmyMind 服务
 HOST-SUFFIX, amymind.com,ChatGPT
