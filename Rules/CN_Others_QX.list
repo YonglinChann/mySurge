@@ -12,6 +12,8 @@ HOST-SUFFIX,myhexin.com,DIRECT
 
 # Wind 金融终端
 HOST-SUFFIX,wind.com.cn,DIRECT
+HOST-SUFFIX,t.wind.com.cn,DIRECT
+HOST-SUFFIX,windmoney.com.cn,DIRECT
 HOST-SUFFIX,windin.com,DIRECT
 
 # 财通证券
@@ -72,6 +74,11 @@ HOST-SUFFIX,xiaomiwear.com,DIRECT
 HOST-SUFFIX,mi-img.com,DIRECT
 HOST-SUFFIX,mifile.cn,DIRECT
 HOST-SUFFIX,miwifi.com,DIRECT
+HOST-SUFFIX,mijia.tech,DIRECT
+HOST-SUFFIX,xiaomiyoupin.com,DIRECT
+HOST-SUFFIX,xiaomi.net,DIRECT
+HOST-SUFFIX,miot-spec.org,DIRECT
+HOST-SUFFIX,untech.cc,DIRECT
 
 # IT 之家
 HOST-SUFFIX,ithome.com,DIRECT
