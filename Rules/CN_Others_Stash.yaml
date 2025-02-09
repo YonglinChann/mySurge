@@ -14,6 +14,8 @@ payload:
   - DOMAIN-SUFFIX,hexin.cn
   - DOMAIN-SUFFIX,myhexin.com
   - DOMAIN-SUFFIX,wind.com.cn
+  - DOMAIN-SUFFIX,t.wind.com.cn
+  - DOMAIN-SUFFIX,windmoney.com.cn
   - DOMAIN-SUFFIX,windin.com
   - DOMAIN-SUFFIX,ctsec.com
   - DOMAIN-SUFFIX,deepseek.com  
@@ -56,6 +58,11 @@ payload:
   - DOMAIN-SUFFIX,mi-img.com
   - DOMAIN-SUFFIX,mifile.cn
   - DOMAIN-SUFFIX,miwifi.com
+  - DOMAIN-SUFFIX,mijia.tech
+  - DOMAIN-SUFFIX,xiaomiyoupin.com
+  - DOMAIN-SUFFIX,xiaomi.net
+  - DOMAIN-SUFFIX,miot-spec.org
+  - DOMAIN-SUFFIX,untech.cc
   - DOMAIN-SUFFIX,ithome.com
   - DOMAIN-SUFFIX,ruanmei.com
   - DOMAIN-SUFFIX,lapin365.com
