@@ -12,6 +12,8 @@ DOMAIN-SUFFIX,myhexin.com
 
 # Wind 金融终端
 DOMAIN-SUFFIX,wind.com.cn
+DOMAIN-SUFFIX,t.wind.com.cn
+DOMAIN-SUFFIX,windmoney.com.cn
 DOMAIN-SUFFIX,windin.com
 
 # 财通证券
@@ -72,6 +74,11 @@ DOMAIN-SUFFIX,xiaomiwear.com
 DOMAIN-SUFFIX,mi-img.com
 DOMAIN-SUFFIX,mifile.cn
 DOMAIN-SUFFIX,miwifi.com
+DOMAIN-SUFFIX,mijia.tech
+DOMAIN-SUFFIX,xiaomiyoupin.com
+DOMAIN-SUFFIX,xiaomi.net
+DOMAIN-SUFFIX,miot-spec.org
+DOMAIN-SUFFIX,untech.cc
 
 # IT 之家
 DOMAIN-SUFFIX,ithome.com
