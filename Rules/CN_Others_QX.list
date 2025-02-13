@@ -22,6 +22,9 @@ HOST-SUFFIX,ctsec.com,DIRECT
 # DeepSeek AI 服务（国内）
 HOST-SUFFIX,deepseek.com,DIRECT
 
+# flowith AI 服务（国内）
+HOST-SUFFIX,xacademy.cc,DIRECT
+
 # 钉钉
 HOST-SUFFIX,ddurl.to,DIRECT
 HOST-SUFFIX,dg-work.cn,DIRECT
