@@ -2,7 +2,7 @@
 
 #-----------------以下为使用 Script-Hub 转换解析后的规则-----------------#
 
-#规则数量:145
+#规则数量:146
 #不支持的规则数量:0
 #已排除的规则数量:0
 
@@ -18,7 +18,8 @@ payload:
   - DOMAIN-SUFFIX,windmoney.com.cn
   - DOMAIN-SUFFIX,windin.com
   - DOMAIN-SUFFIX,ctsec.com
-  - DOMAIN-SUFFIX,deepseek.com  
+  - DOMAIN-SUFFIX,deepseek.com
+  - DOMAIN-SUFFIX,xacademy.cc
   - DOMAIN-SUFFIX,ddurl.to
   - DOMAIN-SUFFIX,dg-work.cn
   - DOMAIN-SUFFIX,dingding.xin
