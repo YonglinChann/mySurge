@@ -15,6 +15,10 @@ HOST-SUFFIX, flowith.io,ChatGPT
 HOST-SUFFIX, flo.ing,ChatGPT
 HOST-SUFFIX, flowith.net,ChatGPT
 HOST, flowith.featurebase.app,ChatGPT
+HOST-SUFFIX, posthog.com,ChatGPT
+HOST-SUFFIX, i.posthog.com,ChatGPT
+HOST-SUFFIX, supabase.co,ChatGPT
+HOST-SUFFIX, aibdxsebwhalbnugsqel.supabase.co,ChatGPT
 
 # AmyMind 服务
 HOST-SUFFIX, amymind.com,ChatGPT
