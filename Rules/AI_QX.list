@@ -7,8 +7,12 @@
 
 # ———— 以下为手动替换更新内容 ————
 
+# 实时分布式数据库
+HOST-SUFFIX, featurebase.app,ChatGPT
+
 # DevvAI 服务
 HOST-SUFFIX, devv.ai,ChatGPT
+HOST, devv.featurebase.app,ChatGPT
 
 # Flowith 服务
 HOST-SUFFIX, flowith.io,ChatGPT
