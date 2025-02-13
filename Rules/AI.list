@@ -8,6 +8,10 @@ DOMAIN-SUFFIX, flowith.io
 DOMAIN-SUFFIX, flo.ing
 DOMAIN-SUFFIX, flowith.net
 DOMAIN, flowith.featurebase.app
+DOMAIN-SUFFIX, posthog.com
+DOMAIN-SUFFIX, i.posthog.com
+DOMAIN-SUFFIX, supabase.co
+DOMAIN-SUFFIX, aibdxsebwhalbnugsqel.supabase.co
 
 # AmyMind 服务
 DOMAIN-SUFFIX, amymind.com
