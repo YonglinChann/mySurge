@@ -2,7 +2,7 @@
 
 #-----------------以下为使用 Script-Hub 转换解析后的规则-----------------#
 
-#规则数量:146
+#规则数量:149
 #不支持的规则数量:0
 #已排除的规则数量:0
 
@@ -64,6 +64,9 @@ payload:
   - DOMAIN-SUFFIX,xiaomi.net
   - DOMAIN-SUFFIX,miot-spec.org
   - DOMAIN-SUFFIX,untech.cc
+  - DOMAIN-SUFFIX,misc.in.duokanbox.com
+  - DOMAIN-SUFFIX,xiaomi.cn
+  - DOMAIN-SUFFIX,xiaomimobile.com
   - DOMAIN-SUFFIX,ithome.com
   - DOMAIN-SUFFIX,ruanmei.com
   - DOMAIN-SUFFIX,lapin365.com
