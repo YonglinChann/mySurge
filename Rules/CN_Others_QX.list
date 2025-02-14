@@ -82,6 +82,9 @@ HOST-SUFFIX,xiaomiyoupin.com,DIRECT
 HOST-SUFFIX,xiaomi.net,DIRECT
 HOST-SUFFIX,miot-spec.org,DIRECT
 HOST-SUFFIX,untech.cc,DIRECT
+HOST-SUFFIX,misc.in.duokanbox.com,DIRECT
+HOST-SUFFIX,xiaomi.cn,DIRECT
+HOST-SUFFIX,xiaomimobile.com,DIRECT
 
 # IT 之家
 HOST-SUFFIX,ithome.com,DIRECT
