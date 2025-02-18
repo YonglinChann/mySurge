@@ -2,7 +2,7 @@
 
 #-----------------以下为使用 Script-Hub 转换解析后的规则-----------------#
 
-#规则数量:149
+#规则数量:150
 #不支持的规则数量:0
 #已排除的规则数量:0
 
@@ -97,6 +97,7 @@ payload:
   - DOMAIN-SUFFIX,extransfer.xyz
   - DOMAIN-SUFFIX,suufun.info
   - DOMAIN-SUFFIX,suu-fun.com
+  - DOMAIN-SUFFIX,suufun.com
   - DOMAIN-SUFFIX,time.is
   - DOMAIN-SUFFIX,xxmac.com
   - DOMAIN-SUFFIX,baidupcs.com
