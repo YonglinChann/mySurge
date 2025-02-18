@@ -17,6 +17,10 @@ DOMAIN-SUFFIX, i.posthog.com
 DOMAIN-SUFFIX, supabase.co
 DOMAIN-SUFFIX, aibdxsebwhalbnugsqel.supabase.co
 
+# 字节 Trae AI 服务
+DOMAIN-SUFFIX, a0ai-api-sg.byteintlapi.com
+DOMAIN-SUFFIX, mon-va.byteoversea.com
+
 # AmyMind 服务
 DOMAIN-SUFFIX, amymind.com
 
