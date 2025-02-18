@@ -25,8 +25,9 @@ HOST-SUFFIX, supabase.co,ChatGPT
 HOST-SUFFIX, aibdxsebwhalbnugsqel.supabase.co,ChatGPT
 
 # 字节 Trae AI 服务
-HOST-SUFFIX, a0ai-api-sg.byteintlapi.com,ChatGPT
-HOST-SUFFIX, mon-va.byteoversea.com,ChatGPT
+HOST-SUFFIX, byteintlapi.com,ChatGPT
+HOST-SUFFIX, byteoversea.com,ChatGPT
+HOST-SUFFIX, trae.ai,ChatGPT
 
 # AmyMind 服务
 HOST-SUFFIX, amymind.com,ChatGPT
