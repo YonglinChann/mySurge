@@ -22,6 +22,10 @@ DOMAIN-SUFFIX, byteintlapi.com
 DOMAIN-SUFFIX, byteoversea.com
 DOMAIN-SUFFIX, trae.ai
 
+# Grok（xAI） 服务
+DOMAIN-SUFFIX, x.ai
+DOMAIN-SUFFIX, grok.com
+
 # AmyMind 服务
 DOMAIN-SUFFIX, amymind.com
 
