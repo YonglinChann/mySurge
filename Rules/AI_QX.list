@@ -32,6 +32,7 @@ HOST-SUFFIX, trae.ai,ChatGPT
 # Grok（xAI） 服务
 HOST-SUFFIX, x.ai,ChatGPT
 HOST-SUFFIX, grok.com,ChatGPT
+HOST-SUFFIX, featureassets.org,ChatGPT
 
 # AmyMind 服务
 HOST-SUFFIX, amymind.com,ChatGPT
