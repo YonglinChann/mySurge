@@ -28,6 +28,7 @@ HOST-SUFFIX, aibdxsebwhalbnugsqel.supabase.co,ChatGPT
 HOST-SUFFIX, byteintlapi.com,ChatGPT
 HOST-SUFFIX, byteoversea.com,ChatGPT
 HOST-SUFFIX, trae.ai,ChatGPT
+HOST-, trae-api-sg.mchost.guru,ChatGPT
 
 # Grok（xAI） 服务
 HOST-SUFFIX, x.ai,ChatGPT
