@@ -22,6 +22,7 @@ DOMAIN-SUFFIX, byteintlapi.com
 DOMAIN-SUFFIX, byteoversea.com
 DOMAIN-SUFFIX, trae.ai
 DOMAIN, trae-api-sg.mchost.guru
+DOMAIN, abtestvm-sg.bytedance.com
 
 # Grok（xAI） 服务
 DOMAIN-SUFFIX, x.ai
