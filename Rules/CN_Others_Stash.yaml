@@ -7,6 +7,9 @@
 #已排除的规则数量:0
 
 payload:
+
+# 家门禁（门锁智控）
+  - DOMAIN-SUFFIX,yefiot.com
   - DOMAIN-KEYWORD,tesla
   - DOMAIN-SUFFIX,solarcity.com
   - DOMAIN-SUFFIX,ts.la
