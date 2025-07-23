@@ -1,5 +1,8 @@
 ### 个人定制其它的分流规则（大陆影视流媒体软件与其他等）###
 
+# 家门禁（门锁智控）
+DOMAIN-SUFFIX,yefiot.com
+
 # 特斯拉 app 分流（走国内）
 DOMAIN-KEYWORD,tesla
 DOMAIN-SUFFIX,solarcity.com
