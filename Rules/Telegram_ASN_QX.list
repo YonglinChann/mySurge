@@ -5,7 +5,7 @@
 #!homepage=https://github.com/blackmatrix7/ios_rule_script/blob/master/rule/QuantumultX/Telegram/Telegram.list
 #!homepage=https://github.com/blackmatrix7/ios_rule_script/blob/master/rule/QuantumultX/TelegramSG/TelegramSG.list
 
-# 规则处理：
+# 针对 Quantumult X 的规则处理：
 # 1 -- 删除【PROCESS-NAME】
 # 2 -- 删除所有【后缀】
 # 3 -- 删除所有 IP 地址的【no-resolve】
