@@ -8,7 +8,7 @@
 # 针对 Surge/Loon/Egern 的规则处理：
 # 1 -- 将【IP-CIDR】改成【IP-CIDR6】
 # 2 -- 将【H OST】改成【D OMAIN】
-# 3 -- 删除所有【, Telegram】后缀
+# 3 -- 删除所有【, Telegram】后缀，一定要勾选【Match Case】大小写判定
 
 # ———— 根据 Quantumult X 规则同步转换 ————
 
@@ -17,9 +17,9 @@ DOMAIN-SUFFIX,t.me
 DOMAIN-SUFFIX,tx.me
 DOMAIN-SUFFIX,tdesktop.com
 DOMAIN-SUFFIX,telegra.ph
-DOMAIN-SUFFIX.me
-DOMAIN-SUFFIX.org
-DOMAIN-SUFFIX-cdn.org
+DOMAIN-SUFFIX,telegram.me
+DOMAIN-SUFFIX,telegram.org
+DOMAIN-SUFFIX,telegram-cdn.org
 DOMAIN-SUFFIX,graph.org
 DOMAIN-SUFFIX,legra.ph
 DOMAIN-SUFFIX,telesco.pe
