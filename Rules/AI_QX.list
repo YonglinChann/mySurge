@@ -7,6 +7,9 @@
 
 # ———— 以下为手动替换更新内容 ————
 
+# Arc Search & Dia 浏览器
+HOST-SUFFIX, diabrowser.engineering,ChatGPT
+
 # 实时分布式数据库
 HOST-SUFFIX, featurebase.app,ChatGPT
 
