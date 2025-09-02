@@ -1,5 +1,8 @@
 # 自用整理的 AIGC 服务分流规则
 
+# Arc Search & Dia 浏览器
+DOMAIN-SUFFIX, diabrowser.engineering
+
 # 实时分布式数据库
 DOMAIN-SUFFIX, featurebase.app
 
