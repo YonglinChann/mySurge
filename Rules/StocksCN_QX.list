@@ -1,0 +1,121 @@
+# RAW from - https://github.com/koo17173/rule-set/blob/main/Stocks.list
+# 1 -- 匹配所有【D OMAIN】，并全部更改为【H OST】
+# 2 -- 所有末尾添加后缀【,Stocks】
+# 3 -- 请注意使用时请开启 Quantumult X 中的「策略偏好」功能，并选择您的对应策略组，否则将自动创建名为【,ChatGPT】的策略组并可能不能正常使用该规则
+
+# ———— 以下为手动替换更新内容 ————
+
+#NAME: IP Query
+HOST-SUFFIX,ip-api.com,Stocks
+#NAME: htsc
+#Domain:htsc.com.hk
+HOST-SUFFIX,zhangle.com,Stocks
+HOST-SUFFIX,htsc.com,Stocks
+HOST-SUFFIX,htsc.com.cn,Stocks
+HOST-SUFFIX,m.zhangleglobal.com,Stocks
+HOST-SUFFIX,zhangleglobal.com,Stocks
+HOST-SUFFIX,ihtfin.com,Stocks
+HOST-SUFFIX,95597.com,Stocks
+HOST-SUFFIX,amazonaws.cn,Stocks
+# NAME: longbridge
+#下两行对港股LV2行情域名服务器很重要
+HOST,quote.longbridge.global,Stocks
+HOST,trade.longportapp.com,Stocks
+HOST-SUFFIX,lbctrl.com,Stocks
+HOST-SUFFIX,lbkrs.com,Stocks
+HOST-SUFFIX,wbrks.com,Stocks
+HOST-SUFFIX,longportapp.cn,Stocks
+HOST-SUFFIX,longportapp.com,Stocks
+HOST-SUFFIX,longbridgeapp.com,Stocks
+HOST-SUFFIX,longbridge.hk,Stocks
+# NAME: futu
+HOST-SUFFIX,futu5.com,Stocks
+HOST-SUFFIX,futuhk.com,Stocks
+HOST-SUFFIX,futu.link,Stocks
+HOST-SUFFIX,futunn.com,Stocks
+HOST-SUFFIX,futuhn.com,Stocks
+HOST-SUFFIX,futu.com,Stocks
+HOST-SUFFIX,futu0.com,Stocks
+HOST-SUFFIX,futu1.com,Stocks
+HOST-SUFFIX,futu2.com,Stocks
+HOST-SUFFIX,futu3.com,Stocks
+HOST-SUFFIX,futu4.com,Stocks
+HOST-SUFFIX,futu6.com,Stocks
+HOST-SUFFIX,futu7.com,Stocks
+HOST-SUFFIX,futu8.com,Stocks
+HOST-SUFFIX,futu9.com,Stocks
+HOST-SUFFIX,futuinc.com,Stocks
+HOST-SUFFIX,futuniuniu.com,Stocks
+HOST-SUFFIX,futu.cn,Stocks
+HOST-SUFFIX,futufin.com,Stocks
+HOST-SUFFIX,futuhk2.com,Stocks
+HOST-SUFFIX,futuholdings.com,Stocks
+HOST-SUFFIX,futuesop.com,Stocks
+HOST-SUFFIX,futubull.cn,Stocks
+HOST-SUFFIX,futuchain.com,Stocks
+# NAME: 10jqka
+HOST,m.10jqka.com.cn,Stocks
+HOST,t.10jqka.com.cn,Stocks
+HOST-SUFFIX,0033.com,Stocks
+HOST-SUFFIX,hexin.cn,Stocks
+HOST-SUFFIX,10jqka.com.cn,Stocks
+HOST-SUFFIX,iwencai.com,Stocks
+HOST-SUFFIX,thsi.cn,Stocks
+HOST-SUFFIX,tdx.com.cn,Stocks
+HOST-SUFFIX,gw.com.cn,Stocks
+HOST-SUFFIX,hexun.com,Stocks
+HOST-SUFFIX,myhexun.com,Stocks
+HOST-SUFFIX,soumoney.com.cn,Stocks
+HOST-SUFFIX,thsbx.com,Stocks
+HOST-SUFFIX,ticang.com,Stocks
+HOST-SUFFIX,51ifind.com,Stocks
+HOST-SUFFIX,5ifund.com,Stocks
+HOST-SUFFIX,yingfund.net,Stocks
+HOST-SUFFIX,myhexin.com,Stocks
+HOST-SUFFIX,123ths.com,Stocks
+HOST-SUFFIX,ths123.com,Stocks
+HOST-SUFFIX,huntgold.cn,Stocks
+HOST-SUFFIX,thsbaoxian.net,Stocks
+HOST-SUFFIX,touzime.net,Stocks
+HOST-SUFFIX,hithink.com,Stocks
+HOST-SUFFIX,myhithink.com,Stocks
+HOST-SUFFIX,zhifutech.com,Stocks
+HOST-SUFFIX,aicubes.cn,Stocks
+HOST-SUFFIX,thsyun.com,Stocks
+HOST-SUFFIX,voiceclub.cn,Stocks
+HOST-SUFFIX,gtimg.cn,Stocks
+HOST-SUFFIX,sinajs.cn,Stocks
+# NAME: EastMoney
+HOST-SUFFIX,1234567.com.cn,Stocks
+HOST-SUFFIX,18.cn,Stocks
+HOST-SUFFIX,18.com.cn,Stocks
+HOST-SUFFIX,95021.com,Stocks
+HOST-SUFFIX,caifutong.com.cn,Stocks
+HOST-SUFFIX,caimi.cn,Stocks
+HOST-SUFFIX,caimi.com.cn,Stocks
+HOST-SUFFIX,dfcfs.cn,Stocks
+HOST-SUFFIX,dfcfs.com,Stocks
+HOST-SUFFIX,dfcfw.com,Stocks
+HOST-SUFFIX,dingqibao.cn,Stocks
+HOST-SUFFIX,dingqibao.com,Stocks
+HOST-SUFFIX,dingqibao.com.cn,Stocks
+HOST-SUFFIX,dongfanglicaishi.com,Stocks
+HOST-SUFFIX,eastmoney.com,Stocks
+HOST-SUFFIX,eastmoneyfutures.com,Stocks
+HOST-SUFFIX,emsec.hk,Stocks
+HOST-SUFFIX,guba.com.cn,Stocks
+HOST-SUFFIX,haitunzhibo.com,Stocks
+HOST-SUFFIX,huoqibao.cn,Stocks
+HOST-SUFFIX,huoqibao.com,Stocks
+HOST-SUFFIX,huoqibao.com.cn,Stocks
+HOST-SUFFIX,langke.tv,Stocks
+HOST-SUFFIX,samacn.org.cn,Stocks
+HOST-SUFFIX,tiantianfunds.cn,Stocks
+HOST-SUFFIX,txjhqh.com,Stocks
+HOST-SUFFIX,uufund.cn,Stocks
+HOST-SUFFIX,uufund.com,Stocks
+HOST-SUFFIX,xzsec.com,Stocks
+HOST-SUFFIX,zhaiba.com,Stocks
+HOST-SUFFIX,zhongcaisuo.cn,Stocks
+HOST-SUFFIX,zhongcaisuo.com,Stocks
+HOST-SUFFIX,zhongcaisuo.com.cn,Stocks
