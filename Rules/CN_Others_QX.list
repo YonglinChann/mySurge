@@ -143,10 +143,10 @@ HOST-SUFFIX,revenuecat.com,DIRECT
 HOST-SUFFIX,caiyunapp.com,DIRECT
 
 # 速方云下载（suufun.com）
-HOST-SUFFIX,extransfer.xyz,DIRECT
-HOST-SUFFIX,suufun.info,DIRECT
-HOST-SUFFIX,suu-fun.com,DIRECT
-HOST-SUFFIX,suufun.com,DIRECT
+# HOST-SUFFIX,extransfer.xyz,DIRECT
+# HOST-SUFFIX,suufun.info,DIRECT
+# HOST-SUFFIX,suu-fun.com,DIRECT
+# HOST-SUFFIX,suufun.com,DIRECT
 
 # 授时校准（time.is）
 HOST-SUFFIX,time.is,DIRECT
