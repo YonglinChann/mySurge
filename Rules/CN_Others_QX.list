@@ -183,6 +183,8 @@ HOST-SUFFIX,gov.com,DIRECT
 
 # 国内停车系统
 HOST,merchant.ajbcloud.com,DIRECT
+HOST-SUFFIX,tingjiandan.com,DIRECT
+HOST-SUFFIX,ap-shanghai.myqcloud.com,DIRECT
 
 # 虎牙 CDN/加速
 HOST-SUFFIX,qnqcdn.net,DIRECT
