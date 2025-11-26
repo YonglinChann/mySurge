@@ -118,6 +118,8 @@ payload:
   - DOMAIN-SUFFIX,bugsnag.com
   - DOMAIN-SUFFIX,gov.com
   - DOMAIN,merchant.ajbcloud.com
+  - DOMAIN-SUFFIX,tingjiandan.com
+  - DOMAIN-SUFFIX,ap-shanghai.myqcloud.com
   - DOMAIN-SUFFIX,qnqcdn.net
   - DOMAIN-SUFFIX,huya.com
   - DOMAIN-SUFFIX,huyagame.cn
