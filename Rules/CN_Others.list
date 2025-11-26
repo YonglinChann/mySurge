@@ -183,6 +183,8 @@ DOMAIN-SUFFIX,gov.com
 
 # 国内停车系统
 DOMAIN,merchant.ajbcloud.com
+DOMAIN-SUFFIX,tingjiandan.com
+DOMAIN-SUFFIX,ap-shanghai.myqcloud.com
 
 # 虎牙 CDN/加速
 DOMAIN-SUFFIX,qnqcdn.net
