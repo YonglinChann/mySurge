@@ -1,22 +1,32 @@
 # RAW from - https://github.com/koo17173/rule-set/blob/main/Stocks.list
 # 1 -- 匹配所有【D OMAIN】，并全部更改为【H OST】
 # 2 -- 所有末尾添加后缀【,Stocks】
-# 3 -- 请注意使用时请开启 Quantumult X 中的「策略偏好」功能，并选择您的对应策略组，否则将自动创建名为【,ChatGPT】的策略组并可能不能正常使用该规则
+# 3 -- 去掉所有【,no-resolve】后缀
+# 4 -- 请注意使用时请开启 Quantumult X 中的「策略偏好」功能，并选择您的对应策略组，否则将自动创建名为【,ChatGPT】的策略组并可能不能正常使用该规则
 
 # ———— 以下为手动替换更新内容 ————
 
+# NAME: htsc/futu/longbridge/10jqka//EastMoney
+# AUTHOR: leo
+# REPO: https://github.com/koo17173/rule-set/blob/main/Stocks.list
+# UPDATED: 2025-03-01
 #NAME: IP Query
 HOST-SUFFIX,ip-api.com,Stocks
 #NAME: htsc
-#Domain:htsc.com.hk
+#HOST:htsc.com.hk
 HOST-SUFFIX,zhangle.com,Stocks
 HOST-SUFFIX,htsc.com,Stocks
 HOST-SUFFIX,htsc.com.cn,Stocks
-HOST-SUFFIX,m.zhangleglobal.com,Stocks
 HOST-SUFFIX,zhangleglobal.com,Stocks
 HOST-SUFFIX,ihtfin.com,Stocks
 HOST-SUFFIX,95597.com,Stocks
 HOST-SUFFIX,amazonaws.cn,Stocks
+IP-CIDR,221.226.112.153/32,Stocks
+IP-CIDR,222.190.108.157/32,Stocks
+IP-CIDR,47.106.98.6/32,Stocks
+IP-CIDR,180.101.228.6/32,Stocks
+IP-CIDR,180.101.224.8/32,Stocks
+IP-CIDR,180.101.48.146/32,Stocks
 # NAME: longbridge
 #下两行对港股LV2行情域名服务器很重要
 HOST,quote.longbridge.global,Stocks
@@ -29,7 +39,6 @@ HOST-SUFFIX,longportapp.com,Stocks
 HOST-SUFFIX,longbridgeapp.com,Stocks
 HOST-SUFFIX,longbridge.hk,Stocks
 # NAME: futu
-HOST-SUFFIX,futu5.com,Stocks
 HOST-SUFFIX,futuhk.com,Stocks
 HOST-SUFFIX,futu.link,Stocks
 HOST-SUFFIX,futunn.com,Stocks
@@ -40,6 +49,7 @@ HOST-SUFFIX,futu1.com,Stocks
 HOST-SUFFIX,futu2.com,Stocks
 HOST-SUFFIX,futu3.com,Stocks
 HOST-SUFFIX,futu4.com,Stocks
+HOST-SUFFIX,futu5.com,Stocks
 HOST-SUFFIX,futu6.com,Stocks
 HOST-SUFFIX,futu7.com,Stocks
 HOST-SUFFIX,futu8.com,Stocks
@@ -53,6 +63,11 @@ HOST-SUFFIX,futuholdings.com,Stocks
 HOST-SUFFIX,futuesop.com,Stocks
 HOST-SUFFIX,futubull.cn,Stocks
 HOST-SUFFIX,futuchain.com,Stocks
+HOST,cdn.futustatic.com,Stocks
+IP-CIDR,119.28.37.77/24,Stocks
+IP-CIDR,43.153.233.212/24,Stocks
+IP-CIDR,124.156.233.21/24,Stocks
+IP-CIDR,170.106.49.68/24,Stocks
 # NAME: 10jqka
 HOST,m.10jqka.com.cn,Stocks
 HOST,t.10jqka.com.cn,Stocks
