@@ -9,6 +9,7 @@
 
 # Arc Search & Dia 浏览器
 HOST-SUFFIX, diabrowser.engineering,ChatGPT
+HOST-SUFFIX, arc.net,ChatGPT
 
 # 实时分布式数据库
 HOST-SUFFIX, featurebase.app,ChatGPT
@@ -32,6 +33,13 @@ HOST-SUFFIX, byteintlapi.com,ChatGPT
 HOST-SUFFIX, byteoversea.com,ChatGPT
 HOST-SUFFIX, bytednsdoc.com,ChatGPT
 HOST-SUFFIX, trae.ai,ChatGPT
+HOST-SUFFIX, bnpm.byted.org,ChatGPT
+HOST-SUFFIX, api.marscode.com,ChatGPT
+HOST-SUFFIX, api.gitkraken.dev,ChatGPT
+HOST-SUFFIX, traeapi.us,ChatGPT
+HOST-SUFFIX, trae-api-sg.mchost.guru,ChatGPT
+HOST-SUFFIX, traecdn.ai,ChatGPT
+HOST-SUFFIX, icube-api-sg.tiktok-row.net,ChatGPT
 HOST, trae-api-sg.mchost.guru,ChatGPT
 HOST, abtestvm-sg.bytedance.com,ChatGPT
 
@@ -43,7 +51,6 @@ HOST-SUFFIX, featureassets.org,ChatGPT
 # AmyMind 服务
 HOST-SUFFIX, amymind.com,ChatGPT
 
-# 2024-10-10 14:36:12
 # ChatGPT
 HOST, o33249.ingest.sentry.io,ChatGPT
 HOST, openaiapi-site.azureedge.net,ChatGPT
