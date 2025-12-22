@@ -2,6 +2,7 @@
 
 # Arc Search & Dia 浏览器
 DOMAIN-SUFFIX, diabrowser.engineering
+DOMAIN-SUFFIX, arc.net
 
 # 实时分布式数据库
 DOMAIN-SUFFIX, featurebase.app
@@ -25,6 +26,13 @@ DOMAIN-SUFFIX, byteintlapi.com
 DOMAIN-SUFFIX, byteoversea.com
 DOMAIN-SUFFIX, bytednsdoc.com
 DOMAIN-SUFFIX, trae.ai
+DOMAIN-SUFFIX, bnpm.byted.org
+DOMAIN-SUFFIX, api.marscode.com
+DOMAIN-SUFFIX, api.gitkraken.dev
+DOMAIN-SUFFIX, traeapi.us
+DOMAIN-SUFFIX, trae-api-sg.mchost.guru
+DOMAIN-SUFFIX, traecdn.ai
+DOMAIN-SUFFIX, icube-api-sg.tiktok-row.net
 DOMAIN, trae-api-sg.mchost.guru
 DOMAIN, abtestvm-sg.bytedance.com
 
