@@ -228,6 +228,9 @@ HOST-SUFFIX,ip.im,DIRECT
 HOST-SUFFIX,ips.market.alicloudapi.com,DIRECT
 HOST-SUFFIX,api.ip.plus,DIRECT
 
+# 淘宝 M Stand 自助点单系统
+HOST-SUFFIX,vicp.fun,DIRECT
+
 # 拦截所有 CN 结尾/关键词 域名
 HOST-SUFFIX,cn,DIRECT
 HOST-KEYWORD,-cn,DIRECT
