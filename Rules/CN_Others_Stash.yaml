@@ -165,5 +165,6 @@ payload:
   - DOMAIN-SUFFIX,ip.im
   - DOMAIN-SUFFIX,ips.market.alicloudapi.com
   - DOMAIN-SUFFIX,api.ip.plus
+  - DOMAIN-SUFFIX,vicp.fun
   - DOMAIN-SUFFIX,cn
   - DOMAIN-KEYWORD,-cn
