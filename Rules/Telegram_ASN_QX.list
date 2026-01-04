@@ -18,10 +18,13 @@ HOST-SUFFIX,comments.app,Telegram
 HOST-SUFFIX,t.me,Telegram
 HOST-SUFFIX,tx.me,Telegram
 HOST-SUFFIX,tdesktop.com,Telegram
-HOST-SUFFIX,telegra.ph,Telegram
-HOST-SUFFIX,telegram.me,Telegram
-HOST-SUFFIX,telegram.org,Telegram
-HOST-SUFFIX,telegram-cdn.org,Telegram
+HOST-SUFFIX,contest.com,Telegram
+HOST-SUFFIX,mbrx.app,Telegram
+HOST-SUFFIX,quiz.directory,Telegram
+HOST-SUFFIX,stel.app,Telegram
+HOST-SUFFIX,tg.dev,Telegram
+HOST-SUFFIX,usercontent.dev,Telegram
+HOST-KEYWORD,telegra,Telegram
 HOST-SUFFIX,graph.org,Telegram
 HOST-SUFFIX,legra.ph,Telegram
 HOST-SUFFIX,telesco.pe,Telegram
