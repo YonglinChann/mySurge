@@ -251,6 +251,9 @@ DOMAIN-SUFFIX,ip.im
 DOMAIN-SUFFIX,ips.market.alicloudapi.com
 DOMAIN-SUFFIX,api.ip.plus
 
+# 淘宝 M Stand 自助点单系统
+DOMAIN-SUFFIX,vicp.fun
+
 # 拦截所有 CN 结尾/关键词 域名
 DOMAIN-SUFFIX,cn
 DOMAIN-KEYWORD,-cn
