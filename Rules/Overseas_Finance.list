@@ -1,0 +1,15 @@
+# 自整理抓包的境外金融服务（包括：ZA Bank-众安银行、HSBC HK-汇丰银行（香港）在内）
+
+# ZA Bank-众安银行
+DOMAIN-SUFFIX,zafinsvc.com
+DOMAIN-SUFFIX,zaticdn.com
+DOMAIN-SUFFIX,za.group
+DOMAIN-SUFFIX,zajourney.com
+DOMAIN,tags.tiqcdn.com
+DOMAIN,cdn.optimizely.com
+DOMAIN,mdhn5j.inapps.appsflyersdk.com
+DOMAIN,ir-sdk.guardease.com
+
+# HSBC HK-汇丰银行（香港）
+DOMAIN-SUFFIX,hsbc.com.hk
+DOMAIN,mobile.eum-appdynamics.com
