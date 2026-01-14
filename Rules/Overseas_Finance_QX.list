@@ -1,0 +1,20 @@
+# 自整理抓包的境外金融服务（包括：ZA Bank-众安银行、HSBC HK-汇丰银行（香港）在内）
+
+# 1 -- 匹配所有【D OMAIN】，并全部更改为【H OST】
+# 2 -- 所有末尾添加后缀【,OSF】
+# 3 -- 去掉所有【,no-resolve】后缀
+# 4 -- 请注意使用时请开启 Quantumult X 中的「策略偏好」功能，并选择您的对应策略组，否则将自动创建名为【,OSF】的策略组并可能不能正常使用该规则
+
+# ZA Bank-众安银行
+HOST-SUFFIX,zafinsvc.com,OSF
+HOST-SUFFIX,zaticdn.com,OSF
+HOST-SUFFIX,za.group,OSF
+HOST-SUFFIX,zajourney.com,OSF
+HOST,tags.tiqcdn.com,OSF
+HOST,cdn.optimizely.com,OSF
+HOST,mdhn5j.inapps.appsflyersdk.com,OSF
+HOST,ir-sdk.guardease.com,OSF
+
+# HSBC HK-汇丰银行（香港）
+HOST-SUFFIX,hsbc.com.hk,OSF
+HOST,mobile.eum-appdynamics.com,OSF
