@@ -7,6 +7,7 @@ HOST-SUFFIX,yefiot.com,DIRECT
 HOST-KEYWORD,tesla,DIRECT
 HOST-SUFFIX,solarcity.com,DIRECT
 HOST-SUFFIX,ts.la,DIRECT
+HOST,dispatcher.is.autonavi.com,DIRECT
 
 # 同花顺
 HOST-SUFFIX,10jqka.com.cn,DIRECT
