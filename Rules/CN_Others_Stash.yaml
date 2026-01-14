@@ -13,6 +13,7 @@ payload:
   - DOMAIN-KEYWORD,tesla
   - DOMAIN-SUFFIX,solarcity.com
   - DOMAIN-SUFFIX,ts.la
+  - DOMAIN,dispatcher.is.autonavi.com
   - DOMAIN-SUFFIX,10jqka.com.cn
   - DOMAIN-SUFFIX,hexin.cn
   - DOMAIN-SUFFIX,myhexin.com
