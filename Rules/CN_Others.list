@@ -180,7 +180,7 @@ IP-CIDR,203.76.217.163/32
 DOMAIN-SUFFIX,bugsnag.com
 
 # 政务网站
-DOMAIN-SUFFIX,gov.com
+# DOMAIN-SUFFIX,gov.com
 
 # 国内停车系统
 DOMAIN,merchant.ajbcloud.com
