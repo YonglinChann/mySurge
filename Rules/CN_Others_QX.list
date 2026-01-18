@@ -180,7 +180,7 @@ IP-CIDR,203.76.217.163/32,DIRECT
 HOST-SUFFIX,bugsnag.com,DIRECT
 
 # 政务网站
-HOST-SUFFIX,gov.com,DIRECT
+# HOST-SUFFIX,gov.com,DIRECT
 
 # 国内停车系统
 HOST,merchant.ajbcloud.com,DIRECT
