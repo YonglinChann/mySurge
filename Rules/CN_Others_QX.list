@@ -24,6 +24,10 @@ HOST-SUFFIX,windin.com,DIRECT
 # 财通证券
 HOST-SUFFIX,ctsec.com,DIRECT
 
+# BOSS 直聘
+HOST-SUFFIX,zhipin.com,DIRECT
+HOST-SUFFIX,bosszhipin.com,DIRECT
+
 # DeepSeek AI 服务（国内）
 HOST-SUFFIX,deepseek.com,DIRECT
 
