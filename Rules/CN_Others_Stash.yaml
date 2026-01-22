@@ -23,6 +23,8 @@ payload:
   - DOMAIN-SUFFIX,windmoney.com.cn
   - DOMAIN-SUFFIX,windin.com
   - DOMAIN-SUFFIX,ctsec.com
+  - DOMAIN-SUFFIX,zhipin.com
+  - DOMAIN-SUFFIX,bosszhipin.com
   - DOMAIN-SUFFIX,deepseek.com
   - DOMAIN-SUFFIX,xacademy.cc
   - DOMAIN-SUFFIX,ddurl.to
