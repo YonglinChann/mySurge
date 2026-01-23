@@ -10,6 +10,8 @@
 # Arc Search & Dia 浏览器
 HOST-SUFFIX, diabrowser.engineering,ChatGPT
 HOST-SUFFIX, arc.net,ChatGPT
+HOST-SUFFIX, diabrowser.com,ChatGPT
+HOST-SUFFIX, browser-intake-datadoghq.com,ChatGPT
 
 # 实时分布式数据库
 HOST-SUFFIX, featurebase.app,ChatGPT
