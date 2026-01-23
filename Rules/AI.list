@@ -3,6 +3,8 @@
 # Arc Search & Dia 浏览器
 DOMAIN-SUFFIX, diabrowser.engineering
 DOMAIN-SUFFIX, arc.net
+DOMAIN-SUFFIX, diabrowser.com
+DOMAIN-SUFFIX, browser-intake-datadoghq.com
 
 # 实时分布式数据库
 DOMAIN-SUFFIX, featurebase.app
