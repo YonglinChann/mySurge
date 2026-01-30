@@ -260,6 +260,10 @@ DOMAIN-SUFFIX,api.ip.plus
 # 淘宝 M Stand 自助点单系统
 DOMAIN-SUFFIX,vicp.fun
 
+# 天眼查
+DOMAIN-SUFFIX,tianyancha.com
+DOMAIN-SUFFIX,jindidata.com
+
 # 拦截所有 CN 结尾/关键词 域名
 DOMAIN-SUFFIX,cn
 DOMAIN-KEYWORD,-cn
