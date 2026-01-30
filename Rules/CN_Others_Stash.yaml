@@ -169,5 +169,7 @@ payload:
   - DOMAIN-SUFFIX,ips.market.alicloudapi.com
   - DOMAIN-SUFFIX,api.ip.plus
   - DOMAIN-SUFFIX,vicp.fun
+  - DOMAIN-SUFFIX,tianyancha.com
+  - DOMAIN-SUFFIX,jindidata.com
   - DOMAIN-SUFFIX,cn
   - DOMAIN-KEYWORD,-cn
