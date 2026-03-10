@@ -242,6 +242,9 @@ HOST-SUFFIX,vicp.fun,DIRECT
 HOST-SUFFIX,tianyancha.com,DIRECT
 HOST-SUFFIX,jindidata.com,DIRECT
 
+# macOS 壁纸软件 pap.er
+HOST-SUFFIX,wuse.co,DIRECT
+
 # 拦截所有 CN 结尾/关键词 域名
 HOST-SUFFIX,cn,DIRECT
 HOST-KEYWORD,-cn,DIRECT
