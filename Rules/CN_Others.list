@@ -265,6 +265,9 @@ DOMAIN-SUFFIX,vicp.fun
 DOMAIN-SUFFIX,tianyancha.com
 DOMAIN-SUFFIX,jindidata.com
 
+# macOS 壁纸软件 pap.er
+DOMAIN-SUFFIX,wuse.co
+
 # 拦截所有 CN 结尾/关键词 域名
 DOMAIN-SUFFIX,cn
 DOMAIN-KEYWORD,-cn
