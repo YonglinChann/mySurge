@@ -12,7 +12,7 @@ HOST-SUFFIX,ingame.qq.com,DIRECT
 HOST-SUFFIX,igame.qq.com,DIRECT
 HOST-SUFFIX,tgpa.qq.com,DIRECT
 HOST-SUFFIX,ssl.msdk.qq.com,DIRECT
-HOST-SUFFIX,wx.qlogo.cn,DIRECT
+# HOST-SUFFIX,wx.qlogo.cn,DIRECT
 HOST-SUFFIX,tv.kohesport.qq.com,DIRECT
 HOST-SUFFIX,dlied1.cdntips.net,DIRECT
 HOST-SUFFIX,mazu.m.qq.com,DIRECT
