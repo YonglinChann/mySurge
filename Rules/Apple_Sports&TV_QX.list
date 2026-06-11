@@ -1,0 +1,14 @@
+# 自用整理的 Apple 体育及TV（Apple Sports & Apple TV）
+
+# 将【DOMAI N】替换为【HOS T】，并添加【,PROXY】后缀
+
+HOST,api.sports.apple.com,PROXY
+HOST,sandbox.itunes.apple.com,PROXY
+HOST-SUFFIX,push.apple.com,PROXY
+HOST,hls-amt.itunes.apple.com,PROXY
+HOST,hls.itunes.apple.com,PROXY
+HOST,np-edge.itunes.apple.com,PROXY
+HOST,play-edge.itunes.apple.com,PROXY
+HOST,tv.applemusic.com,PROXY
+HOST,uts-api.itunes.apple.com,PROXY
+HOST-SUFFIX,tv.apple.com,PROXY
