@@ -1,11 +1,22 @@
 # 自用整理的 Apple 智能服务规则（Apple Intelligence）
 
 # 主体框架
-HOST-KEYWORD,apple-relay,ChatGPT
-HOST-SUFFIX,developer.apple.com,ChatGPT
+HOST-KEYWORD,apple-relay,AppleAI
+HOST-SUFFIX,developer.apple.com,AppleAI
 # Siri 处理
-HOST-SUFFIX,guzzoni.apple.com,ChatGPT
+HOST-SUFFIX,guzzoni.apple.com,AppleAI
+HOST,guzzoni.apple.com,AppleAI
 # 地理位置
-HOST-SUFFIX,gspe1-ssl.ls.apple.com,ChatGPT
+HOST-SUFFIX,gspe1-ssl.ls.apple.com,AppleAI
 # 附带服务
-HOST-SUFFIX,cp4.cloudflare.com,ChatGPT
+HOST-SUFFIX,cp4.cloudflare.com,AppleAI
+# Siri AI 相关
+HOST-SUFFIX,smoot.apple.com,AppleAI
+HOST,mask-api.fe.apple-dns.net,AppleAI
+HOST,mask-api.icloud.com,AppleAI
+HOST,mask-t.apple-dns.net,AppleAI
+HOST,mask.apple-dns.net,AppleAI
+HOST-SUFFIX,ls.apple.com,AppleAI
+HOST-SUFFIX,mask-h2.icloud.com,AppleAI
+HOST-SUFFIX,mask.icloud.com,AppleAI
+HOST-SUFFIX,apps.mzstatic.com,AppleAI
