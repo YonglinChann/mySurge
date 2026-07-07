@@ -5,7 +5,18 @@ DOMAIN-KEYWORD,apple-relay
 DOMAIN-SUFFIX,developer.apple.com
 # Siri 处理
 DOMAIN-SUFFIX,guzzoni.apple.com
+DOMAIN,guzzoni.apple.com
 # 地理位置
 DOMAIN-SUFFIX,gspe1-ssl.ls.apple.com
 # 附带服务
 DOMAIN-SUFFIX,cp4.cloudflare.com
+# Siri AI 相关
+DOMAIN-SUFFIX,smoot.apple.com
+DOMAIN,mask-api.fe.apple-dns.net
+DOMAIN,mask-api.icloud.com
+DOMAIN,mask-t.apple-dns.net
+DOMAIN,mask.apple-dns.net
+DOMAIN-SUFFIX,ls.apple.com
+DOMAIN-SUFFIX,mask-h2.icloud.com
+DOMAIN-SUFFIX,mask.icloud.com
+DOMAIN-SUFFIX,apps.mzstatic.com
