@@ -3,7 +3,7 @@
 # ———— 以下为手动替换更新内容 ————
 
 # ASN Information in China. (https://github.com/missuo/ASN-China) 
-# Last Updated: UTC 2026-10-13 21:00:36
+# Last Updated: UTC 2026-10-18 18:28:52
 # Made by Vincent, All rights reserved. 
 
 IP-ASN,24429,DIRECT
@@ -734,6 +734,7 @@ IP-ASN,219283,DIRECT
 IP-ASN,219208,DIRECT
 IP-ASN,219207,DIRECT
 IP-ASN,219078,DIRECT
+IP-ASN,219016,DIRECT
 IP-ASN,218985,DIRECT
 IP-ASN,218883,DIRECT
 IP-ASN,218834,DIRECT
